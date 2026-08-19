@@ -1,0 +1,125 @@
+# depslib dependency file v1.0
+1382462126 source:c:\ufsm\disciplinas\computacao grafica avancada\programas\gl_4_rendertexture\src\main.cpp
+	<GL/glut.h>
+	<cstdlib>
+	<stdio.h>
+	<GL/glext.h>
+
+924731306 c:\ufsm\disciplinas\computacao grafica avancada\programas\gl_4_rendertexture\include\gl\glut.h
+	<windows.h>
+	<GL/gl.h>
+	<GL/glu.h>
+
+1254356842 c:\ufsm\disciplinas\computacao grafica avancada\programas\gl_4_rendertexture\include\gl\gl.h
+
+1254356842 c:\ufsm\disciplinas\computacao grafica avancada\programas\gl_4_rendertexture\include\gl\glu.h
+	<GL/gl.h>
+
+1382462032 c:\ufsm\disciplinas\computacao grafica avancada\programas\gl_4_rendertexture\include\gl\glext.h
+	<windows.h>
+	<stddef.h>
+	<inttypes.h>
+	<inttypes.h>
+	<inttypes.h>
+	<stdint.h>
+	<stdint.h>
+	<inttypes.h>
+
+1382458528 source:d:\ufsm\disciplinas\computacao grafica avancada\programas\demos_gl\gl_4_rendertexture\src\main.cpp
+	<GL/glut.h>
+	<cstdlib>
+	<stdio.h>
+	<GL/glext.h>
+
+924727706 d:\ufsm\disciplinas\computacao grafica avancada\programas\demos_gl\gl_4_rendertexture\include\gl\glut.h
+	<windows.h>
+	<GL/gl.h>
+	<GL/glu.h>
+
+1254353242 d:\ufsm\disciplinas\computacao grafica avancada\programas\demos_gl\gl_4_rendertexture\include\gl\gl.h
+
+1254353242 d:\ufsm\disciplinas\computacao grafica avancada\programas\demos_gl\gl_4_rendertexture\include\gl\glu.h
+	<GL/gl.h>
+
+1382458434 d:\ufsm\disciplinas\computacao grafica avancada\programas\demos_gl\gl_4_rendertexture\include\gl\glext.h
+	<windows.h>
+	<stddef.h>
+	<inttypes.h>
+	<inttypes.h>
+	<inttypes.h>
+	<stdint.h>
+	<stdint.h>
+	<inttypes.h>
+
+1382458528 source:d:\ufsm\disciplinas\computacao grafica avancada\programas\demos_gl 2.x\gl_1_rendertexture\src\main.cpp
+	<GL/glut.h>
+	<cstdlib>
+	<stdio.h>
+	<GL/glext.h>
+
+924727706 d:\ufsm\disciplinas\computacao grafica avancada\programas\demos_gl 2.x\gl_1_rendertexture\include\gl\glut.h
+	<windows.h>
+	<GL/gl.h>
+	<GL/glu.h>
+
+1254353242 d:\ufsm\disciplinas\computacao grafica avancada\programas\demos_gl 2.x\gl_1_rendertexture\include\gl\gl.h
+
+1254353242 d:\ufsm\disciplinas\computacao grafica avancada\programas\demos_gl 2.x\gl_1_rendertexture\include\gl\glu.h
+	<GL/gl.h>
+
+1382458434 d:\ufsm\disciplinas\computacao grafica avancada\programas\demos_gl 2.x\gl_1_rendertexture\include\gl\glext.h
+	<windows.h>
+	<stddef.h>
+	<inttypes.h>
+	<inttypes.h>
+	<inttypes.h>
+	<stdint.h>
+	<stdint.h>
+	<inttypes.h>
+
+1606136385 source:d:\ufsm\disciplinas\computacao grafica avancada\demos\demos_gl 2.x\gl_1_rendertexture\src\main.cpp
+	<GL/glut.h>
+	<cstdlib>
+	<stdio.h>
+	<GL/glext.h>
+
+924742106 d:\ufsm\disciplinas\computacao grafica avancada\demos\demos_gl 2.x\gl_1_rendertexture\include\gl\glut.h
+	<windows.h>
+	<GL/gl.h>
+	<GL/glu.h>
+
+1254367642 d:\ufsm\disciplinas\computacao grafica avancada\demos\demos_gl 2.x\gl_1_rendertexture\include\gl\gl.h
+
+1254367642 d:\ufsm\disciplinas\computacao grafica avancada\demos\demos_gl 2.x\gl_1_rendertexture\include\gl\glu.h
+	<GL/gl.h>
+
+1382476434 d:\ufsm\disciplinas\computacao grafica avancada\demos\demos_gl 2.x\gl_1_rendertexture\include\gl\glext.h
+	<windows.h>
+	<stddef.h>
+	<inttypes.h>
+	<inttypes.h>
+	<inttypes.h>
+	<stdint.h>
+	<stdint.h>
+	<inttypes.h>
+
+924742106 d:\ufsm\disciplinas\computacao grafica avancada\demos\demos_gl 2.x\include\gl\glut.h
+	<windows.h>
+	<GL/gl.h>
+	<GL/glu.h>
+
+1254367642 d:\ufsm\disciplinas\computacao grafica avancada\demos\demos_gl 2.x\include\gl\gl.h
+
+1254367642 d:\ufsm\disciplinas\computacao grafica avancada\demos\demos_gl 2.x\include\gl\glu.h
+	<GL/gl.h>
+
+1382476434 d:\ufsm\disciplinas\computacao grafica avancada\demos\demos_gl 2.x\include\gl\glext.h
+	<windows.h>
+	<stddef.h>
+	<inttypes.h>
+	<inttypes.h>
+	<inttypes.h>
+	<stdint.h>
+	<stdint.h>
+	<inttypes.h>
+

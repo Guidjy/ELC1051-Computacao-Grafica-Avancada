@@ -1,0 +1,247 @@
+# depslib dependency file v1.0
+1192458288 source:d:\ufsm\disciplinas\computacao grafica avancada\programas\demos_gl\gl_6_grafo_cena\src\bmp.cpp
+	"Bmp.h"
+	<string.h>
+
+1191578716 d:\ufsm\disciplinas\computacao grafica avancada\programas\demos_gl\gl_6_grafo_cena\src\bmp.h
+	<stdio.h>
+	<stdlib.h>
+
+1191578690 source:d:\ufsm\disciplinas\computacao grafica avancada\programas\demos_gl\gl_6_grafo_cena\src\cilindro.cpp
+	<GL/glut.h>
+	"node.h"
+	"shape.h"
+	"cilindro.h"
+	"group.h"
+
+924727706 d:\ufsm\disciplinas\computacao grafica avancada\programas\demos_gl\gl_6_grafo_cena\include\gl\glut.h
+	<windows.h>
+	<GL/gl.h>
+	<GL/glu.h>
+
+1254353242 d:\ufsm\disciplinas\computacao grafica avancada\programas\demos_gl\gl_6_grafo_cena\include\gl\gl.h
+
+1254353242 d:\ufsm\disciplinas\computacao grafica avancada\programas\demos_gl\gl_6_grafo_cena\include\gl\glu.h
+	<GL/gl.h>
+
+1191578762 d:\ufsm\disciplinas\computacao grafica avancada\programas\demos_gl\gl_6_grafo_cena\src\node.h
+	<stdio.h>
+	<time.h>
+	"Vetor.h"
+	<string.h>
+
+1252150978 d:\ufsm\disciplinas\computacao grafica avancada\programas\demos_gl\gl_6_grafo_cena\src\vetor.h
+	<math.h>
+
+1191578776 d:\ufsm\disciplinas\computacao grafica avancada\programas\demos_gl\gl_6_grafo_cena\src\shape.h
+
+1191578732 d:\ufsm\disciplinas\computacao grafica avancada\programas\demos_gl\gl_6_grafo_cena\src\cilindro.h
+
+1191578746 d:\ufsm\disciplinas\computacao grafica avancada\programas\demos_gl\gl_6_grafo_cena\src\group.h
+
+1191578696 source:d:\ufsm\disciplinas\computacao grafica avancada\programas\demos_gl\gl_6_grafo_cena\src\cubo.cpp
+	<GL/glut.h>
+	"node.h"
+	"shape.h"
+	"cubo.h"
+	"group.h"
+	"Vetor.h"
+
+1191578734 d:\ufsm\disciplinas\computacao grafica avancada\programas\demos_gl\gl_6_grafo_cena\src\cubo.h
+
+1192454688 source:d:\ufsm\disciplinas\computacao grafica avancada\programas\demos_gl 2.x\gl_3_grafo_cena\src\bmp.cpp
+	"Bmp.h"
+	<string.h>
+
+1191578716 d:\ufsm\disciplinas\computacao grafica avancada\programas\demos_gl 2.x\gl_3_grafo_cena\src\bmp.h
+	<stdio.h>
+	<stdlib.h>
+
+1191578690 source:d:\ufsm\disciplinas\computacao grafica avancada\programas\demos_gl 2.x\gl_3_grafo_cena\src\cilindro.cpp
+	<GL/glut.h>
+	"node.h"
+	"shape.h"
+	"cilindro.h"
+	"group.h"
+
+924727706 d:\ufsm\disciplinas\computacao grafica avancada\programas\demos_gl 2.x\gl_3_grafo_cena\include\gl\glut.h
+	<windows.h>
+	<GL/gl.h>
+	<GL/glu.h>
+
+1254353242 d:\ufsm\disciplinas\computacao grafica avancada\programas\demos_gl 2.x\gl_3_grafo_cena\include\gl\gl.h
+
+1254353242 d:\ufsm\disciplinas\computacao grafica avancada\programas\demos_gl 2.x\gl_3_grafo_cena\include\gl\glu.h
+	<GL/gl.h>
+
+1191578762 d:\ufsm\disciplinas\computacao grafica avancada\programas\demos_gl 2.x\gl_3_grafo_cena\src\node.h
+	<stdio.h>
+	<time.h>
+	"Vetor.h"
+	<string.h>
+
+1252150978 d:\ufsm\disciplinas\computacao grafica avancada\programas\demos_gl 2.x\gl_3_grafo_cena\src\vetor.h
+	<math.h>
+
+1191578776 d:\ufsm\disciplinas\computacao grafica avancada\programas\demos_gl 2.x\gl_3_grafo_cena\src\shape.h
+
+1191578732 d:\ufsm\disciplinas\computacao grafica avancada\programas\demos_gl 2.x\gl_3_grafo_cena\src\cilindro.h
+
+1191578746 d:\ufsm\disciplinas\computacao grafica avancada\programas\demos_gl 2.x\gl_3_grafo_cena\src\group.h
+
+1191578696 source:d:\ufsm\disciplinas\computacao grafica avancada\programas\demos_gl 2.x\gl_3_grafo_cena\src\cubo.cpp
+	<GL/glut.h>
+	"node.h"
+	"shape.h"
+	"cubo.h"
+	"group.h"
+	"Vetor.h"
+
+1191578734 d:\ufsm\disciplinas\computacao grafica avancada\programas\demos_gl 2.x\gl_3_grafo_cena\src\cubo.h
+
+1192472688 source:d:\ufsm\disciplinas\computacao grafica avancada\demos\demos_gl 2.x\gl_3_grafo_cena\src\bmp.cpp
+	"Bmp.h"
+	<string.h>
+
+1191593116 d:\ufsm\disciplinas\computacao grafica avancada\demos\demos_gl 2.x\gl_3_grafo_cena\src\bmp.h
+	<stdio.h>
+	<stdlib.h>
+
+1694629496 source:d:\ufsm\disciplinas\computacao grafica avancada\demos\demos_gl 2.x\gl_3_grafo_cena\src\cena.cpp
+	<GL/glut.h>
+	<math.h>
+	<stdio.h>
+	<stdlib.h>
+	"frames.h"
+	"node.h"
+	"appearance.h"
+	"shape.h"
+	"cubo.h"
+	"cilindro.h"
+	"group.h"
+	"scene.h"
+	"transform.h"
+	"lightsource.h"
+	"camera.h"
+	"esfera.h"
+	"Bmp.h"
+
+924742106 d:\ufsm\disciplinas\computacao grafica avancada\demos\demos_gl 2.x\gl_3_grafo_cena\include\gl\glut.h
+	<windows.h>
+	<GL/gl.h>
+	<GL/glu.h>
+
+1254367642 d:\ufsm\disciplinas\computacao grafica avancada\demos\demos_gl 2.x\gl_3_grafo_cena\include\gl\gl.h
+
+1254367642 d:\ufsm\disciplinas\computacao grafica avancada\demos\demos_gl 2.x\gl_3_grafo_cena\include\gl\glu.h
+	<GL/gl.h>
+
+1191593142 d:\ufsm\disciplinas\computacao grafica avancada\demos\demos_gl 2.x\gl_3_grafo_cena\src\frames.h
+	<stdio.h>
+	<time.h>
+
+1191593162 d:\ufsm\disciplinas\computacao grafica avancada\demos\demos_gl 2.x\gl_3_grafo_cena\src\node.h
+	<stdio.h>
+	<time.h>
+	"Vetor.h"
+	<string.h>
+
+1252165378 d:\ufsm\disciplinas\computacao grafica avancada\demos\demos_gl 2.x\gl_3_grafo_cena\src\vetor.h
+	<math.h>
+
+1191593298 d:\ufsm\disciplinas\computacao grafica avancada\demos\demos_gl 2.x\gl_3_grafo_cena\src\appearance.h
+	"Bmp.h"
+
+1191593176 d:\ufsm\disciplinas\computacao grafica avancada\demos\demos_gl 2.x\gl_3_grafo_cena\src\shape.h
+
+1191593134 d:\ufsm\disciplinas\computacao grafica avancada\demos\demos_gl 2.x\gl_3_grafo_cena\src\cubo.h
+
+1191593132 d:\ufsm\disciplinas\computacao grafica avancada\demos\demos_gl 2.x\gl_3_grafo_cena\src\cilindro.h
+
+1694629775 d:\ufsm\disciplinas\computacao grafica avancada\demos\demos_gl 2.x\gl_3_grafo_cena\src\group.h
+
+1191929426 d:\ufsm\disciplinas\computacao grafica avancada\demos\demos_gl 2.x\gl_3_grafo_cena\src\scene.h
+
+1191857296 d:\ufsm\disciplinas\computacao grafica avancada\demos\demos_gl 2.x\gl_3_grafo_cena\src\transform.h
+
+1191925548 d:\ufsm\disciplinas\computacao grafica avancada\demos\demos_gl 2.x\gl_3_grafo_cena\src\lightsource.h
+
+1191593122 d:\ufsm\disciplinas\computacao grafica avancada\demos\demos_gl 2.x\gl_3_grafo_cena\src\camera.h
+
+1191593138 d:\ufsm\disciplinas\computacao grafica avancada\demos\demos_gl 2.x\gl_3_grafo_cena\src\esfera.h
+
+1191593090 source:d:\ufsm\disciplinas\computacao grafica avancada\demos\demos_gl 2.x\gl_3_grafo_cena\src\cilindro.cpp
+	<GL/glut.h>
+	"node.h"
+	"shape.h"
+	"cilindro.h"
+	"group.h"
+
+1191593096 source:d:\ufsm\disciplinas\computacao grafica avancada\demos\demos_gl 2.x\gl_3_grafo_cena\src\cubo.cpp
+	<GL/glut.h>
+	"node.h"
+	"shape.h"
+	"cubo.h"
+	"group.h"
+	"Vetor.h"
+
+924742106 d:\ufsm\disciplinas\computacao grafica avancada\demos\demos_gl 2.x\include\gl\glut.h
+	<windows.h>
+	<GL/gl.h>
+	<GL/glu.h>
+
+1254367642 d:\ufsm\disciplinas\computacao grafica avancada\demos\demos_gl 2.x\include\gl\gl.h
+
+1254367642 d:\ufsm\disciplinas\computacao grafica avancada\demos\demos_gl 2.x\include\gl\glu.h
+	<GL/gl.h>
+
+1192476288 source:d:\ufsm\disciplinas\computacao grafica avancada\demos\demos_gl 2.x\code blocks\gl_3_grafo_cena\src\bmp.cpp
+	"Bmp.h"
+	<string.h>
+
+1191593116 d:\ufsm\disciplinas\computacao grafica avancada\demos\demos_gl 2.x\code blocks\gl_3_grafo_cena\src\bmp.h
+	<stdio.h>
+	<stdlib.h>
+
+1191593090 source:d:\ufsm\disciplinas\computacao grafica avancada\demos\demos_gl 2.x\code blocks\gl_3_grafo_cena\src\cilindro.cpp
+	<GL/glut.h>
+	"node.h"
+	"shape.h"
+	"cilindro.h"
+	"group.h"
+
+924742106 d:\ufsm\disciplinas\computacao grafica avancada\demos\demos_gl 2.x\code blocks\include\gl\glut.h
+	<windows.h>
+	<GL/gl.h>
+	<GL/glu.h>
+
+1254367642 d:\ufsm\disciplinas\computacao grafica avancada\demos\demos_gl 2.x\code blocks\include\gl\gl.h
+
+1254367642 d:\ufsm\disciplinas\computacao grafica avancada\demos\demos_gl 2.x\code blocks\include\gl\glu.h
+	<GL/gl.h>
+
+1191593162 d:\ufsm\disciplinas\computacao grafica avancada\demos\demos_gl 2.x\code blocks\gl_3_grafo_cena\src\node.h
+	<stdio.h>
+	<time.h>
+	"Vetor.h"
+	<string.h>
+
+1252165378 d:\ufsm\disciplinas\computacao grafica avancada\demos\demos_gl 2.x\code blocks\gl_3_grafo_cena\src\vetor.h
+	<math.h>
+
+1191593176 d:\ufsm\disciplinas\computacao grafica avancada\demos\demos_gl 2.x\code blocks\gl_3_grafo_cena\src\shape.h
+
+1191593132 d:\ufsm\disciplinas\computacao grafica avancada\demos\demos_gl 2.x\code blocks\gl_3_grafo_cena\src\cilindro.h
+
+1694629775 d:\ufsm\disciplinas\computacao grafica avancada\demos\demos_gl 2.x\code blocks\gl_3_grafo_cena\src\group.h
+
+1191593096 source:d:\ufsm\disciplinas\computacao grafica avancada\demos\demos_gl 2.x\code blocks\gl_3_grafo_cena\src\cubo.cpp
+	<GL/glut.h>
+	"node.h"
+	"shape.h"
+	"cubo.h"
+	"group.h"
+	"Vetor.h"
+
+1191593134 d:\ufsm\disciplinas\computacao grafica avancada\demos\demos_gl 2.x\code blocks\gl_3_grafo_cena\src\cubo.h
+

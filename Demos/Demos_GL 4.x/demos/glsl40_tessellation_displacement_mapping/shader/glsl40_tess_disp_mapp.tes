@@ -1,0 +1,59 @@
+// Tessellation Control Shader
+//
+// Este estágio tem acesso a todos os vértices do Patch. Eles serão então utilizados para
+// calcular a posição do novo vértice gerado pela GPU através de uma interpolação linear.
+//
+// Abril 2016 - Alex Frasson - afrasson@inf.ufsm.br
+
+#version 400
+
+layout(quads, equal_spacing, cw) in;
+
+uniform mat4 MVP;
+
+uniform sampler2D displacementmapSampler;
+
+in vec4 tcPosition[];
+in vec2 tcTexCoord[];
+
+out vec2 teTexCoord;
+
+void main()
+{
+	// Coordenadas geradas pela GPU
+	float u = gl_TessCoord.x;
+	float v = gl_TessCoord.y;
+
+	// Vértices do nosso Patch
+	vec4 p0 = tcPosition[0];
+	vec4 p1 = tcPosition[1];
+	vec4 p2 = tcPosition[2];
+	vec4 p3 = tcPosition[3];
+	
+	// Linear interpolation
+	gl_Position =
+		p0 * (1 - u) * (1 - v) +
+		p1 * u * (1 - v) +
+		p3 * v * (1 - u) +
+		p2 * u * v;
+
+	// TextureCoords do nosso Patch
+	vec2 t0 = tcTexCoord[0];
+	vec2 t1 = tcTexCoord[1];
+	vec2 t2 = tcTexCoord[2];
+	vec2 t3 = tcTexCoord[3];
+
+	// Linear interpolation
+	teTexCoord =
+		t0 * (1 - u) * (1 - v) +
+		t1 * u * (1 - v) +
+		t3 * v * (1 - u) +
+		t2 * u * v;
+
+	// Vamos tirar uma amostra da textura e alterar o componente Z do vétice gerado
+	float height = texture(displacementmapSampler, teTexCoord).z * 0.3f;
+	gl_Position.z = height;
+
+	// Transform to clip coordinates
+	gl_Position = MVP * gl_Position;
+}

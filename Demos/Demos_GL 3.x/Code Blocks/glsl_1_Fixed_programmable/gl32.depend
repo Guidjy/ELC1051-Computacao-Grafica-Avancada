@@ -1,0 +1,99 @@
+# depslib dependency file v1.0
+1276690156 source:c:\ufsm\disciplinas\computacao grafica avancada\programas\glsl_5_gl32\src\glsl.cpp
+	"glsl.h"
+
+1276522016 c:\ufsm\disciplinas\computacao grafica avancada\programas\glsl_5_gl32\src\glsl.h
+	<GL/glew.h>
+	<GL/glut.h>
+	<stdio.h>
+	<stdlib.h>
+
+1380817356 source:c:\ufsm\disciplinas\computacao grafica avancada\programas\glsl_5_gl32\src\main.cpp
+	<GL/glew.h>
+	<GL/glut.h>
+	<stdio.h>
+	"glsl.h"
+	"MyGL.h"
+
+1304458485 c:\ufsm\disciplinas\computacao grafica avancada\programas\glsl_5_gl32\src\mygl.h
+	<GL/glew.h>
+	<GL/glut.h>
+	<stdio.h>
+	<stdlib.h>
+
+1276690587 source:c:\ufsm\disciplinas\computacao grafica avancada\programas\glsl_5_gl32\src\mygl.cpp
+	<GL/glew.h>
+	<GL/glut.h>
+	<stdio.h>
+	<stdlib.h>
+	<math.h>
+	"MyGL.h"
+
+1374502282 c:\ufsm\disciplinas\computacao grafica avancada\programas\glsl_5_gl32\include\gl\glew.h
+	<stddef.h>
+	<inttypes.h>
+	<stdint.h>
+	<inttypes.h>
+	<OpenGL/glu.h>
+	<GL/glu.h>
+
+1107052520 c:\ufsm\disciplinas\computacao grafica avancada\programas\glsl_5_gl32\include\gl\glu.h
+	<stddef.h>
+	<GL/gl.h>
+
+1107052520 c:\ufsm\disciplinas\computacao grafica avancada\programas\glsl_5_gl32\include\gl\gl.h
+
+924724106 c:\ufsm\disciplinas\computacao grafica avancada\programas\glsl_5_gl32\include\gl\glut.h
+	<windows.h>
+	<GL/gl.h>
+	<GL/glu.h>
+
+1380817356 source:c:\ufsm\disciplinas\computacao grafica avancada\programas\glsl_1_gl32\src\main.cpp
+	<GL/glew.h>
+	<GL/glut.h>
+	<stdio.h>
+	"glsl.h"
+	"MyGL.h"
+
+1374502282 c:\ufsm\disciplinas\computacao grafica avancada\programas\glsl_1_gl32\include\gl\glew.h
+	<stddef.h>
+	<inttypes.h>
+	<stdint.h>
+	<inttypes.h>
+	<OpenGL/glu.h>
+	<GL/glu.h>
+
+1107052520 c:\ufsm\disciplinas\computacao grafica avancada\programas\glsl_1_gl32\include\gl\glu.h
+	<stddef.h>
+	<GL/gl.h>
+
+1107052520 c:\ufsm\disciplinas\computacao grafica avancada\programas\glsl_1_gl32\include\gl\gl.h
+
+924724106 c:\ufsm\disciplinas\computacao grafica avancada\programas\glsl_1_gl32\include\gl\glut.h
+	<windows.h>
+	<GL/gl.h>
+	<GL/glu.h>
+
+1276522016 c:\ufsm\disciplinas\computacao grafica avancada\programas\glsl_1_gl32\src\glsl.h
+	<GL/glew.h>
+	<GL/glut.h>
+	<stdio.h>
+	<stdlib.h>
+
+1304458485 c:\ufsm\disciplinas\computacao grafica avancada\programas\glsl_1_gl32\src\mygl.h
+	<GL/glew.h>
+	<GL/glut.h>
+	<stdio.h>
+	<stdlib.h>
+
+1276690587 source:c:\ufsm\disciplinas\computacao grafica avancada\programas\glsl_1_gl32\src\mygl.cpp
+	<GL/glew.h>
+	<GL/glut.h>
+	<stdio.h>
+	<stdlib.h>
+	<math.h>
+	"MyGL.h"
+
+1276690156 source:c:\ufsm\disciplinas\computacao grafica avancada\programas\glsl_1_gl32\src\glsl.cpp
+	"glsl.h"
+

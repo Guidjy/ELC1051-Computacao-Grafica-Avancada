@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6" />
+	<Project>
+		<Option title="ObjLoader" />
+		<Option pch_mode="2" />
+		<Option compiler="gcc" />
+		<Build>
+			<Target title="Debug">
+				<Option output="__bin/Debug/ObjLoader" prefix_auto="1" extension_auto="1" />
+				<Option object_output="__obj/Debug/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-g" />
+					<Add directory="include" />
+					<Add directory="src" />
+				</Compiler>
+				<Linker>
+					<Add library="lib\glfw3dll.a" />
+					<Add library="lib\libglfw3.a" />
+					<Add library="lib\libglew32.a" />
+					<Add library="lib\libglu32.a" />
+					<Add library="lib\libopengl32.a" />
+					<Add directory="lib" />
+				</Linker>
+			</Target>
+			<Target title="Release">
+				<Option output="__bin/Release/ObjLoader" prefix_auto="1" extension_auto="1" />
+				<Option object_output="__obj/Release/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-O2" />
+					<Add directory="include" />
+					<Add directory="src" />
+				</Compiler>
+				<Linker>
+					<Add option="-s" />
+					<Add library="lib\glfw3dll.a" />
+					<Add library="lib\libglfw3.a" />
+					<Add library="lib\libglew32.a" />
+					<Add library="lib\libglu32.a" />
+					<Add library="lib\libopengl32.a" />
+					<Add directory="lib" />
+				</Linker>
+			</Target>
+		</Build>
+		<Compiler>
+			<Add option="-Wall" />
+		</Compiler>
+		<Unit filename="src/MyMesh.cpp" />
+		<Unit filename="src/MyMesh.h" />
+		<Unit filename="src/ObjLoader.cpp" />
+		<Unit filename="src/ObjLoader.h" />
+		<Unit filename="src/main.cpp" />
+		<Unit filename="src/stb_image.cpp" />
+		<Unit filename="src/stb_image.h" />
+		<Extensions>
+			<code_completion />
+			<envvars />
+			<debugger />
+			<lib_finder disable_auto="1" />
+		</Extensions>
+	</Project>
+</CodeBlocks_project_file>

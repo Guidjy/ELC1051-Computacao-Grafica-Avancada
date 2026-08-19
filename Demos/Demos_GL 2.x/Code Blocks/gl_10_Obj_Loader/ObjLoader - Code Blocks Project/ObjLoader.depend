@@ -1,0 +1,117 @@
+# depslib dependency file v1.0
+1373699882 source:c:\ufsm\disciplinas\computacao grafica avancada\programas\gl_13_obj_loader\objloader - code blocks project\src\objloader.cpp
+	"ObjLoader.h"
+
+1373897621 c:\ufsm\disciplinas\computacao grafica avancada\programas\gl_13_obj_loader\objloader - code blocks project\src\objloader.h
+	<glew.h>
+	<fstream>
+	<string>
+	<vector>
+	<stdlib.h>
+	<iostream>
+	<time.h>
+	"stb_image.h"
+
+1314274674 c:\ufsm\disciplinas\computacao grafica avancada\programas\gl_13_obj_loader\objloader - code blocks project\include\glew.h
+	<stddef.h>
+	<inttypes.h>
+	<stdint.h>
+	<inttypes.h>
+	<OpenGL/glu.h>
+	<GL/glu.h>
+
+1336497571 c:\ufsm\disciplinas\computacao grafica avancada\programas\gl_13_obj_loader\objloader - code blocks project\src\stb_image.h
+	<stdio.h>
+
+1373787031 source:c:\ufsm\disciplinas\computacao grafica avancada\programas\gl_13_obj_loader\objloader - code blocks project\src\main.cpp
+	<glew.h>
+	<glfw3.h>
+	<iostream>
+	"MyMesh.h"
+
+1371432846 c:\ufsm\disciplinas\computacao grafica avancada\programas\gl_13_obj_loader\objloader - code blocks project\include\glfw3.h
+	<stddef.h>
+	<OpenGL/gl3.h>
+	<OpenGL/gl.h>
+	<OpenGL/glu.h>
+	<GL/glcorearb.h>
+	<GLES/gl.h>
+	<GLES2/gl2.h>
+	<GLES3/gl3.h>
+	<GL/gl.h>
+	<GL/glu.h>
+
+1373699709 c:\ufsm\disciplinas\computacao grafica avancada\programas\gl_13_obj_loader\objloader - code blocks project\src\mymesh.h
+	"ObjLoader.h"
+
+1373703468 source:c:\ufsm\disciplinas\computacao grafica avancada\programas\gl_13_obj_loader\objloader - code blocks project\src\stb_image.cpp
+	<stdio.h>
+	<math.h>
+	<string.h>
+	<stdio.h>
+	<stdlib.h>
+	<memory.h>
+	<assert.h>
+	<stdarg.h>
+
+1373699712 source:c:\ufsm\disciplinas\computacao grafica avancada\programas\gl_13_obj_loader\objloader - code blocks project\src\mymesh.cpp
+	"MyMesh.h"
+
+1373801432 source:d:\ufsm\disciplinas\computacao grafica avancada\demos\demos_gl 2.x\gl_10_obj_loader\objloader - code blocks project\src\main.cpp
+	<glew.h>
+	<glfw3.h>
+	<iostream>
+	"MyMesh.h"
+
+1314289074 d:\ufsm\disciplinas\computacao grafica avancada\demos\demos_gl 2.x\gl_10_obj_loader\objloader - code blocks project\include\glew.h
+	<stddef.h>
+	<inttypes.h>
+	<stdint.h>
+	<inttypes.h>
+	<OpenGL/glu.h>
+	<GL/glu.h>
+
+1371447246 d:\ufsm\disciplinas\computacao grafica avancada\demos\demos_gl 2.x\gl_10_obj_loader\objloader - code blocks project\include\glfw3.h
+	<stddef.h>
+	<OpenGL/gl3.h>
+	<OpenGL/gl.h>
+	<OpenGL/glu.h>
+	<GL/glcorearb.h>
+	<GLES/gl.h>
+	<GLES2/gl2.h>
+	<GLES3/gl3.h>
+	<GL/gl.h>
+	<GL/glu.h>
+
+1373714110 d:\ufsm\disciplinas\computacao grafica avancada\demos\demos_gl 2.x\gl_10_obj_loader\objloader - code blocks project\src\mymesh.h
+	"ObjLoader.h"
+
+1373912022 d:\ufsm\disciplinas\computacao grafica avancada\demos\demos_gl 2.x\gl_10_obj_loader\objloader - code blocks project\src\objloader.h
+	<glew.h>
+	<fstream>
+	<string>
+	<vector>
+	<stdlib.h>
+	<iostream>
+	<time.h>
+	"stb_image.h"
+
+1336511972 d:\ufsm\disciplinas\computacao grafica avancada\demos\demos_gl 2.x\gl_10_obj_loader\objloader - code blocks project\src\stb_image.h
+	<stdio.h>
+
+1373714114 source:d:\ufsm\disciplinas\computacao grafica avancada\demos\demos_gl 2.x\gl_10_obj_loader\objloader - code blocks project\src\mymesh.cpp
+	"MyMesh.h"
+
+1373714284 source:d:\ufsm\disciplinas\computacao grafica avancada\demos\demos_gl 2.x\gl_10_obj_loader\objloader - code blocks project\src\objloader.cpp
+	"ObjLoader.h"
+
+1373717870 source:d:\ufsm\disciplinas\computacao grafica avancada\demos\demos_gl 2.x\gl_10_obj_loader\objloader - code blocks project\src\stb_image.cpp
+	<stdio.h>
+	<math.h>
+	<string.h>
+	<stdio.h>
+	<stdlib.h>
+	<memory.h>
+	<assert.h>
+	<stdarg.h>
+

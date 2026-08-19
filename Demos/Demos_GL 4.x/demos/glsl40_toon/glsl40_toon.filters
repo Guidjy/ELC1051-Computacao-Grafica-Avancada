@@ -1,0 +1,34 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="..\..\utils\glslprogram.cpp" />
+    <ClCompile Include="src\main.cpp" />
+    <ClCompile Include="src\TessellatedQuad.cpp" />
+    <ClCompile Include="..\..\utils\TextureManager.cpp" />
+    <ClCompile Include="..\..\utils\GLUtils.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="src\TessellatedQuad.h" />
+    <ClInclude Include="..\..\utils\TextureManager.h" />
+    <ClInclude Include="..\..\utils\GLUtils.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="shader\glsl40_tess_disp_mapp.frag">
+      <Filter>Shaders</Filter>
+    </None>
+    <None Include="shader\glsl40_tess_disp_mapp.tcs">
+      <Filter>Shaders</Filter>
+    </None>
+    <None Include="shader\glsl40_tess_disp_mapp.tes">
+      <Filter>Shaders</Filter>
+    </None>
+    <None Include="shader\glsl40_tess_disp_mapp.vert">
+      <Filter>Shaders</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Shaders">
+      <UniqueIdentifier>{94c397a8-c131-49f2-8b41-16dbd1c00841}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

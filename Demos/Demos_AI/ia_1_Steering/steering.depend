@@ -1,0 +1,112 @@
+# depslib dependency file v1.0
+1153558886 source:d:\ufsm\disciplinas\computacao grafica avancada\programas\demos_ai\ia_1_steering\src\actor.cpp
+	"Actor.h"
+
+1153520240 d:\ufsm\disciplinas\computacao grafica avancada\programas\demos_ai\ia_1_steering\src\actor.h
+	<math.h>
+	<stdio.h>
+	"Steering.h"
+	<gl/glut.h>
+
+1153494260 d:\ufsm\disciplinas\computacao grafica avancada\programas\demos_ai\ia_1_steering\src\steering.h
+	"Vector2.h"
+	"global.h"
+	"utils.h"
+
+1153498784 d:\ufsm\disciplinas\computacao grafica avancada\programas\demos_ai\ia_1_steering\src\vector2.h
+	<math.h>
+	<stdio.h>
+	<stdlib.h>
+
+1153407662 d:\ufsm\disciplinas\computacao grafica avancada\programas\demos_ai\ia_1_steering\src\global.h
+
+1153347134 d:\ufsm\disciplinas\computacao grafica avancada\programas\demos_ai\ia_1_steering\src\utils.h
+	"Vector2.h"
+
+1426361640 d:\ufsm\disciplinas\computacao grafica avancada\programas\demos_ai\ia_1_steering\include\gl\glut.h
+	"freeglut_std.h"
+
+1254356842 d:\ufsm\disciplinas\computacao grafica avancada\programas\demos_ai\ia_1_steering\include\gl\gl.h
+
+1254356842 d:\ufsm\disciplinas\computacao grafica avancada\programas\demos_ai\ia_1_steering\include\gl\glu.h
+	<GL/gl.h>
+
+1167315774 source:d:\ufsm\disciplinas\computacao grafica avancada\programas\demos_ai\ia_1_steering\src\main.cpp
+	<windows.h>
+	<gl/glut.h>
+	<stdio.h>
+	"global.h"
+	"Vector2.h"
+	"utils.h"
+	"Actor.h"
+	<windows.h>
+
+1153748378 source:d:\ufsm\disciplinas\computacao grafica avancada\programas\demos_ai\ia_1_steering\src\steering.cpp
+	"Actor.h"
+	"Steering.h"
+	<math.h>
+
+1437569142 d:\ufsm\disciplinas\computacao grafica avancada\programas\demos_ai\ia_1_steering\include\gl\freeglut_std.h
+	<windows.h>
+	<EGL/egl.h>
+	<GLES/gl.h>
+	<GLES2/gl2.h>
+	<OpenGL/gl.h>
+	<OpenGL/glu.h>
+	<GL/gl.h>
+	<GL/glu.h>
+	<stdlib.h>
+
+1153569686 source:d:\ufsm\disciplinas\computacao grafica avancada\demos\demos_ai\ia_1_steering\src\actor.cpp
+	"Actor.h"
+
+1153531040 d:\ufsm\disciplinas\computacao grafica avancada\demos\demos_ai\ia_1_steering\src\actor.h
+	<math.h>
+	<stdio.h>
+	"Steering.h"
+	<gl/glut.h>
+
+1153505060 d:\ufsm\disciplinas\computacao grafica avancada\demos\demos_ai\ia_1_steering\src\steering.h
+	"Vector2.h"
+	"global.h"
+	"utils.h"
+
+1153509584 d:\ufsm\disciplinas\computacao grafica avancada\demos\demos_ai\ia_1_steering\src\vector2.h
+	<math.h>
+	<stdio.h>
+	<stdlib.h>
+
+1153418462 d:\ufsm\disciplinas\computacao grafica avancada\demos\demos_ai\ia_1_steering\src\global.h
+
+1153357934 d:\ufsm\disciplinas\computacao grafica avancada\demos\demos_ai\ia_1_steering\src\utils.h
+	"Vector2.h"
+
+1426372440 d:\ufsm\disciplinas\computacao grafica avancada\demos\demos_ai\ia_1_steering\include\gl\glut.h
+	"freeglut_std.h"
+
+1437579942 d:\ufsm\disciplinas\computacao grafica avancada\demos\demos_ai\ia_1_steering\include\gl\freeglut_std.h
+	<windows.h>
+	<EGL/egl.h>
+	<GLES/gl.h>
+	<GLES2/gl2.h>
+	<OpenGL/gl.h>
+	<OpenGL/glu.h>
+	<GL/gl.h>
+	<GL/glu.h>
+	<stdlib.h>
+
+1167333774 source:d:\ufsm\disciplinas\computacao grafica avancada\demos\demos_ai\ia_1_steering\src\main.cpp
+	<windows.h>
+	<gl/glut.h>
+	<stdio.h>
+	"global.h"
+	"Vector2.h"
+	"utils.h"
+	"Actor.h"
+	<windows.h>
+
+1153759178 source:d:\ufsm\disciplinas\computacao grafica avancada\demos\demos_ai\ia_1_steering\src\steering.cpp
+	"Actor.h"
+	"Steering.h"
+	<math.h>
+

@@ -1,0 +1,55 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.27703.2035
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "glsl40_plane", "demos\glsl40_plane\glsl40_plane.vcxproj", "{D6B0A0FD-080A-400F-9D68-913E88E79C91}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "glsl40_tessellation_basic", "demos\glsl40_tessellation_basic\glsl40_tessellation_basic.vcxproj", "{8F58B20C-5C75-4115-A987-DB5F75A3C547}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "glsl40_tessellation_displacement_mapping", "demos\glsl40_tessellation_displacement_mapping\glsl40_tessellation_displacement_mapping.vcxproj", "{CA7280EE-9721-4937-AE93-2D9FF2B50AD8}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "glsl40_texture", "demos\glsl40_texture\glsl40_texture.vcxproj.vcxproj", "{B6ED92FC-9A34-49B3-92F3-1C55D60A8759}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "glsl40_toon", "demos\glsl40_toon\glsl40_toon.vcxproj", "{469021DE-0F85-4E0C-8A8C-FB1975DF4F65}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "glsl40_geometry_shader_point_sprites", "demos\glsl40_geometry_shader_point_sprites\glsl40_geometry_shader_point_sprites.vcxproj", "{41A4E1E9-7101-406D-B3A5-32CF40195ED6}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x86 = Debug|x86
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{D6B0A0FD-080A-400F-9D68-913E88E79C91}.Debug|x86.ActiveCfg = Debug|Win32
+		{D6B0A0FD-080A-400F-9D68-913E88E79C91}.Debug|x86.Build.0 = Debug|Win32
+		{D6B0A0FD-080A-400F-9D68-913E88E79C91}.Release|x86.ActiveCfg = Release|Win32
+		{D6B0A0FD-080A-400F-9D68-913E88E79C91}.Release|x86.Build.0 = Release|Win32
+		{8F58B20C-5C75-4115-A987-DB5F75A3C547}.Debug|x86.ActiveCfg = Debug|Win32
+		{8F58B20C-5C75-4115-A987-DB5F75A3C547}.Debug|x86.Build.0 = Debug|Win32
+		{8F58B20C-5C75-4115-A987-DB5F75A3C547}.Release|x86.ActiveCfg = Release|Win32
+		{8F58B20C-5C75-4115-A987-DB5F75A3C547}.Release|x86.Build.0 = Release|Win32
+		{CA7280EE-9721-4937-AE93-2D9FF2B50AD8}.Debug|x86.ActiveCfg = Debug|Win32
+		{CA7280EE-9721-4937-AE93-2D9FF2B50AD8}.Debug|x86.Build.0 = Debug|Win32
+		{CA7280EE-9721-4937-AE93-2D9FF2B50AD8}.Release|x86.ActiveCfg = Release|Win32
+		{CA7280EE-9721-4937-AE93-2D9FF2B50AD8}.Release|x86.Build.0 = Release|Win32
+		{B6ED92FC-9A34-49B3-92F3-1C55D60A8759}.Debug|x86.ActiveCfg = Debug|Win32
+		{B6ED92FC-9A34-49B3-92F3-1C55D60A8759}.Debug|x86.Build.0 = Debug|Win32
+		{B6ED92FC-9A34-49B3-92F3-1C55D60A8759}.Release|x86.ActiveCfg = Release|Win32
+		{B6ED92FC-9A34-49B3-92F3-1C55D60A8759}.Release|x86.Build.0 = Release|Win32
+		{469021DE-0F85-4E0C-8A8C-FB1975DF4F65}.Debug|x86.ActiveCfg = Debug|Win32
+		{469021DE-0F85-4E0C-8A8C-FB1975DF4F65}.Debug|x86.Build.0 = Debug|Win32
+		{469021DE-0F85-4E0C-8A8C-FB1975DF4F65}.Release|x86.ActiveCfg = Release|Win32
+		{469021DE-0F85-4E0C-8A8C-FB1975DF4F65}.Release|x86.Build.0 = Release|Win32
+		{41A4E1E9-7101-406D-B3A5-32CF40195ED6}.Debug|x86.ActiveCfg = Debug|Win32
+		{41A4E1E9-7101-406D-B3A5-32CF40195ED6}.Debug|x86.Build.0 = Debug|Win32
+		{41A4E1E9-7101-406D-B3A5-32CF40195ED6}.Release|x86.ActiveCfg = Release|Win32
+		{41A4E1E9-7101-406D-B3A5-32CF40195ED6}.Release|x86.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {35E386F2-37D7-41BC-8AD9-BDE7C4D91D77}
+	EndGlobalSection
+EndGlobal

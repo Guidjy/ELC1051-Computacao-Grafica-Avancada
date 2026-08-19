@@ -1,0 +1,181 @@
+# depslib dependency file v1.0
+1192458238 source:d:\ufsm\disciplinas\computacao grafica avancada\programas\demos_gl\gl_9_md2viewer\src\bmp.cpp
+	"Bmp.h"
+	<string.h>
+
+1192177132 d:\ufsm\disciplinas\computacao grafica avancada\programas\demos_gl\gl_9_md2viewer\src\bmp.h
+	<stdio.h>
+	<stdlib.h>
+
+1357150934 source:d:\ufsm\disciplinas\computacao grafica avancada\programas\demos_gl\gl_9_md2viewer\src\md2.cpp
+	"md2.h"
+	<math.h>
+	<string.h>
+	"anorms.h"
+	"anormtab.h"
+
+1192369032 d:\ufsm\disciplinas\computacao grafica avancada\programas\demos_gl\gl_9_md2viewer\src\md2.h
+	<GL/glut.h>
+	"Texture.h"
+	"Vector3.h"
+
+924727706 d:\ufsm\disciplinas\computacao grafica avancada\programas\demos_gl\gl_9_md2viewer\include\gl\glut.h
+	<windows.h>
+	<GL/gl.h>
+	<GL/glu.h>
+
+1254353242 d:\ufsm\disciplinas\computacao grafica avancada\programas\demos_gl\gl_9_md2viewer\include\gl\gl.h
+
+1254353242 d:\ufsm\disciplinas\computacao grafica avancada\programas\demos_gl\gl_9_md2viewer\include\gl\glu.h
+	<GL/gl.h>
+
+1192177138 d:\ufsm\disciplinas\computacao grafica avancada\programas\demos_gl\gl_9_md2viewer\src\texture.h
+	<GL/glut.h>
+	"Bmp.h"
+
+1373985916 d:\ufsm\disciplinas\computacao grafica avancada\programas\demos_gl\gl_9_md2viewer\src\vector3.h
+
+1192177124 d:\ufsm\disciplinas\computacao grafica avancada\programas\demos_gl\gl_9_md2viewer\src\anorms.h
+
+1192177130 d:\ufsm\disciplinas\computacao grafica avancada\programas\demos_gl\gl_9_md2viewer\src\anormtab.h
+
+1461668581 source:d:\ufsm\disciplinas\computacao grafica avancada\programas\demos_gl\gl_9_md2viewer\src\prog.cpp
+	<GL/glut.h>
+	<stdio.h>
+	<stdlib.h>
+	<ctype.h>
+	"Bmp.h"
+	"Actor.h"
+	"md2.h"
+	"anorms.h"
+
+1222379582 d:\ufsm\disciplinas\computacao grafica avancada\programas\demos_gl\gl_9_md2viewer\src\actor.h
+	<GL/glut.h>
+	<stdio.h>
+	"Vector3.h"
+	"md2.h"
+
+1192178158 source:d:\ufsm\disciplinas\computacao grafica avancada\programas\demos_gl\gl_9_md2viewer\src\vector3.cpp
+	<math.h>
+	<stdio.h>
+	<stdlib.h>
+	"Vector3.h"
+
+1192454638 source:d:\ufsm\disciplinas\computacao grafica avancada\programas\demos_gl 2.x\gl_5_md2viewer\src\bmp.cpp
+	"Bmp.h"
+	<string.h>
+
+1192177132 d:\ufsm\disciplinas\computacao grafica avancada\programas\demos_gl 2.x\gl_5_md2viewer\src\bmp.h
+	<stdio.h>
+	<stdlib.h>
+
+1357150934 source:d:\ufsm\disciplinas\computacao grafica avancada\programas\demos_gl 2.x\gl_5_md2viewer\src\md2.cpp
+	"md2.h"
+	<math.h>
+	<string.h>
+	"anorms.h"
+	"anormtab.h"
+
+1192365432 d:\ufsm\disciplinas\computacao grafica avancada\programas\demos_gl 2.x\gl_5_md2viewer\src\md2.h
+	<GL/glut.h>
+	"Texture.h"
+	"Vector3.h"
+
+924727706 d:\ufsm\disciplinas\computacao grafica avancada\programas\demos_gl 2.x\gl_5_md2viewer\include\gl\glut.h
+	<windows.h>
+	<GL/gl.h>
+	<GL/glu.h>
+
+1254353242 d:\ufsm\disciplinas\computacao grafica avancada\programas\demos_gl 2.x\gl_5_md2viewer\include\gl\gl.h
+
+1254353242 d:\ufsm\disciplinas\computacao grafica avancada\programas\demos_gl 2.x\gl_5_md2viewer\include\gl\glu.h
+	<GL/gl.h>
+
+1192177138 d:\ufsm\disciplinas\computacao grafica avancada\programas\demos_gl 2.x\gl_5_md2viewer\src\texture.h
+	<GL/glut.h>
+	"Bmp.h"
+
+1373985916 d:\ufsm\disciplinas\computacao grafica avancada\programas\demos_gl 2.x\gl_5_md2viewer\src\vector3.h
+
+1192177124 d:\ufsm\disciplinas\computacao grafica avancada\programas\demos_gl 2.x\gl_5_md2viewer\src\anorms.h
+
+1192177130 d:\ufsm\disciplinas\computacao grafica avancada\programas\demos_gl 2.x\gl_5_md2viewer\src\anormtab.h
+
+1192178158 source:d:\ufsm\disciplinas\computacao grafica avancada\programas\demos_gl 2.x\gl_5_md2viewer\src\vector3.cpp
+	<math.h>
+	<stdio.h>
+	<stdlib.h>
+	"Vector3.h"
+
+1192472638 source:d:\ufsm\disciplinas\computacao grafica avancada\demos\demos_gl 2.x\gl_5_md2viewer\src\bmp.cpp
+	"Bmp.h"
+	<string.h>
+
+1192191532 d:\ufsm\disciplinas\computacao grafica avancada\demos\demos_gl 2.x\gl_5_md2viewer\src\bmp.h
+	<stdio.h>
+	<stdlib.h>
+
+1638192255 source:d:\ufsm\disciplinas\computacao grafica avancada\demos\demos_gl 2.x\gl_5_md2viewer\src\md2.cpp
+	"md2.h"
+	<math.h>
+	<string.h>
+	"anorms.h"
+	"anormtab.h"
+
+1192383432 d:\ufsm\disciplinas\computacao grafica avancada\demos\demos_gl 2.x\gl_5_md2viewer\src\md2.h
+	<GL/glut.h>
+	"Texture.h"
+	"Vector3.h"
+
+924742106 d:\ufsm\disciplinas\computacao grafica avancada\demos\demos_gl 2.x\gl_5_md2viewer\include\gl\glut.h
+	<windows.h>
+	<GL/gl.h>
+	<GL/glu.h>
+
+1254367642 d:\ufsm\disciplinas\computacao grafica avancada\demos\demos_gl 2.x\gl_5_md2viewer\include\gl\gl.h
+
+1254367642 d:\ufsm\disciplinas\computacao grafica avancada\demos\demos_gl 2.x\gl_5_md2viewer\include\gl\glu.h
+	<GL/gl.h>
+
+1192191538 d:\ufsm\disciplinas\computacao grafica avancada\demos\demos_gl 2.x\gl_5_md2viewer\src\texture.h
+	<GL/glut.h>
+	"Bmp.h"
+
+1374000316 d:\ufsm\disciplinas\computacao grafica avancada\demos\demos_gl 2.x\gl_5_md2viewer\src\vector3.h
+
+1192191524 d:\ufsm\disciplinas\computacao grafica avancada\demos\demos_gl 2.x\gl_5_md2viewer\src\anorms.h
+
+1192191530 d:\ufsm\disciplinas\computacao grafica avancada\demos\demos_gl 2.x\gl_5_md2viewer\src\anormtab.h
+
+1695649450 source:d:\ufsm\disciplinas\computacao grafica avancada\demos\demos_gl 2.x\gl_5_md2viewer\src\prog.cpp
+	<GL/glut.h>
+	<stdio.h>
+	<stdlib.h>
+	<ctype.h>
+	"Bmp.h"
+	"Actor.h"
+	"md2.h"
+	"anorms.h"
+
+1695649390 d:\ufsm\disciplinas\computacao grafica avancada\demos\demos_gl 2.x\gl_5_md2viewer\src\actor.h
+	<GL/glut.h>
+	<stdio.h>
+	"Vector3.h"
+	"md2.h"
+
+1192192558 source:d:\ufsm\disciplinas\computacao grafica avancada\demos\demos_gl 2.x\gl_5_md2viewer\src\vector3.cpp
+	<math.h>
+	<stdio.h>
+	<stdlib.h>
+	"Vector3.h"
+
+924742106 d:\ufsm\disciplinas\computacao grafica avancada\demos\demos_gl 2.x\include\gl\glut.h
+	<windows.h>
+	<GL/gl.h>
+	<GL/glu.h>
+
+1254367642 d:\ufsm\disciplinas\computacao grafica avancada\demos\demos_gl 2.x\include\gl\gl.h
+
+1254367642 d:\ufsm\disciplinas\computacao grafica avancada\demos\demos_gl 2.x\include\gl\glu.h
+	<GL/gl.h>
+

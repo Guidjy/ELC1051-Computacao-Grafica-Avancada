@@ -1,0 +1,31 @@
+# depslib dependency file v1.0
+1380314415 source:c:\ufsm\disciplinas\computacao grafica avancada\programas\gl_5_transparencia\src\main.cpp
+	<GL/glut.h>
+	<stdio.h>
+	<stdlib.h>
+	"Bmp.h"
+	"tga.h"
+
+924731306 c:\ufsm\disciplinas\computacao grafica avancada\programas\gl_5_transparencia\include\gl\glut.h
+	<windows.h>
+	<GL/gl.h>
+	<GL/glu.h>
+
+1254356842 c:\ufsm\disciplinas\computacao grafica avancada\programas\gl_5_transparencia\include\gl\gl.h
+
+1254356842 c:\ufsm\disciplinas\computacao grafica avancada\programas\gl_5_transparencia\include\gl\glu.h
+	<GL/gl.h>
+
+1346163441 c:\ufsm\disciplinas\computacao grafica avancada\programas\gl_5_transparencia\src\bmp.h
+	<stdio.h>
+	<stdlib.h>
+	<GL/glut.h>
+
+1346163268 c:\ufsm\disciplinas\computacao grafica avancada\programas\gl_5_transparencia\src\tga.h
+	<iostream>
+	<fstream>
+	<memory.h>
+
+1346163506 source:c:\ufsm\disciplinas\computacao grafica avancada\programas\gl_5_transparencia\src\bmp.cpp
+	"Bmp.h"
+

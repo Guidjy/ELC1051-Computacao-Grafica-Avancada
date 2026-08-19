@@ -1,0 +1,36 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+        <OutputType>Exe</OutputType>
+        <TargetFramework>net6.0-windows</TargetFramework>
+        <Platforms>AnyCPU;x86;x64</Platforms>
+        <StartupObject>HelloTriangle.Program</StartupObject>
+    </PropertyGroup>
+
+
+	<Target Name="CopyCustomContent" AfterTargets="AfterBuild" Condition=" '$(Platforms)' == 'x86' ">
+		<Copy SourceFiles="./Dlls/32/glfw.dll" DestinationFolder="$(outDir)" />
+	</Target>
+
+	<Target Name="CopyCustomContent" AfterTargets="AfterBuild" Condition=" '$(Platformsxxx)' == 'x64' ">
+		<Copy SourceFiles="./Dlls/64/glfw.dll" DestinationFolder="$(outDir)" />
+	</Target>
+
+    <PropertyGroup Condition=" '$(Configuration)' == 'Debug' ">
+      <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
+    </PropertyGroup>
+
+    <PropertyGroup Condition=" '$(Configuration)' == 'Release' ">
+      <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
+    </PropertyGroup>
+
+    <ItemGroup>
+      <None Update="triangle.frag">
+        <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      </None>
+      <None Update="triangle.vert">
+        <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      </None>
+    </ItemGroup>
+
+</Project>

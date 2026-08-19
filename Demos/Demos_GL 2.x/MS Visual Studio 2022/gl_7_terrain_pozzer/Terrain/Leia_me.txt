@@ -1,0 +1,2 @@
+TerrainLOD: Programa escrito em C++/OpenGL para gerenciar o nível de detalhes da malha poligonal adaptativa por região usada na representação de terrenos. A adaptação leva em consideracao a geometria do terreno e posição da camera.
+©2004 - Cesar Tadeu Pozzer

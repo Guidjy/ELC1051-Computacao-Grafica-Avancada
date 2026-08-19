@@ -1,0 +1,135 @@
+# depslib dependency file v1.0
+1301095784 source:c:\ufsm\disciplinas\computacao grafica avancada\programas\gl_7_intersection\src\main.cpp
+	<GL/glut.h>
+	<stdio.h>
+	<math.h>
+	"Vector.h"
+	"Line.h"
+
+924727706 c:\ufsm\disciplinas\computacao grafica avancada\programas\gl_7_intersection\include\gl\glut.h
+	<windows.h>
+	<GL/gl.h>
+	<GL/glu.h>
+
+1254353242 c:\ufsm\disciplinas\computacao grafica avancada\programas\gl_7_intersection\include\gl\gl.h
+
+1254353242 c:\ufsm\disciplinas\computacao grafica avancada\programas\gl_7_intersection\include\gl\glu.h
+	<GL/gl.h>
+
+1186500578 c:\ufsm\disciplinas\computacao grafica avancada\programas\gl_7_intersection\src\vector.h
+
+1210872974 c:\ufsm\disciplinas\computacao grafica avancada\programas\gl_7_intersection\src\line.h
+	<GL/glut.h>
+	"Vector.h"
+	"Circle.h"
+
+1193899132 c:\ufsm\disciplinas\computacao grafica avancada\programas\gl_7_intersection\src\circle.h
+
+1186500612 source:c:\ufsm\disciplinas\computacao grafica avancada\programas\gl_7_intersection\src\vector.cpp
+	"Vector.h"
+	<math.h>
+	<stdio.h>
+
+1301095784 source:d:\ufsm\disciplinas\computacao grafica avancada\programas\demos_gl\gl_7_intersection\src\main.cpp
+	<GL/glut.h>
+	<stdio.h>
+	<math.h>
+	"Vector.h"
+	"Line.h"
+
+924727706 d:\ufsm\disciplinas\computacao grafica avancada\programas\demos_gl\gl_7_intersection\include\gl\glut.h
+	<windows.h>
+	<GL/gl.h>
+	<GL/glu.h>
+
+1254353242 d:\ufsm\disciplinas\computacao grafica avancada\programas\demos_gl\gl_7_intersection\include\gl\gl.h
+
+1254353242 d:\ufsm\disciplinas\computacao grafica avancada\programas\demos_gl\gl_7_intersection\include\gl\glu.h
+	<GL/gl.h>
+
+1186500578 d:\ufsm\disciplinas\computacao grafica avancada\programas\demos_gl\gl_7_intersection\src\vector.h
+
+1210872974 d:\ufsm\disciplinas\computacao grafica avancada\programas\demos_gl\gl_7_intersection\src\line.h
+	<GL/glut.h>
+	"Vector.h"
+	"Circle.h"
+
+1193899132 d:\ufsm\disciplinas\computacao grafica avancada\programas\demos_gl\gl_7_intersection\src\circle.h
+
+1186500612 source:d:\ufsm\disciplinas\computacao grafica avancada\programas\demos_gl\gl_7_intersection\src\vector.cpp
+	"Vector.h"
+	<math.h>
+	<stdio.h>
+
+1301095784 source:d:\ufsm\disciplinas\computacao grafica avancada\programas\demos_gl 2.x\gl_4_intersection\src\main.cpp
+	<GL/glut.h>
+	<stdio.h>
+	<math.h>
+	"Vector.h"
+	"Line.h"
+
+924727706 d:\ufsm\disciplinas\computacao grafica avancada\programas\demos_gl 2.x\gl_4_intersection\include\gl\glut.h
+	<windows.h>
+	<GL/gl.h>
+	<GL/glu.h>
+
+1254353242 d:\ufsm\disciplinas\computacao grafica avancada\programas\demos_gl 2.x\gl_4_intersection\include\gl\gl.h
+
+1254353242 d:\ufsm\disciplinas\computacao grafica avancada\programas\demos_gl 2.x\gl_4_intersection\include\gl\glu.h
+	<GL/gl.h>
+
+1186500578 d:\ufsm\disciplinas\computacao grafica avancada\programas\demos_gl 2.x\gl_4_intersection\src\vector.h
+
+1210872974 d:\ufsm\disciplinas\computacao grafica avancada\programas\demos_gl 2.x\gl_4_intersection\src\line.h
+	<GL/glut.h>
+	"Vector.h"
+	"Circle.h"
+
+1193899132 d:\ufsm\disciplinas\computacao grafica avancada\programas\demos_gl 2.x\gl_4_intersection\src\circle.h
+
+1186500612 source:d:\ufsm\disciplinas\computacao grafica avancada\programas\demos_gl 2.x\gl_4_intersection\src\vector.cpp
+	"Vector.h"
+	<math.h>
+	<stdio.h>
+
+1694518004 source:d:\ufsm\disciplinas\computacao grafica avancada\demos\demos_gl 2.x\gl_4_intersection\src\main.cpp
+	<GL/glut.h>
+	<stdio.h>
+	<math.h>
+	"Vector.h"
+	"Line.h"
+
+924742106 d:\ufsm\disciplinas\computacao grafica avancada\demos\demos_gl 2.x\gl_4_intersection\include\gl\glut.h
+	<windows.h>
+	<GL/gl.h>
+	<GL/glu.h>
+
+1254367642 d:\ufsm\disciplinas\computacao grafica avancada\demos\demos_gl 2.x\gl_4_intersection\include\gl\gl.h
+
+1254367642 d:\ufsm\disciplinas\computacao grafica avancada\demos\demos_gl 2.x\gl_4_intersection\include\gl\glu.h
+	<GL/gl.h>
+
+1186514978 d:\ufsm\disciplinas\computacao grafica avancada\demos\demos_gl 2.x\gl_4_intersection\src\vector.h
+
+1695035761 d:\ufsm\disciplinas\computacao grafica avancada\demos\demos_gl 2.x\gl_4_intersection\src\line.h
+	<GL/glut.h>
+	"Vector.h"
+	"Circle.h"
+
+1193917132 d:\ufsm\disciplinas\computacao grafica avancada\demos\demos_gl 2.x\gl_4_intersection\src\circle.h
+
+1186515012 source:d:\ufsm\disciplinas\computacao grafica avancada\demos\demos_gl 2.x\gl_4_intersection\src\vector.cpp
+	"Vector.h"
+	<math.h>
+	<stdio.h>
+
+924742106 d:\ufsm\disciplinas\computacao grafica avancada\demos\demos_gl 2.x\include\gl\glut.h
+	<windows.h>
+	<GL/gl.h>
+	<GL/glu.h>
+
+1254367642 d:\ufsm\disciplinas\computacao grafica avancada\demos\demos_gl 2.x\include\gl\gl.h
+
+1254367642 d:\ufsm\disciplinas\computacao grafica avancada\demos\demos_gl 2.x\include\gl\glu.h
+	<GL/gl.h>
+

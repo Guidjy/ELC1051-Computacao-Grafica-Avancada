@@ -1,0 +1,257 @@
+# depslib dependency file v1.0
+1258632208 source:c:\ufsm\disciplinas\computacao grafica avancada\programas\glsl_10_bump\src\glsl.cpp
+	"glsl.h"
+
+1258632178 c:\ufsm\disciplinas\computacao grafica avancada\programas\glsl_10_bump\src\glsl.h
+	<GL/glew.h>
+	<GL/glut.h>
+	<stdio.h>
+	<stdlib.h>
+
+1374505882 c:\ufsm\disciplinas\computacao grafica avancada\programas\glsl_10_bump\include\gl\glew.h
+	<stddef.h>
+	<inttypes.h>
+	<stdint.h>
+	<inttypes.h>
+	<OpenGL/glu.h>
+	<GL/glu.h>
+
+1107056120 c:\ufsm\disciplinas\computacao grafica avancada\programas\glsl_10_bump\include\gl\glu.h
+	<stddef.h>
+	<GL/gl.h>
+
+1107056120 c:\ufsm\disciplinas\computacao grafica avancada\programas\glsl_10_bump\include\gl\gl.h
+
+924727706 c:\ufsm\disciplinas\computacao grafica avancada\programas\glsl_10_bump\include\gl\glut.h
+	<windows.h>
+	<GL/gl.h>
+	<GL/glu.h>
+
+1380633580 source:c:\ufsm\disciplinas\computacao grafica avancada\programas\glsl_10_bump\src\main.cpp
+	<GL/glew.h>
+	<GL/glut.h>
+	<stdio.h>
+	<math.h>
+	"Bmp.h"
+	"glsl.h"
+
+1191319596 c:\ufsm\disciplinas\computacao grafica avancada\programas\glsl_10_bump\src\bmp.h
+	<stdio.h>
+	<stdlib.h>
+
+1222370060 source:c:\ufsm\disciplinas\computacao grafica avancada\programas\glsl_10_bump\src\bmp.cpp
+	"Bmp.h"
+	<string.h>
+
+1222366460 source:c:\ufsm\disciplinas\computacao grafica avancada\programas\glsl_11_bump\src\bmp.cpp
+	"Bmp.h"
+	<string.h>
+
+1191315996 c:\ufsm\disciplinas\computacao grafica avancada\programas\glsl_11_bump\src\bmp.h
+	<stdio.h>
+	<stdlib.h>
+
+1258628608 source:c:\ufsm\disciplinas\computacao grafica avancada\programas\glsl_11_bump\src\glsl.cpp
+	"glsl.h"
+
+1258628578 c:\ufsm\disciplinas\computacao grafica avancada\programas\glsl_11_bump\src\glsl.h
+	<GL/glew.h>
+	<GL/glut.h>
+	<stdio.h>
+	<stdlib.h>
+
+1374502282 c:\ufsm\disciplinas\computacao grafica avancada\programas\glsl_11_bump\include\gl\glew.h
+	<stddef.h>
+	<inttypes.h>
+	<stdint.h>
+	<inttypes.h>
+	<OpenGL/glu.h>
+	<GL/glu.h>
+
+1107052520 c:\ufsm\disciplinas\computacao grafica avancada\programas\glsl_11_bump\include\gl\glu.h
+	<stddef.h>
+	<GL/gl.h>
+
+1107052520 c:\ufsm\disciplinas\computacao grafica avancada\programas\glsl_11_bump\include\gl\gl.h
+
+924724106 c:\ufsm\disciplinas\computacao grafica avancada\programas\glsl_11_bump\include\gl\glut.h
+	<windows.h>
+	<GL/gl.h>
+	<GL/glu.h>
+
+1434981612 source:c:\ufsm\disciplinas\computacao grafica avancada\programas\glsl_11_bump\src\main.cpp
+	<GL/glew.h>
+	<GL/glut.h>
+	<stdio.h>
+	<math.h>
+	"Bmp.h"
+	"glsl.h"
+
+1222366462 source:d:\ufsm\disciplinas\computacao grafica avancada\programas\glsl_11_bump\src\bmp.cpp
+	"Bmp.h"
+	<string.h>
+
+1191315996 d:\ufsm\disciplinas\computacao grafica avancada\programas\glsl_11_bump\src\bmp.h
+	<stdio.h>
+	<stdlib.h>
+
+1258628610 source:d:\ufsm\disciplinas\computacao grafica avancada\programas\glsl_11_bump\src\glsl.cpp
+	"glsl.h"
+
+1258628580 d:\ufsm\disciplinas\computacao grafica avancada\programas\glsl_11_bump\src\glsl.h
+	<GL/glew.h>
+	<GL/glut.h>
+	<stdio.h>
+	<stdlib.h>
+
+1374502282 d:\ufsm\disciplinas\computacao grafica avancada\programas\glsl_11_bump\include\gl\glew.h
+	<stddef.h>
+	<inttypes.h>
+	<stdint.h>
+	<inttypes.h>
+	<OpenGL/glu.h>
+	<GL/glu.h>
+
+1107052520 d:\ufsm\disciplinas\computacao grafica avancada\programas\glsl_11_bump\include\gl\glu.h
+	<stddef.h>
+	<GL/gl.h>
+
+1107052520 d:\ufsm\disciplinas\computacao grafica avancada\programas\glsl_11_bump\include\gl\gl.h
+
+924724106 d:\ufsm\disciplinas\computacao grafica avancada\programas\glsl_11_bump\include\gl\glut.h
+	<windows.h>
+	<GL/gl.h>
+	<GL/glu.h>
+
+1434981614 source:d:\ufsm\disciplinas\computacao grafica avancada\programas\glsl_11_bump\src\main.cpp
+	<GL/glew.h>
+	<GL/glut.h>
+	<stdio.h>
+	<math.h>
+	"Bmp.h"
+	"glsl.h"
+
+1222366462 source:d:\ufsm\disciplinas\computacao grafica avancada\programas\demos_glsl\glsl_11_bump\src\bmp.cpp
+	"Bmp.h"
+	<string.h>
+
+1191315996 d:\ufsm\disciplinas\computacao grafica avancada\programas\demos_glsl\glsl_11_bump\src\bmp.h
+	<stdio.h>
+	<stdlib.h>
+
+1258628610 source:d:\ufsm\disciplinas\computacao grafica avancada\programas\demos_glsl\glsl_11_bump\src\glsl.cpp
+	"glsl.h"
+
+1258628580 d:\ufsm\disciplinas\computacao grafica avancada\programas\demos_glsl\glsl_11_bump\src\glsl.h
+	<GL/glew.h>
+	<GL/glut.h>
+	<stdio.h>
+	<stdlib.h>
+
+1374502282 d:\ufsm\disciplinas\computacao grafica avancada\programas\demos_glsl\glsl_11_bump\include\gl\glew.h
+	<stddef.h>
+	<inttypes.h>
+	<stdint.h>
+	<inttypes.h>
+	<OpenGL/glu.h>
+	<GL/glu.h>
+
+1107052520 d:\ufsm\disciplinas\computacao grafica avancada\programas\demos_glsl\glsl_11_bump\include\gl\glu.h
+	<stddef.h>
+	<GL/gl.h>
+
+1107052520 d:\ufsm\disciplinas\computacao grafica avancada\programas\demos_glsl\glsl_11_bump\include\gl\gl.h
+
+924724106 d:\ufsm\disciplinas\computacao grafica avancada\programas\demos_glsl\glsl_11_bump\include\gl\glut.h
+	<windows.h>
+	<GL/gl.h>
+	<GL/glu.h>
+
+1434981614 source:d:\ufsm\disciplinas\computacao grafica avancada\programas\demos_glsl\glsl_11_bump\src\main.cpp
+	<GL/glew.h>
+	<GL/glut.h>
+	<stdio.h>
+	<math.h>
+	"Bmp.h"
+	"glsl.h"
+
+1222366462 source:d:\ufsm\disciplinas\computacao grafica avancada\programas\demos_gl 3.x\glsl_8_bump\src\bmp.cpp
+	"Bmp.h"
+	<string.h>
+
+1191315996 d:\ufsm\disciplinas\computacao grafica avancada\programas\demos_gl 3.x\glsl_8_bump\src\bmp.h
+	<stdio.h>
+	<stdlib.h>
+
+1258628610 source:d:\ufsm\disciplinas\computacao grafica avancada\programas\demos_gl 3.x\glsl_8_bump\src\glsl.cpp
+	"glsl.h"
+
+1258628580 d:\ufsm\disciplinas\computacao grafica avancada\programas\demos_gl 3.x\glsl_8_bump\src\glsl.h
+	<GL/glew.h>
+	<GL/glut.h>
+	<stdio.h>
+	<stdlib.h>
+
+1374502282 d:\ufsm\disciplinas\computacao grafica avancada\programas\demos_gl 3.x\glsl_8_bump\include\gl\glew.h
+	<stddef.h>
+	<inttypes.h>
+	<stdint.h>
+	<inttypes.h>
+	<OpenGL/glu.h>
+	<GL/glu.h>
+
+1107052520 d:\ufsm\disciplinas\computacao grafica avancada\programas\demos_gl 3.x\glsl_8_bump\include\gl\glu.h
+	<stddef.h>
+	<GL/gl.h>
+
+1107052520 d:\ufsm\disciplinas\computacao grafica avancada\programas\demos_gl 3.x\glsl_8_bump\include\gl\gl.h
+
+924724106 d:\ufsm\disciplinas\computacao grafica avancada\programas\demos_gl 3.x\glsl_8_bump\include\gl\glut.h
+	<windows.h>
+	<GL/gl.h>
+	<GL/glu.h>
+
+1222380862 source:d:\ufsm\disciplinas\computacao grafica avancada\demos\demos_gl 3.x\glsl_8_bump\src\bmp.cpp
+	"Bmp.h"
+	<string.h>
+
+1191330396 d:\ufsm\disciplinas\computacao grafica avancada\demos\demos_gl 3.x\glsl_8_bump\src\bmp.h
+	<stdio.h>
+	<stdlib.h>
+
+1258650210 source:d:\ufsm\disciplinas\computacao grafica avancada\demos\demos_gl 3.x\glsl_8_bump\src\glsl.cpp
+	"glsl.h"
+
+1258650180 d:\ufsm\disciplinas\computacao grafica avancada\demos\demos_gl 3.x\glsl_8_bump\src\glsl.h
+	<GL/glew.h>
+	<GL/glut.h>
+	<stdio.h>
+	<stdlib.h>
+
+1374516682 d:\ufsm\disciplinas\computacao grafica avancada\demos\demos_gl 3.x\glsl_8_bump\include\gl\glew.h
+	<stddef.h>
+	<inttypes.h>
+	<stdint.h>
+	<inttypes.h>
+	<OpenGL/glu.h>
+	<GL/glu.h>
+
+1107074120 d:\ufsm\disciplinas\computacao grafica avancada\demos\demos_gl 3.x\glsl_8_bump\include\gl\glu.h
+	<stddef.h>
+	<GL/gl.h>
+
+1107074120 d:\ufsm\disciplinas\computacao grafica avancada\demos\demos_gl 3.x\glsl_8_bump\include\gl\gl.h
+
+924738506 d:\ufsm\disciplinas\computacao grafica avancada\demos\demos_gl 3.x\glsl_8_bump\include\gl\glut.h
+	<windows.h>
+	<GL/gl.h>
+	<GL/glu.h>
+
+1635167129 source:d:\ufsm\disciplinas\computacao grafica avancada\demos\demos_gl 3.x\glsl_8_bump\src\main.cpp
+	<GL/glew.h>
+	<GL/glut.h>
+	<stdio.h>
+	<math.h>
+	"Bmp.h"
+	"glsl.h"
+

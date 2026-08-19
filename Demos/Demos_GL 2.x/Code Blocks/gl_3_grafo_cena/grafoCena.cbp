@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6" />
+	<Project>
+		<Option title="Grafo de Cena" />
+		<Option pch_mode="2" />
+		<Option compiler="gcc" />
+		<Build>
+			<Target title="Debug">
+				<Option output="../__bin/Debug/grafo" prefix_auto="1" extension_auto="1" />
+				<Option working_dir="../" />
+				<Option object_output="../__obj/Debug/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-g" />
+				</Compiler>
+			</Target>
+			<Target title="Release">
+				<Option output="../__bin/Release/grafo" prefix_auto="1" extension_auto="1" />
+				<Option working_dir="../" />
+				<Option object_output="../__obj/Release/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-O2" />
+				</Compiler>
+				<Linker>
+					<Add option="-s" />
+				</Linker>
+			</Target>
+		</Build>
+		<Compiler>
+			<Add option="-Wall" />
+			<Add option="-fexceptions" />
+			<Add option="-std=c++11" />
+			<Add directory="../include" />
+		</Compiler>
+		<Linker>
+			<Add library="../lib/libfreeglut32.a" />
+			<Add library="../lib/libopengl32.a" />
+			<Add library="../lib/libglu32.a" />
+		</Linker>
+		<Unit filename="src/Bmp.h" />
+		<Unit filename="src/Vetor.h" />
+		<Unit filename="src/appearance.h" />
+		<Unit filename="src/bmp.cpp" />
+		<Unit filename="src/camera.h" />
+		<Unit filename="src/cena.cpp" />
+		<Unit filename="src/cilindro.cpp" />
+		<Unit filename="src/cilindro.h" />
+		<Unit filename="src/cubo.cpp" />
+		<Unit filename="src/cubo.h" />
+		<Unit filename="src/esfera.h" />
+		<Unit filename="src/frames.h" />
+		<Unit filename="src/group.h" />
+		<Unit filename="src/lightsource.h" />
+		<Unit filename="src/node.h" />
+		<Unit filename="src/scene.h" />
+		<Unit filename="src/shape.h" />
+		<Unit filename="src/transform.h" />
+		<Extensions>
+			<lib_finder disable_auto="1" />
+		</Extensions>
+	</Project>
+</CodeBlocks_project_file>

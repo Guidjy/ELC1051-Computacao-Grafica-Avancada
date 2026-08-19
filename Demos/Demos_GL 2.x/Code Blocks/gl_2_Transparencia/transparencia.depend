@@ -1,0 +1,91 @@
+# depslib dependency file v1.0
+1461668147 source:d:\ufsm\disciplinas\computacao grafica avancada\programas\demos_gl\gl_5_transparencia\src\main.cpp
+	<GL/glut.h>
+	<stdio.h>
+	<stdlib.h>
+	"Bmp.h"
+	"tga.h"
+
+924727706 d:\ufsm\disciplinas\computacao grafica avancada\programas\demos_gl\gl_5_transparencia\include\gl\glut.h
+	<windows.h>
+	<GL/gl.h>
+	<GL/glu.h>
+
+1254353242 d:\ufsm\disciplinas\computacao grafica avancada\programas\demos_gl\gl_5_transparencia\include\gl\gl.h
+
+1254353242 d:\ufsm\disciplinas\computacao grafica avancada\programas\demos_gl\gl_5_transparencia\include\gl\glu.h
+	<GL/gl.h>
+
+1346159842 d:\ufsm\disciplinas\computacao grafica avancada\programas\demos_gl\gl_5_transparencia\src\bmp.h
+	<stdio.h>
+	<stdlib.h>
+	<GL/glut.h>
+
+1346159670 d:\ufsm\disciplinas\computacao grafica avancada\programas\demos_gl\gl_5_transparencia\src\tga.h
+	<iostream>
+	<fstream>
+	<memory.h>
+
+1346159908 source:d:\ufsm\disciplinas\computacao grafica avancada\programas\demos_gl\gl_5_transparencia\src\bmp.cpp
+	"Bmp.h"
+
+1346159908 source:d:\ufsm\disciplinas\computacao grafica avancada\programas\demos_gl 2.x\gl_2_transparencia\src\bmp.cpp
+	"Bmp.h"
+
+1346159842 d:\ufsm\disciplinas\computacao grafica avancada\programas\demos_gl 2.x\gl_2_transparencia\src\bmp.h
+	<stdio.h>
+	<stdlib.h>
+	<GL/glut.h>
+
+924727706 d:\ufsm\disciplinas\computacao grafica avancada\programas\demos_gl 2.x\gl_2_transparencia\include\gl\glut.h
+	<windows.h>
+	<GL/gl.h>
+	<GL/glu.h>
+
+1254353242 d:\ufsm\disciplinas\computacao grafica avancada\programas\demos_gl 2.x\gl_2_transparencia\include\gl\gl.h
+
+1254353242 d:\ufsm\disciplinas\computacao grafica avancada\programas\demos_gl 2.x\gl_2_transparencia\include\gl\glu.h
+	<GL/gl.h>
+
+1461668147 source:d:\ufsm\disciplinas\computacao grafica avancada\programas\demos_gl 2.x\gl_2_transparencia\src\main.cpp
+	<GL/glut.h>
+	<stdio.h>
+	<stdlib.h>
+	"Bmp.h"
+	"tga.h"
+
+1346159670 d:\ufsm\disciplinas\computacao grafica avancada\programas\demos_gl 2.x\gl_2_transparencia\src\tga.h
+	<iostream>
+	<fstream>
+	<memory.h>
+
+1346174308 source:d:\ufsm\disciplinas\computacao grafica avancada\demos\demos_gl 2.x\gl_2_transparencia\src\bmp.cpp
+	"Bmp.h"
+
+1346174242 d:\ufsm\disciplinas\computacao grafica avancada\demos\demos_gl 2.x\gl_2_transparencia\src\bmp.h
+	<stdio.h>
+	<stdlib.h>
+	<GL/glut.h>
+
+924742106 d:\ufsm\disciplinas\computacao grafica avancada\demos\demos_gl 2.x\gl_2_transparencia\include\gl\glut.h
+	<windows.h>
+	<GL/gl.h>
+	<GL/glu.h>
+
+1254367642 d:\ufsm\disciplinas\computacao grafica avancada\demos\demos_gl 2.x\gl_2_transparencia\include\gl\gl.h
+
+1254367642 d:\ufsm\disciplinas\computacao grafica avancada\demos\demos_gl 2.x\gl_2_transparencia\include\gl\glu.h
+	<GL/gl.h>
+
+1627993172 source:d:\ufsm\disciplinas\computacao grafica avancada\demos\demos_gl 2.x\gl_2_transparencia\src\main.cpp
+	<GL/glut.h>
+	<stdio.h>
+	<stdlib.h>
+	"Bmp.h"
+	"tga.h"
+
+1346174070 d:\ufsm\disciplinas\computacao grafica avancada\demos\demos_gl 2.x\gl_2_transparencia\src\tga.h
+	<iostream>
+	<fstream>
+	<memory.h>
+

@@ -1,0 +1,264 @@
+# depslib dependency file v1.0
+1356351151 source:c:\ufsm\disciplinas\computacao grafica avancada\programas\glsl_5_light\src\main.cpp
+	<GL/glew.h>
+	<GL/glut.h>
+	<stdio.h>
+	<math.h>
+	"glsl.h"
+	"quadrado.h"
+	"global.h"
+	"util.h"
+
+1374502282 c:\ufsm\disciplinas\computacao grafica avancada\programas\glsl_5_light\include\gl\glew.h
+	<stddef.h>
+	<inttypes.h>
+	<stdint.h>
+	<inttypes.h>
+	<OpenGL/glu.h>
+	<GL/glu.h>
+
+1107052520 c:\ufsm\disciplinas\computacao grafica avancada\programas\glsl_5_light\include\gl\glu.h
+	<stddef.h>
+	<GL/gl.h>
+
+1107052520 c:\ufsm\disciplinas\computacao grafica avancada\programas\glsl_5_light\include\gl\gl.h
+
+924724106 c:\ufsm\disciplinas\computacao grafica avancada\programas\glsl_5_light\include\gl\glut.h
+	<windows.h>
+	<GL/gl.h>
+	<GL/glu.h>
+
+1356136771 c:\ufsm\disciplinas\computacao grafica avancada\programas\glsl_5_light\src\glsl.h
+	<GL/glew.h>
+	<GL/glut.h>
+	<stdio.h>
+	<stdlib.h>
+
+1356351151 c:\ufsm\disciplinas\computacao grafica avancada\programas\glsl_5_light\src\quadrado.h
+	<GL/glut.h>
+	"global.h"
+
+1356350617 c:\ufsm\disciplinas\computacao grafica avancada\programas\glsl_5_light\src\global.h
+
+1356351095 c:\ufsm\disciplinas\computacao grafica avancada\programas\glsl_5_light\src\util.h
+	<GL/glut.h>
+
+1356136764 source:c:\ufsm\disciplinas\computacao grafica avancada\programas\glsl_5_light\src\glsl.cpp
+	"glsl.h"
+
+1382016273 source:c:\ufsm\disciplinas\computacao grafica avancada\programas\glsl_8_light\src\main.cpp
+	<GL/glew.h>
+	<GL/glut.h>
+	<stdio.h>
+	<math.h>
+	"glsl.h"
+	"quadrado.h"
+	"global.h"
+	"util.h"
+
+1374502282 c:\ufsm\disciplinas\computacao grafica avancada\programas\glsl_8_light\include\gl\glew.h
+	<stddef.h>
+	<inttypes.h>
+	<stdint.h>
+	<inttypes.h>
+	<OpenGL/glu.h>
+	<GL/glu.h>
+
+1107052520 c:\ufsm\disciplinas\computacao grafica avancada\programas\glsl_8_light\include\gl\glu.h
+	<stddef.h>
+	<GL/gl.h>
+
+1107052520 c:\ufsm\disciplinas\computacao grafica avancada\programas\glsl_8_light\include\gl\gl.h
+
+924724106 c:\ufsm\disciplinas\computacao grafica avancada\programas\glsl_8_light\include\gl\glut.h
+	<windows.h>
+	<GL/gl.h>
+	<GL/glu.h>
+
+1356136771 c:\ufsm\disciplinas\computacao grafica avancada\programas\glsl_8_light\src\glsl.h
+	<GL/glew.h>
+	<GL/glut.h>
+	<stdio.h>
+	<stdlib.h>
+
+1356351151 c:\ufsm\disciplinas\computacao grafica avancada\programas\glsl_8_light\src\quadrado.h
+	<GL/glut.h>
+	"global.h"
+
+1356350617 c:\ufsm\disciplinas\computacao grafica avancada\programas\glsl_8_light\src\global.h
+
+1356351095 c:\ufsm\disciplinas\computacao grafica avancada\programas\glsl_8_light\src\util.h
+	<GL/glut.h>
+
+1356136764 source:c:\ufsm\disciplinas\computacao grafica avancada\programas\glsl_8_light\src\glsl.cpp
+	"glsl.h"
+
+1356136764 source:c:\ufsm\disciplinas\computacao grafica avancada\programas\glsl_9_light\src\glsl.cpp
+	"glsl.h"
+
+1356136771 c:\ufsm\disciplinas\computacao grafica avancada\programas\glsl_9_light\src\glsl.h
+	<GL/glew.h>
+	<GL/glut.h>
+	<stdio.h>
+	<stdlib.h>
+
+1374502282 c:\ufsm\disciplinas\computacao grafica avancada\programas\glsl_9_light\include\gl\glew.h
+	<stddef.h>
+	<inttypes.h>
+	<stdint.h>
+	<inttypes.h>
+	<OpenGL/glu.h>
+	<GL/glu.h>
+
+1107052520 c:\ufsm\disciplinas\computacao grafica avancada\programas\glsl_9_light\include\gl\glu.h
+	<stddef.h>
+	<GL/gl.h>
+
+1107052520 c:\ufsm\disciplinas\computacao grafica avancada\programas\glsl_9_light\include\gl\gl.h
+
+924724106 c:\ufsm\disciplinas\computacao grafica avancada\programas\glsl_9_light\include\gl\glut.h
+	<windows.h>
+	<GL/gl.h>
+	<GL/glu.h>
+
+1382016273 source:c:\ufsm\disciplinas\computacao grafica avancada\programas\glsl_9_light\src\main.cpp
+	<GL/glew.h>
+	<GL/glut.h>
+	<stdio.h>
+	<math.h>
+	"glsl.h"
+	"quadrado.h"
+	"global.h"
+	"util.h"
+
+1356351151 c:\ufsm\disciplinas\computacao grafica avancada\programas\glsl_9_light\src\quadrado.h
+	<GL/glut.h>
+	"global.h"
+
+1356350617 c:\ufsm\disciplinas\computacao grafica avancada\programas\glsl_9_light\src\global.h
+
+1356351095 c:\ufsm\disciplinas\computacao grafica avancada\programas\glsl_9_light\src\util.h
+	<GL/glut.h>
+
+1356136766 source:d:\ufsm\disciplinas\computacao grafica avancada\programas\glsl_9_light\src\glsl.cpp
+	"glsl.h"
+
+1356136772 d:\ufsm\disciplinas\computacao grafica avancada\programas\glsl_9_light\src\glsl.h
+	<GL/glew.h>
+	<GL/glut.h>
+	<stdio.h>
+	<stdlib.h>
+
+1374502282 d:\ufsm\disciplinas\computacao grafica avancada\programas\glsl_9_light\include\gl\glew.h
+	<stddef.h>
+	<inttypes.h>
+	<stdint.h>
+	<inttypes.h>
+	<OpenGL/glu.h>
+	<GL/glu.h>
+
+1107052520 d:\ufsm\disciplinas\computacao grafica avancada\programas\glsl_9_light\include\gl\glu.h
+	<stddef.h>
+	<GL/gl.h>
+
+1107052520 d:\ufsm\disciplinas\computacao grafica avancada\programas\glsl_9_light\include\gl\gl.h
+
+924724106 d:\ufsm\disciplinas\computacao grafica avancada\programas\glsl_9_light\include\gl\glut.h
+	<windows.h>
+	<GL/gl.h>
+	<GL/glu.h>
+
+1382016274 source:d:\ufsm\disciplinas\computacao grafica avancada\programas\glsl_9_light\src\main.cpp
+	<GL/glew.h>
+	<GL/glut.h>
+	<stdio.h>
+	<math.h>
+	"glsl.h"
+	"quadrado.h"
+	"global.h"
+	"util.h"
+
+1356351152 d:\ufsm\disciplinas\computacao grafica avancada\programas\glsl_9_light\src\quadrado.h
+	<GL/glut.h>
+	"global.h"
+
+1356350618 d:\ufsm\disciplinas\computacao grafica avancada\programas\glsl_9_light\src\global.h
+
+1356351096 d:\ufsm\disciplinas\computacao grafica avancada\programas\glsl_9_light\src\util.h
+	<GL/glut.h>
+
+1356136766 source:d:\ufsm\disciplinas\computacao grafica avancada\programas\demos_gl 3.x\glsl_6_light\src\glsl.cpp
+	"glsl.h"
+
+1356136772 d:\ufsm\disciplinas\computacao grafica avancada\programas\demos_gl 3.x\glsl_6_light\src\glsl.h
+	<GL/glew.h>
+	<GL/glut.h>
+	<stdio.h>
+	<stdlib.h>
+
+1374502282 d:\ufsm\disciplinas\computacao grafica avancada\programas\demos_gl 3.x\glsl_6_light\include\gl\glew.h
+	<stddef.h>
+	<inttypes.h>
+	<stdint.h>
+	<inttypes.h>
+	<OpenGL/glu.h>
+	<GL/glu.h>
+
+1107052520 d:\ufsm\disciplinas\computacao grafica avancada\programas\demos_gl 3.x\glsl_6_light\include\gl\glu.h
+	<stddef.h>
+	<GL/gl.h>
+
+1107052520 d:\ufsm\disciplinas\computacao grafica avancada\programas\demos_gl 3.x\glsl_6_light\include\gl\gl.h
+
+924724106 d:\ufsm\disciplinas\computacao grafica avancada\programas\demos_gl 3.x\glsl_6_light\include\gl\glut.h
+	<windows.h>
+	<GL/gl.h>
+	<GL/glu.h>
+
+1356158366 source:d:\ufsm\disciplinas\computacao grafica avancada\demos\demos_gl 3.x\glsl_6_light\src\glsl.cpp
+	"glsl.h"
+
+1356158372 d:\ufsm\disciplinas\computacao grafica avancada\demos\demos_gl 3.x\glsl_6_light\src\glsl.h
+	<GL/glew.h>
+	<GL/glut.h>
+	<stdio.h>
+	<stdlib.h>
+
+1374516682 d:\ufsm\disciplinas\computacao grafica avancada\demos\demos_gl 3.x\glsl_6_light\include\gl\glew.h
+	<stddef.h>
+	<inttypes.h>
+	<stdint.h>
+	<inttypes.h>
+	<OpenGL/glu.h>
+	<GL/glu.h>
+
+1107074120 d:\ufsm\disciplinas\computacao grafica avancada\demos\demos_gl 3.x\glsl_6_light\include\gl\glu.h
+	<stddef.h>
+	<GL/gl.h>
+
+1107074120 d:\ufsm\disciplinas\computacao grafica avancada\demos\demos_gl 3.x\glsl_6_light\include\gl\gl.h
+
+924738506 d:\ufsm\disciplinas\computacao grafica avancada\demos\demos_gl 3.x\glsl_6_light\include\gl\glut.h
+	<windows.h>
+	<GL/gl.h>
+	<GL/glu.h>
+
+1471036741 source:d:\ufsm\disciplinas\computacao grafica avancada\demos\demos_gl 3.x\glsl_6_light\src\main.cpp
+	<GL/glew.h>
+	<GL/glut.h>
+	<stdio.h>
+	<math.h>
+	"glsl.h"
+	"quadrado.h"
+	"global.h"
+	"util.h"
+
+1635164972 d:\ufsm\disciplinas\computacao grafica avancada\demos\demos_gl 3.x\glsl_6_light\src\quadrado.h
+	<GL/glut.h>
+	"global.h"
+
+1356372218 d:\ufsm\disciplinas\computacao grafica avancada\demos\demos_gl 3.x\glsl_6_light\src\global.h
+
+1356372696 d:\ufsm\disciplinas\computacao grafica avancada\demos\demos_gl 3.x\glsl_6_light\src\util.h
+	<GL/glut.h>
+

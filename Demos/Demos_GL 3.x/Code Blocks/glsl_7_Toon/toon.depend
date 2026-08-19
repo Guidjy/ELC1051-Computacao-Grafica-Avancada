@@ -1,0 +1,38 @@
+# depslib dependency file v1.0
+1258650210 source:d:\ufsm\disciplinas\computacao grafica avancada\demos\demos_gl 3.x\glsl_7_toon\src\glsl.cpp
+	"glsl.h"
+
+1258650180 d:\ufsm\disciplinas\computacao grafica avancada\demos\demos_gl 3.x\glsl_7_toon\src\glsl.h
+	<GL/glew.h>
+	<GL/glut.h>
+	<stdio.h>
+	<stdlib.h>
+
+1374516682 d:\ufsm\disciplinas\computacao grafica avancada\demos\demos_gl 3.x\glsl_7_toon\include\gl\glew.h
+	<stddef.h>
+	<inttypes.h>
+	<stdint.h>
+	<inttypes.h>
+	<OpenGL/glu.h>
+	<GL/glu.h>
+
+1107074120 d:\ufsm\disciplinas\computacao grafica avancada\demos\demos_gl 3.x\glsl_7_toon\include\gl\glu.h
+	<stddef.h>
+	<GL/gl.h>
+
+1107074120 d:\ufsm\disciplinas\computacao grafica avancada\demos\demos_gl 3.x\glsl_7_toon\include\gl\gl.h
+
+924738506 d:\ufsm\disciplinas\computacao grafica avancada\demos\demos_gl 3.x\glsl_7_toon\include\gl\glut.h
+	<windows.h>
+	<GL/gl.h>
+	<GL/glu.h>
+
+1635165876 source:d:\ufsm\disciplinas\computacao grafica avancada\demos\demos_gl 3.x\glsl_7_toon\src\main.cpp
+	<GL/glew.h>
+	<GL/glut.h>
+	<stdio.h>
+	<stdlib.h>
+	<math.h>
+	<ctype.h>
+	"glsl.h"
+
