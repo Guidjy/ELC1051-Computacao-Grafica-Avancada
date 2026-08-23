@@ -1,0 +1,14 @@
+{
+    "version": 1,
+    "revision": 0,
+    "rules": [
+        {
+            "primary-output": "..\\..\\__obj\\glsl.obj",
+            "outputs": [
+                "..\\..\\__obj\\glsl.cpp.obj.dt.module.json",
+                "..\\..\\__obj\\glsl.cpp.obj.dt.d.json"
+            ],
+            "requires": []
+        }
+    ]
+}

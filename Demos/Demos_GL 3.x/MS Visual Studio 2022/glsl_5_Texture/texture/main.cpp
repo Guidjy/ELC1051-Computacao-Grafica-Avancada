@@ -28,6 +28,9 @@ GLint loc_u_texture_1;  //local da variavel texture do arquivo tex.frag
 GLint loc_u_bright;     //local da variavel bright do arquivo tex.frag
 
 float brilho = 0;
+float mouseX = 0.0f;
+float mouseY = 0.0f;
+int windowHeight = 600;
 
 Bmp *img1, *img2;
 unsigned char *data1, *data2;
@@ -110,6 +113,14 @@ void display(void)
    glUniform1i(loc_u_texture_0, 0);
    glUniform1i(loc_u_texture_1, 1);
 
+   // pega localização em memória da uniforme "mouse" no GPU
+   GLint mouseLocation = shader1->getUniformLoc("mouse");
+   // manda a posição do mouse no CPU para o GPU
+   if (mouseLocation != -1)
+   {
+       glUniform2f(mouseLocation, mouseX, mouseY);
+   }
+
    glNormal3f(0, 1, 0);
    glBegin(GL_QUADS);
 
@@ -140,6 +151,12 @@ void reshape (int w, int h)
    glLoadIdentity();
 }
 
+void mouseMotion(int x, int y)
+{
+    mouseX = (float)x;
+    // inverte eixo Y: GLUT seta (0, 0) no top-left, mas o OpenGL seta (0, 0) no bottom-left
+    mouseY = (float)(windowHeight - y);
+}
 
 int main(int argc, char** argv)
 {
@@ -151,6 +168,8 @@ int main(int argc, char** argv)
    glutDisplayFunc(display);
    glutIdleFunc(display);
    glutReshapeFunc(reshape);
+   glutPassiveMotionFunc(mouseMotion);
+   glutMotionFunc(mouseMotion);
 
    //neste caso, o glsl deve ser inicializado antes do gl para poder chamar o
    //comando  glActiveTexture();
