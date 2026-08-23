@@ -1,0 +1,8 @@
+﻿  cpp-smallpt.cpp
+D:\UFSM\Disciplinas\Computacao Grafica Avancada\Demos\Demo_C++ Path Tracing\VisualStudio\cpp-smallpt\cpp-smallpt\src\cpp-smallpt.cpp(171,26): warning C4100: 'argv': parâmetro formal não referenciado
+D:\UFSM\Disciplinas\Computacao Grafica Avancada\Demos\Demo_C++ Path Tracing\VisualStudio\cpp-smallpt\cpp-smallpt\src\cpp-smallpt.cpp(171,14): warning C4100: 'argc': parâmetro formal não referenciado
+  Gerando código
+  Previous IPDB not found, fall back to full compilation.
+  All 95 functions were compiled because no usable IPDB/IOBJ from previous compilation was found.
+  Finalizada a geração de código
+  cpp-smallpt.vcxproj -> D:\UFSM\Disciplinas\Computacao Grafica Avancada\Demos\Demo_C++ Path Tracing\VisualStudio\cpp-smallpt\cpp-smallpt\bin\x64\Release\cpp-smallpt.exe

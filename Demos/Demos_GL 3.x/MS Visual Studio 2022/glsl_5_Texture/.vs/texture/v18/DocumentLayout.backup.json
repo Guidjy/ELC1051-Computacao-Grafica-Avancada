@@ -1,0 +1,37 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\UFSM\\6\\ELC1051-Computacao-Grafica-Avancada\\Demos\\Demos_GL 3.x\\MS Visual Studio 2022\\glsl_5_Texture\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{C8AB5709-970E-49EB-A735-EB47E3D4E683}|texture\\GLut.vcxproj|C:\\UFSM\\6\\ELC1051-Computacao-Grafica-Avancada\\Demos\\Demos_GL 3.x\\MS Visual Studio 2022\\glsl_5_Texture\\texture\\main.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{C8AB5709-970E-49EB-A735-EB47E3D4E683}|texture\\GLut.vcxproj|solutionrelative:texture\\main.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "main.cpp",
+              "DocumentMoniker": "C:\\UFSM\\6\\ELC1051-Computacao-Grafica-Avancada\\Demos\\Demos_GL 3.x\\MS Visual Studio 2022\\glsl_5_Texture\\texture\\main.cpp",
+              "RelativeDocumentMoniker": "texture\\main.cpp",
+              "ToolTip": "C:\\UFSM\\6\\ELC1051-Computacao-Grafica-Avancada\\Demos\\Demos_GL 3.x\\MS Visual Studio 2022\\glsl_5_Texture\\texture\\main.cpp",
+              "RelativeToolTip": "texture\\main.cpp",
+              "ViewState": "AgIAAG8AAAAAAAAAAAAAAHkAAAAZAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2026-08-23T14:07:50.609Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

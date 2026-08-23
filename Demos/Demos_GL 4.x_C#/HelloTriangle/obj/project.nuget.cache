@@ -1,0 +1,13 @@
+{
+  "version": 2,
+  "dgSpecHash": "sVyhk5A5pLQ=",
+  "success": true,
+  "projectFilePath": "D:\\UFSM\\Disciplinas\\Computacao Grafica Avancada\\Demos\\Demos_GL 4.x_C#\\HelloTriangle\\HelloTriangle.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Servidor 02\\.nuget\\packages\\microsoft.windowsdesktop.app.ref\\6.0.36\\microsoft.windowsdesktop.app.ref.6.0.36.nupkg.sha512",
+    "C:\\Users\\Servidor 02\\.nuget\\packages\\microsoft.netcore.app.ref\\6.0.36\\microsoft.netcore.app.ref.6.0.36.nupkg.sha512",
+    "C:\\Users\\Servidor 02\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\6.0.36\\microsoft.aspnetcore.app.ref.6.0.36.nupkg.sha512",
+    "C:\\Users\\Servidor 02\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\6.0.36\\microsoft.netcore.app.host.win-x64.6.0.36.nupkg.sha512"
+  ],
+  "logs": []
+}

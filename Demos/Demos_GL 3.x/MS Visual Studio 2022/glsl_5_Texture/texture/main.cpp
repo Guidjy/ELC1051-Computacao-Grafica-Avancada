@@ -116,13 +116,13 @@ void display(void)
       glTexCoord2f(0, 0);
       glVertex3f(-2, -2,  -10);
 
-      glTexCoord2f(2, 0);
+      glTexCoord2f(1, 0);
 	  glVertex3f(2, -2,   -10);
 
-      glTexCoord2f(2, 2);
+      glTexCoord2f(1, 1);
       glVertex3f(2, 2,  -10);
 
-      glTexCoord2f(0, 2);
+      glTexCoord2f(0, 1);
       glVertex3f(-2, 2, -10);
    glEnd();
 
