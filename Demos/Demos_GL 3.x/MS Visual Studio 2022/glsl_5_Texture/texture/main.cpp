@@ -22,6 +22,8 @@
 
 #define RECT_SIZE 10
 
+const double PI = 3.14159265358979323846;
+
 //variaveis uniform
 GLint loc_u_texture_0;  //local da variavel texture do arquivo tex.frag
 GLint loc_u_texture_1;  //local da variavel texture do arquivo tex.frag
@@ -31,6 +33,8 @@ float brilho = 0;
 float mouseX = 0.0f;
 float mouseY = 0.0f;
 int windowHeight = 600;
+
+float rotationAngle = 0.0;
 
 Bmp *img1, *img2;
 unsigned char *data1, *data2;
@@ -120,6 +124,15 @@ void display(void)
    {
        glUniform2f(mouseLocation, mouseX, mouseY);
    }
+
+   GLint rotationOffsetLocation = shader1->getUniformLoc("rotationAngle");
+   if (rotationOffsetLocation != -1)
+   {
+       glUniform1f(rotationOffsetLocation, rotationAngle);
+   }
+
+   rotationAngle += 0.01;
+   if (rotationAngle >= PI * 2) rotationAngle = 0.0;
 
    glNormal3f(0, 1, 0);
    glBegin(GL_QUADS);
