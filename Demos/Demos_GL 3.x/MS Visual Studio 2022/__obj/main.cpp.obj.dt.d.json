@@ -1,16 +1,16 @@
 {
     "Version": "1.2",
     "Data": {
-        "Source": "c:\\ufsm\\6\\elc1051-computacao-grafica-avancada\\demos\\demos_gl 3.x\\ms visual studio 2022\\glsl_5_texture\\texture\\main.cpp",
+        "Source": "e:\\elc1051-computacao-grafica-avancada\\demos\\demos_gl 3.x\\ms visual studio 2022\\glsl_5_texture\\texture\\main.cpp",
         "ProvidedModule": "",
         "Includes": [
-            "c:\\ufsm\\6\\elc1051-computacao-grafica-avancada\\demos\\demos_gl 3.x\\ms visual studio 2022\\dependencies\\glew\\include\\gl\\glew.h",
+            "e:\\elc1051-computacao-grafica-avancada\\demos\\demos_gl 3.x\\ms visual studio 2022\\dependencies\\glew\\include\\gl\\glew.h",
             "c:\\program files (x86)\\windows kits\\10\\include\\10.0.26100.0\\um\\gl\\glu.h",
             "c:\\program files (x86)\\windows kits\\10\\include\\10.0.26100.0\\shared\\winapifamily.h",
             "c:\\program files (x86)\\windows kits\\10\\include\\10.0.26100.0\\shared\\winpackagefamily.h",
             "c:\\program files (x86)\\windows kits\\10\\include\\10.0.26100.0\\um\\gl\\gl.h",
-            "c:\\ufsm\\6\\elc1051-computacao-grafica-avancada\\demos\\demos_gl 3.x\\ms visual studio 2022\\dependencies\\freeglut\\include\\gl\\glut.h",
-            "c:\\ufsm\\6\\elc1051-computacao-grafica-avancada\\demos\\demos_gl 3.x\\ms visual studio 2022\\dependencies\\freeglut\\include\\gl\\freeglut_std.h",
+            "e:\\elc1051-computacao-grafica-avancada\\demos\\demos_gl 3.x\\ms visual studio 2022\\dependencies\\freeglut\\include\\gl\\glut.h",
+            "e:\\elc1051-computacao-grafica-avancada\\demos\\demos_gl 3.x\\ms visual studio 2022\\dependencies\\freeglut\\include\\gl\\freeglut_std.h",
             "c:\\program files (x86)\\windows kits\\10\\include\\10.0.26100.0\\um\\windows.h",
             "c:\\program files (x86)\\windows kits\\10\\include\\10.0.26100.0\\shared\\sdkddkver.h",
             "c:\\program files\\microsoft visual studio\\18\\community\\vc\\tools\\msvc\\14.44.35207\\include\\excpt.h",
@@ -142,8 +142,8 @@
             "c:\\program files (x86)\\windows kits\\10\\include\\10.0.26100.0\\ucrt\\corecrt_stdio_config.h",
             "c:\\program files (x86)\\windows kits\\10\\include\\10.0.26100.0\\ucrt\\math.h",
             "c:\\program files (x86)\\windows kits\\10\\include\\10.0.26100.0\\ucrt\\corecrt_math.h",
-            "c:\\ufsm\\6\\elc1051-computacao-grafica-avancada\\demos\\demos_gl 3.x\\ms visual studio 2022\\glsl_5_texture\\texture\\bmp.h",
-            "c:\\ufsm\\6\\elc1051-computacao-grafica-avancada\\demos\\demos_gl 3.x\\ms visual studio 2022\\glsl_5_texture\\texture\\glsl.h"
+            "e:\\elc1051-computacao-grafica-avancada\\demos\\demos_gl 3.x\\ms visual studio 2022\\glsl_5_texture\\texture\\bmp.h",
+            "e:\\elc1051-computacao-grafica-avancada\\demos\\demos_gl 3.x\\ms visual studio 2022\\glsl_5_texture\\texture\\glsl.h"
         ],
         "ImportedModules": [],
         "ImportedHeaderUnits": []

@@ -33,6 +33,7 @@ float brilho = 0;
 float mouseX = 0.0f;
 float mouseY = 0.0f;
 int windowHeight = 600;
+int pressedKey;
 
 float rotationAngle = 0.0;
 
@@ -125,6 +126,12 @@ void display(void)
        glUniform2f(mouseLocation, mouseX, mouseY);
    }
 
+   GLint pressedKeyLocation = shader1->getUniformLoc("pressedKey");
+   if (pressedKeyLocation != -1)
+   {
+       glUniform1i(pressedKeyLocation, pressedKey);
+   }
+
    GLint rotationOffsetLocation = shader1->getUniformLoc("rotationAngle");
    if (rotationOffsetLocation != -1)
    {
@@ -171,6 +178,11 @@ void mouseMotion(int x, int y)
     mouseY = (float)(windowHeight - y);
 }
 
+void keyboard(unsigned char key, int x, int y)
+{
+    pressedKey = (int)key;
+}
+
 int main(int argc, char** argv)
 {
    glutInit(&argc, argv);
@@ -183,6 +195,7 @@ int main(int argc, char** argv)
    glutReshapeFunc(reshape);
    glutPassiveMotionFunc(mouseMotion);
    glutMotionFunc(mouseMotion);
+   glutKeyboardFunc(keyboard);
 
    //neste caso, o glsl deve ser inicializado antes do gl para poder chamar o
    //comando  glActiveTexture();
