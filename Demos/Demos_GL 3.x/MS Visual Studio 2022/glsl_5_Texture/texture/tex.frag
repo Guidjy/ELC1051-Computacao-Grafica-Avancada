@@ -190,6 +190,48 @@ void main()
         //gl_FragColor = texture2D(texture, position).rgba;
         gl_FragColor = vec4(cor);
     }
+    else if (pressedKey == 56)
+    {
+        // lanterna
+        vec2 position = gl_TexCoord[0].st;
+        vec3 cor = texture2D(texture_0, position).rgb;
+        cor = clamp(cor, 0.0, 1.0); 
+
+        float r = 50.0;
+
+        if (distance(vec2(gl_FragCoord.x, gl_FragCoord.y), mouse) > r)
+        {
+            cor = vec3(0, 0, 0);
+        }
+   
+        //gl_FragColor = texture2D(texture, position).rgba;
+        gl_FragColor = vec4( cor, 1);
+    }
+    else if (pressedKey == 57)
+    {
+        // lupa
+        vec2 position = gl_TexCoord[0].st;
+        vec3 cor = texture2D(texture_0, position).rgb;
+        cor = clamp(cor, 0.0, 1.0); 
+
+        float r = 0.2;
+        float zoom = 10.0;
+
+        vec2 mouseUV = vec2(mouse.x / 600.0, mouse.y / 600.0);
+        float d = distance(position, mouseUV);
+
+        if (d < r)
+        {
+            vec2 magnifiedUV = mouseUV + (position - mouseUV) / zoom;
+            cor = texture2D(texture_0, magnifiedUV).rgb;
+        }
+        else
+        {
+            cor = texture2D(texture_0, position).rgb;
+        }
+
+        gl_FragColor = vec4( cor, 1);
+    }
     else
     {
         // og -=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=--=-=-=-=-=-=-=-=-=-=-=-
