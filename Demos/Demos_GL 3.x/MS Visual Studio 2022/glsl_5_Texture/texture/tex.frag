@@ -6,6 +6,7 @@ uniform float     brilho;
 uniform vec2 mouse;
 uniform int pressedKey;
 uniform float rotationAngle;
+uniform float zoom;
 
 varying float  x_coord;
 varying float  y_coord;
@@ -215,7 +216,6 @@ void main()
         cor = clamp(cor, 0.0, 1.0); 
 
         float r = 0.2;
-        float zoom = 10.0;
 
         vec2 mouseUV = vec2(mouse.x / 600.0, mouse.y / 600.0);
         float d = distance(position, mouseUV);

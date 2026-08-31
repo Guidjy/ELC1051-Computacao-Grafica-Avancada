@@ -1,10 +1,7 @@
-﻿  Bmp.cpp
-  glsl.cpp
-  main.cpp
-C:\UFSM\6\ELC1051-Computacao-Grafica-Avancada\Demos\Demos_GL 3.x\MS Visual Studio 2022\glsl_5_Texture\texture\main.cpp(114,31): warning C4305: '+=': truncation from 'double' to 'float'
-C:\UFSM\6\ELC1051-Computacao-Grafica-Avancada\Demos\Demos_GL 3.x\MS Visual Studio 2022\glsl_5_Texture\texture\main.cpp(114,16): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
-C:\UFSM\6\ELC1051-Computacao-Grafica-Avancada\Demos\Demos_GL 3.x\MS Visual Studio 2022\glsl_5_Texture\texture\main.cpp(141,21): warning C4305: '+=': truncation from 'double' to 'float'
-  Generating Code...
-  GLut.vcxproj -> C:\UFSM\6\ELC1051-Computacao-Grafica-Avancada\Demos\Demos_GL 3.x\MS Visual Studio 2022\__bin\texture.exe
+﻿  main.cpp
+E:\ELC1051-Computacao-Grafica-Avancada\Demos\Demos_GL 3.x\MS Visual Studio 2022\glsl_5_Texture\texture\main.cpp(115,31): warning C4305: '+=': truncation from 'double' to 'float'
+E:\ELC1051-Computacao-Grafica-Avancada\Demos\Demos_GL 3.x\MS Visual Studio 2022\glsl_5_Texture\texture\main.cpp(115,16): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+E:\ELC1051-Computacao-Grafica-Avancada\Demos\Demos_GL 3.x\MS Visual Studio 2022\glsl_5_Texture\texture\main.cpp(148,21): warning C4305: '+=': truncation from 'double' to 'float'
+  GLut.vcxproj -> E:\ELC1051-Computacao-Grafica-Avancada\Demos\Demos_GL 3.x\MS Visual Studio 2022\__bin\texture.exe
           1 file(s) copied.
           1 file(s) copied.

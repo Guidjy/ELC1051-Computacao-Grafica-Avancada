@@ -34,6 +34,7 @@ float mouseX = 0.0f;
 float mouseY = 0.0f;
 int windowHeight = 600;
 int pressedKey;
+float zoom = 2.0f;
 
 float rotationAngle = 0.0;
 
@@ -138,6 +139,12 @@ void display(void)
        glUniform1f(rotationOffsetLocation, rotationAngle);
    }
 
+   GLint zoomLocation = shader1->getUniformLoc("zoom");
+   if (zoomLocation != -1)
+   {
+       glUniform1f(zoomLocation, zoom);
+   }
+
    rotationAngle += 0.01;
    if (rotationAngle >= PI * 2) rotationAngle = 0.0;
 
@@ -178,6 +185,25 @@ void mouseMotion(int x, int y)
     mouseY = (float)(windowHeight - y);
 }
 
+void mouseClick(int button, int state, int x, int y)
+{
+    if (state == GLUT_DOWN)
+    {
+        switch (button)
+        {
+        case 3:  // scroll up
+            zoom += 0.5;
+            break;
+        case 4:  // scroll down
+            zoom -= 0.5;
+            if (zoom < 1.0) zoom = 1.0;
+            break;
+        default:
+            break;
+        }
+    }
+}
+
 void keyboard(unsigned char key, int x, int y)
 {
     pressedKey = (int)key;
@@ -195,6 +221,7 @@ int main(int argc, char** argv)
    glutReshapeFunc(reshape);
    glutPassiveMotionFunc(mouseMotion);
    glutMotionFunc(mouseMotion);
+   glutMouseFunc(mouseClick);
    glutKeyboardFunc(keyboard);
 
    //neste caso, o glsl deve ser inicializado antes do gl para poder chamar o
