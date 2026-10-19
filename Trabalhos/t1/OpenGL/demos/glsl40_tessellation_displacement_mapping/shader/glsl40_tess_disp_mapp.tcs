@@ -1,0 +1,44 @@
+// Tessellation Control Shader
+//
+// Neste estágio é definido o número de subdivisões para cada aresta e para o centro do Quad.
+// Lembrete: o Tessellation Control Shader é executado para cada vértice do Patch. Isto faz com que
+// o gl_TessLevelOuter e o gl_TessLevelInner sejam setados 4 vezes por Patch (nosso patch possui
+// 4 vértices). É possível utilizar o gl_InvocationID (id único para cada vértice do patch) para modificar
+// essas variáveis apenas uma vez por Patch.
+//
+// Após este estágio a GPU irá gerar novos vértices que seram alimentados para o Tessellation
+// Evaluation Shader.
+//
+// Abril 2016 - Alex Frasson - afrasson@inf.ufsm.br
+
+#version 400
+
+layout(vertices = 4) out;
+
+uniform int TessLevel;
+
+in vec2 vTexCoord[];
+in vec4 vPosition[];
+
+out vec2 tcTexCoord[];
+out vec4 tcPosition[];
+
+#define ID gl_InvocationID
+
+void main()
+{
+	// Precisamos passar adiante os vértices e suas informações
+	tcTexCoord[ID] = vTexCoord[ID];
+	tcPosition[ID] = vPosition[ID];
+
+	// Vamos modificar o inner e outer apenas para o primeiro vértice do Patch
+	if (ID == 0)
+	{
+		gl_TessLevelOuter[0] = float(TessLevel);
+		gl_TessLevelOuter[1] = float(TessLevel);
+		gl_TessLevelOuter[2] = float(TessLevel);
+		gl_TessLevelOuter[3] = float(TessLevel);
+		gl_TessLevelInner[0] = float(TessLevel);
+		gl_TessLevelInner[1] = float(TessLevel);
+	}
+}

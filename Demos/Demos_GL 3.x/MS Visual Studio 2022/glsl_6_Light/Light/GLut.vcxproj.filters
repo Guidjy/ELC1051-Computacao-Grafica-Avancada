@@ -30,4 +30,12 @@
       <Filter>Arquivos de Origem</Filter>
     </ClInclude>
   </ItemGroup>
+  <ItemGroup>
+    <None Include="tex.frag">
+      <Filter>Arquivos de Origem</Filter>
+    </None>
+    <None Include="tex.vert">
+      <Filter>Arquivos de Origem</Filter>
+    </None>
+  </ItemGroup>
 </Project>

@@ -1,0 +1,160 @@
+﻿  glslprogram.cpp
+  GLUtils.cpp
+  main.cpp
+  TessellatedQuad.cpp
+C:\UFSM\6\ELC1051-Computacao-Grafica-Avancada\Demos\Demos_GL 4.x\include\glm\detail\type_vec2.hpp(64,11): warning C4201: nonstandard extension used: nameless struct/union
+  (compiling source file 'src/TessellatedQuad.cpp')
+      C:\UFSM\6\ELC1051-Computacao-Grafica-Avancada\Demos\Demos_GL 4.x\include\glm\detail\type_vec2.hpp(64,11):
+      the template instantiation context (the oldest one first) is
+          C:\UFSM\6\ELC1051-Computacao-Grafica-Avancada\Demos\Demos_GL 4.x\include\glm\detail\type_vec2.hpp(49,9):
+          while compiling class template 'glm::tvec2'
+  
+C:\UFSM\6\ELC1051-Computacao-Grafica-Avancada\Demos\Demos_GL 4.x\include\glm\detail\type_vec2.hpp(65,11): warning C4201: nonstandard extension used: nameless struct/union
+  (compiling source file 'src/TessellatedQuad.cpp')
+  
+C:\UFSM\6\ELC1051-Computacao-Grafica-Avancada\Demos\Demos_GL 4.x\include\glm\detail\type_vec2.hpp(66,11): warning C4201: nonstandard extension used: nameless struct/union
+  (compiling source file 'src/TessellatedQuad.cpp')
+  
+C:\UFSM\6\ELC1051-Computacao-Grafica-Avancada\Demos\Demos_GL 4.x\include\glm\detail\type_vec3.hpp(64,11): warning C4201: nonstandard extension used: nameless struct/union
+  (compiling source file 'src/TessellatedQuad.cpp')
+      C:\UFSM\6\ELC1051-Computacao-Grafica-Avancada\Demos\Demos_GL 4.x\include\glm\detail\type_vec3.hpp(64,11):
+      the template instantiation context (the oldest one first) is
+          C:\UFSM\6\ELC1051-Computacao-Grafica-Avancada\Demos\Demos_GL 4.x\include\glm\detail\type_vec3.hpp(49,9):
+          while compiling class template 'glm::tvec3'
+  
+C:\UFSM\6\ELC1051-Computacao-Grafica-Avancada\Demos\Demos_GL 4.x\include\glm\detail\type_vec3.hpp(65,11): warning C4201: nonstandard extension used: nameless struct/union
+  (compiling source file 'src/TessellatedQuad.cpp')
+  
+C:\UFSM\6\ELC1051-Computacao-Grafica-Avancada\Demos\Demos_GL 4.x\include\glm\detail\type_vec3.hpp(66,11): warning C4201: nonstandard extension used: nameless struct/union
+  (compiling source file 'src/TessellatedQuad.cpp')
+  
+C:\UFSM\6\ELC1051-Computacao-Grafica-Avancada\Demos\Demos_GL 4.x\include\glm\detail\type_vec4.hpp(118,12): warning C4201: nonstandard extension used: nameless struct/union
+  (compiling source file 'src/TessellatedQuad.cpp')
+      C:\UFSM\6\ELC1051-Computacao-Grafica-Avancada\Demos\Demos_GL 4.x\include\glm\detail\type_vec4.hpp(118,12):
+      the template instantiation context (the oldest one first) is
+          C:\UFSM\6\ELC1051-Computacao-Grafica-Avancada\Demos\Demos_GL 4.x\include\glm\detail\type_vec4.hpp(103,9):
+          while compiling class template 'glm::tvec4'
+  
+C:\UFSM\6\ELC1051-Computacao-Grafica-Avancada\Demos\Demos_GL 4.x\include\glm\detail\type_vec4.hpp(119,12): warning C4201: nonstandard extension used: nameless struct/union
+  (compiling source file 'src/TessellatedQuad.cpp')
+  
+C:\UFSM\6\ELC1051-Computacao-Grafica-Avancada\Demos\Demos_GL 4.x\include\glm\detail\type_vec4.hpp(120,12): warning C4201: nonstandard extension used: nameless struct/union
+  (compiling source file 'src/TessellatedQuad.cpp')
+  
+C:\UFSM\6\ELC1051-Computacao-Grafica-Avancada\Demos\Demos_GL 4.x\include\glm\detail\type_vec2.hpp(64,11): warning C4201: nonstandard extension used: nameless struct/union
+  (compiling source file '../../utils/glslprogram.cpp')
+      C:\UFSM\6\ELC1051-Computacao-Grafica-Avancada\Demos\Demos_GL 4.x\include\glm\detail\type_vec2.hpp(64,11):
+      the template instantiation context (the oldest one first) is
+          C:\UFSM\6\ELC1051-Computacao-Grafica-Avancada\Demos\Demos_GL 4.x\include\glm\detail\type_vec2.hpp(49,9):
+          while compiling class template 'glm::tvec2'
+  
+C:\UFSM\6\ELC1051-Computacao-Grafica-Avancada\Demos\Demos_GL 4.x\include\glm\detail\type_vec2.hpp(65,11): warning C4201: nonstandard extension used: nameless struct/union
+  (compiling source file '../../utils/glslprogram.cpp')
+  
+C:\UFSM\6\ELC1051-Computacao-Grafica-Avancada\Demos\Demos_GL 4.x\include\glm\detail\type_vec2.hpp(66,11): warning C4201: nonstandard extension used: nameless struct/union
+  (compiling source file '../../utils/glslprogram.cpp')
+  
+C:\UFSM\6\ELC1051-Computacao-Grafica-Avancada\Demos\Demos_GL 4.x\include\glm\detail\type_vec3.hpp(64,11): warning C4201: nonstandard extension used: nameless struct/union
+  (compiling source file '../../utils/glslprogram.cpp')
+      C:\UFSM\6\ELC1051-Computacao-Grafica-Avancada\Demos\Demos_GL 4.x\include\glm\detail\type_vec3.hpp(64,11):
+      the template instantiation context (the oldest one first) is
+          C:\UFSM\6\ELC1051-Computacao-Grafica-Avancada\Demos\Demos_GL 4.x\include\glm\detail\type_vec3.hpp(49,9):
+          while compiling class template 'glm::tvec3'
+  
+C:\UFSM\6\ELC1051-Computacao-Grafica-Avancada\Demos\Demos_GL 4.x\include\glm\detail\type_vec3.hpp(65,11): warning C4201: nonstandard extension used: nameless struct/union
+  (compiling source file '../../utils/glslprogram.cpp')
+  
+C:\UFSM\6\ELC1051-Computacao-Grafica-Avancada\Demos\Demos_GL 4.x\include\glm\detail\type_vec3.hpp(66,11): warning C4201: nonstandard extension used: nameless struct/union
+  (compiling source file '../../utils/glslprogram.cpp')
+  
+C:\UFSM\6\ELC1051-Computacao-Grafica-Avancada\Demos\Demos_GL 4.x\include\glm\detail\type_vec4.hpp(118,12): warning C4201: nonstandard extension used: nameless struct/union
+  (compiling source file '../../utils/glslprogram.cpp')
+      C:\UFSM\6\ELC1051-Computacao-Grafica-Avancada\Demos\Demos_GL 4.x\include\glm\detail\type_vec4.hpp(118,12):
+      the template instantiation context (the oldest one first) is
+          C:\UFSM\6\ELC1051-Computacao-Grafica-Avancada\Demos\Demos_GL 4.x\include\glm\detail\type_vec4.hpp(103,9):
+          while compiling class template 'glm::tvec4'
+  
+C:\UFSM\6\ELC1051-Computacao-Grafica-Avancada\Demos\Demos_GL 4.x\include\glm\detail\type_vec4.hpp(119,12): warning C4201: nonstandard extension used: nameless struct/union
+  (compiling source file '../../utils/glslprogram.cpp')
+  
+C:\UFSM\6\ELC1051-Computacao-Grafica-Avancada\Demos\Demos_GL 4.x\include\glm\detail\type_vec4.hpp(120,12): warning C4201: nonstandard extension used: nameless struct/union
+  (compiling source file '../../utils/glslprogram.cpp')
+  
+C:\UFSM\6\ELC1051-Computacao-Grafica-Avancada\Demos\Demos_GL 4.x\utils\GLUtils.cpp(10,68): warning C4100: 'param': unreferenced parameter
+C:\UFSM\6\ELC1051-Computacao-Grafica-Avancada\Demos\Demos_GL 4.x\utils\GLUtils.cpp(10,27): warning C4100: 'length': unreferenced parameter
+C:\UFSM\6\ELC1051-Computacao-Grafica-Avancada\Demos\Demos_GL 4.x\utils\glslprogram.h(56,34): warning C4100: 'other': unreferenced parameter
+  (compiling source file 'src/TessellatedQuad.cpp')
+  
+C:\UFSM\6\ELC1051-Computacao-Grafica-Avancada\Demos\Demos_GL 4.x\utils\glslprogram.h(57,45): warning C4100: 'other': unreferenced parameter
+  (compiling source file 'src/TessellatedQuad.cpp')
+  
+C:\UFSM\6\ELC1051-Computacao-Grafica-Avancada\Demos\Demos_GL 4.x\utils\glslprogram.h(56,34): warning C4100: 'other': unreferenced parameter
+  (compiling source file '../../utils/glslprogram.cpp')
+  
+C:\UFSM\6\ELC1051-Computacao-Grafica-Avancada\Demos\Demos_GL 4.x\utils\glslprogram.h(57,45): warning C4100: 'other': unreferenced parameter
+  (compiling source file '../../utils/glslprogram.cpp')
+  
+C:\UFSM\6\ELC1051-Computacao-Grafica-Avancada\Demos\Demos_GL 4.x\include\glm\detail\type_vec2.hpp(64,11): warning C4201: nonstandard extension used: nameless struct/union
+  (compiling source file 'src/main.cpp')
+      C:\UFSM\6\ELC1051-Computacao-Grafica-Avancada\Demos\Demos_GL 4.x\include\glm\detail\type_vec2.hpp(64,11):
+      the template instantiation context (the oldest one first) is
+          C:\UFSM\6\ELC1051-Computacao-Grafica-Avancada\Demos\Demos_GL 4.x\include\glm\detail\type_vec2.hpp(49,9):
+          while compiling class template 'glm::tvec2'
+  
+C:\UFSM\6\ELC1051-Computacao-Grafica-Avancada\Demos\Demos_GL 4.x\include\glm\detail\type_vec2.hpp(65,11): warning C4201: nonstandard extension used: nameless struct/union
+  (compiling source file 'src/main.cpp')
+  
+C:\UFSM\6\ELC1051-Computacao-Grafica-Avancada\Demos\Demos_GL 4.x\include\glm\detail\type_vec2.hpp(66,11): warning C4201: nonstandard extension used: nameless struct/union
+  (compiling source file 'src/main.cpp')
+  
+C:\UFSM\6\ELC1051-Computacao-Grafica-Avancada\Demos\Demos_GL 4.x\include\glm\detail\type_vec3.hpp(64,11): warning C4201: nonstandard extension used: nameless struct/union
+  (compiling source file 'src/main.cpp')
+      C:\UFSM\6\ELC1051-Computacao-Grafica-Avancada\Demos\Demos_GL 4.x\include\glm\detail\type_vec3.hpp(64,11):
+      the template instantiation context (the oldest one first) is
+          C:\UFSM\6\ELC1051-Computacao-Grafica-Avancada\Demos\Demos_GL 4.x\include\glm\detail\type_vec3.hpp(49,9):
+          while compiling class template 'glm::tvec3'
+  
+C:\UFSM\6\ELC1051-Computacao-Grafica-Avancada\Demos\Demos_GL 4.x\include\glm\detail\type_vec3.hpp(65,11): warning C4201: nonstandard extension used: nameless struct/union
+  (compiling source file 'src/main.cpp')
+  
+C:\UFSM\6\ELC1051-Computacao-Grafica-Avancada\Demos\Demos_GL 4.x\include\glm\detail\type_vec3.hpp(66,11): warning C4201: nonstandard extension used: nameless struct/union
+  (compiling source file 'src/main.cpp')
+  
+C:\UFSM\6\ELC1051-Computacao-Grafica-Avancada\Demos\Demos_GL 4.x\include\glm\detail\type_vec4.hpp(118,12): warning C4201: nonstandard extension used: nameless struct/union
+  (compiling source file 'src/main.cpp')
+      C:\UFSM\6\ELC1051-Computacao-Grafica-Avancada\Demos\Demos_GL 4.x\include\glm\detail\type_vec4.hpp(118,12):
+      the template instantiation context (the oldest one first) is
+          C:\UFSM\6\ELC1051-Computacao-Grafica-Avancada\Demos\Demos_GL 4.x\include\glm\detail\type_vec4.hpp(103,9):
+          while compiling class template 'glm::tvec4'
+  
+C:\UFSM\6\ELC1051-Computacao-Grafica-Avancada\Demos\Demos_GL 4.x\include\glm\detail\type_vec4.hpp(119,12): warning C4201: nonstandard extension used: nameless struct/union
+  (compiling source file 'src/main.cpp')
+  
+C:\UFSM\6\ELC1051-Computacao-Grafica-Avancada\Demos\Demos_GL 4.x\include\glm\detail\type_vec4.hpp(120,12): warning C4201: nonstandard extension used: nameless struct/union
+  (compiling source file 'src/main.cpp')
+  
+C:\UFSM\6\ELC1051-Computacao-Grafica-Avancada\Demos\Demos_GL 4.x\demos\glsl40_tessellation_basic\src\TessellatedQuad.cpp(55,37): warning C4100: 'deltaTime': unreferenced parameter
+C:\UFSM\6\ELC1051-Computacao-Grafica-Avancada\Demos\Demos_GL 4.x\demos\glsl40_tessellation_basic\src\TessellatedQuad.cpp(183,41): warning C4100: 'y': unreferenced parameter
+C:\UFSM\6\ELC1051-Computacao-Grafica-Avancada\Demos\Demos_GL 4.x\demos\glsl40_tessellation_basic\src\TessellatedQuad.cpp(183,34): warning C4100: 'x': unreferenced parameter
+C:\UFSM\6\ELC1051-Computacao-Grafica-Avancada\Demos\Demos_GL 4.x\utils\glslprogram.h(56,34): warning C4100: 'other': unreferenced parameter
+  (compiling source file 'src/main.cpp')
+  
+C:\UFSM\6\ELC1051-Computacao-Grafica-Avancada\Demos\Demos_GL 4.x\utils\glslprogram.h(57,45): warning C4100: 'other': unreferenced parameter
+  (compiling source file 'src/main.cpp')
+  
+C:\UFSM\6\ELC1051-Computacao-Grafica-Avancada\Demos\Demos_GL 4.x\demos\glsl40_tessellation_basic\src\main.cpp(56,24): warning C4100: 'error': unreferenced parameter
+C:\UFSM\6\ELC1051-Computacao-Grafica-Avancada\Demos\Demos_GL 4.x\demos\glsl40_tessellation_basic\src\main.cpp(62,30): warning C4459: declaration of 'window' hides global declaration
+      C:\UFSM\6\ELC1051-Computacao-Grafica-Avancada\Demos\Demos_GL 4.x\demos\glsl40_tessellation_basic\src\main.cpp(31,13):
+      see declaration of 'window'
+  
+C:\UFSM\6\ELC1051-Computacao-Grafica-Avancada\Demos\Demos_GL 4.x\demos\glsl40_tessellation_basic\src\main.cpp(62,77): warning C4100: 'mods': unreferenced parameter
+C:\UFSM\6\ELC1051-Computacao-Grafica-Avancada\Demos\Demos_GL 4.x\demos\glsl40_tessellation_basic\src\main.cpp(62,51): warning C4100: 'scancode': unreferenced parameter
+C:\UFSM\6\ELC1051-Computacao-Grafica-Avancada\Demos\Demos_GL 4.x\demos\glsl40_tessellation_basic\src\main.cpp(135,39): warning C4316: 'TessellatedQuad': object allocated on the heap may not be aligned 16
+LINK : warning LNK4098: defaultlib 'MSVCRT' conflicts with use of other libs; use /NODEFAULTLIB:library
+  glsl40_tessellation_basic.vcxproj -> C:\UFSM\6\ELC1051-Computacao-Grafica-Avancada\Demos\Demos_GL 4.x\bin\glsl40_tessellation_basic.exe
+  compying shaders
+  C:\UFSM\6\ELC1051-Computacao-Grafica-Avancada\Demos\Demos_GL 4.x\demos\glsl40_tessellation_basic\shader\glsl40_basic_tess.frag
+  C:\UFSM\6\ELC1051-Computacao-Grafica-Avancada\Demos\Demos_GL 4.x\demos\glsl40_tessellation_basic\shader\glsl40_basic_tess.tcs
+  C:\UFSM\6\ELC1051-Computacao-Grafica-Avancada\Demos\Demos_GL 4.x\demos\glsl40_tessellation_basic\shader\glsl40_basic_tess.tes
+  C:\UFSM\6\ELC1051-Computacao-Grafica-Avancada\Demos\Demos_GL 4.x\demos\glsl40_tessellation_basic\shader\glsl40_basic_tess.vert
+  4 File(s) copied

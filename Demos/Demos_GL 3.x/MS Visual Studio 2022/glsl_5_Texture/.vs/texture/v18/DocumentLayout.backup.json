@@ -1,13 +1,13 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "E:\\ELC1051-Computacao-Grafica-Avancada\\Demos\\Demos_GL 3.x\\MS Visual Studio 2022\\glsl_5_Texture\\",
+  "WorkspaceRootPath": "C:\\UFSM\\6\\ELC1051-Computacao-Grafica-Avancada\\Demos\\Demos_GL 3.x\\MS Visual Studio 2022\\glsl_5_Texture\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{C8AB5709-970E-49EB-A735-EB47E3D4E683}|texture\\GLut.vcxproj|E:\\ELC1051-Computacao-Grafica-Avancada\\Demos\\Demos_GL 3.x\\MS Visual Studio 2022\\glsl_5_Texture\\texture\\main.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "AbsoluteMoniker": "D:0:0:{C8AB5709-970E-49EB-A735-EB47E3D4E683}|texture\\GLut.vcxproj|C:\\UFSM\\6\\ELC1051-Computacao-Grafica-Avancada\\Demos\\Demos_GL 3.x\\MS Visual Studio 2022\\glsl_5_Texture\\texture\\main.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{C8AB5709-970E-49EB-A735-EB47E3D4E683}|texture\\GLut.vcxproj|solutionrelative:texture\\main.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{C8AB5709-970E-49EB-A735-EB47E3D4E683}|texture\\GLut.vcxproj|E:\\ELC1051-Computacao-Grafica-Avancada\\Demos\\Demos_GL 3.x\\MS Visual Studio 2022\\glsl_5_Texture\\texture\\tex.frag||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "AbsoluteMoniker": "D:0:0:{C8AB5709-970E-49EB-A735-EB47E3D4E683}|texture\\GLut.vcxproj|C:\\UFSM\\6\\ELC1051-Computacao-Grafica-Avancada\\Demos\\Demos_GL 3.x\\MS Visual Studio 2022\\glsl_5_Texture\\texture\\tex.frag||{8B382828-6202-11D1-8870-0000F87579D2}",
       "RelativeMoniker": "D:0:0:{C8AB5709-970E-49EB-A735-EB47E3D4E683}|texture\\GLut.vcxproj|solutionrelative:texture\\tex.frag||{8B382828-6202-11D1-8870-0000F87579D2}"
     }
   ],
@@ -18,49 +18,17 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 8,
+          "SelectedChildIndex": 0,
           "Children": [
-            {
-              "$type": "Bookmark",
-              "Name": "ST:132:0:{13b12e3e-c1b4-4539-9371-4fe9a0d523fc}"
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:133:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:128:0:{13b12e3e-c1b4-4539-9371-4fe9a0d523fc}"
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:129:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:129:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:130:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:131:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:129:0:{13b12e3e-c1b4-4539-9371-4fe9a0d523fc}"
-            },
             {
               "$type": "Document",
               "DocumentIndex": 0,
               "Title": "main.cpp",
-              "DocumentMoniker": "E:\\ELC1051-Computacao-Grafica-Avancada\\Demos\\Demos_GL 3.x\\MS Visual Studio 2022\\glsl_5_Texture\\texture\\main.cpp",
+              "DocumentMoniker": "C:\\UFSM\\6\\ELC1051-Computacao-Grafica-Avancada\\Demos\\Demos_GL 3.x\\MS Visual Studio 2022\\glsl_5_Texture\\texture\\main.cpp",
               "RelativeDocumentMoniker": "texture\\main.cpp",
-              "ToolTip": "E:\\ELC1051-Computacao-Grafica-Avancada\\Demos\\Demos_GL 3.x\\MS Visual Studio 2022\\glsl_5_Texture\\texture\\main.cpp",
+              "ToolTip": "C:\\UFSM\\6\\ELC1051-Computacao-Grafica-Avancada\\Demos\\Demos_GL 3.x\\MS Visual Studio 2022\\glsl_5_Texture\\texture\\main.cpp",
               "RelativeToolTip": "texture\\main.cpp",
-              "ViewState": "AgIAAK0AAAAAAAAAAAAiwMUAAAAXAAAAAAAAAA==",
+              "ViewState": "AgIAAK4AAAAAAAAAAAAgwMAAAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
               "WhenOpened": "2026-08-23T14:07:50.609Z",
               "EditorCaption": ""
@@ -69,14 +37,13 @@
               "$type": "Document",
               "DocumentIndex": 1,
               "Title": "tex.frag",
-              "DocumentMoniker": "E:\\ELC1051-Computacao-Grafica-Avancada\\Demos\\Demos_GL 3.x\\MS Visual Studio 2022\\glsl_5_Texture\\texture\\tex.frag",
+              "DocumentMoniker": "C:\\UFSM\\6\\ELC1051-Computacao-Grafica-Avancada\\Demos\\Demos_GL 3.x\\MS Visual Studio 2022\\glsl_5_Texture\\texture\\tex.frag",
               "RelativeDocumentMoniker": "texture\\tex.frag",
-              "ToolTip": "E:\\ELC1051-Computacao-Grafica-Avancada\\Demos\\Demos_GL 3.x\\MS Visual Studio 2022\\glsl_5_Texture\\texture\\tex.frag",
+              "ToolTip": "C:\\UFSM\\6\\ELC1051-Computacao-Grafica-Avancada\\Demos\\Demos_GL 3.x\\MS Visual Studio 2022\\glsl_5_Texture\\texture\\tex.frag",
               "RelativeToolTip": "texture\\tex.frag",
               "ViewState": "AgIAABUAAAAAAAAAAAAAAAgAAAASAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
-              "WhenOpened": "2026-08-23T14:34:22.683Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-08-23T14:34:22.683Z"
             }
           ]
         }

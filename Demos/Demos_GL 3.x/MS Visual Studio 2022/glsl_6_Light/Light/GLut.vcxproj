@@ -26,6 +26,10 @@
     <ClInclude Include="glsl.h" />
     <ClInclude Include="MyGL.h" />
   </ItemGroup>
+  <ItemGroup>
+    <None Include="tex.frag" />
+    <None Include="tex.vert" />
+  </ItemGroup>
   <PropertyGroup Label="Globals">
     <VCProjectVersion>17.0</VCProjectVersion>
     <Keyword>Win32Proj</Keyword>

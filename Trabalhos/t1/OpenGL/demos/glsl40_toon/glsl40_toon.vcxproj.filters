@@ -1,0 +1,28 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="..\..\utils\glslprogram.cpp" />
+    <ClCompile Include="..\..\utils\GLUtils.cpp" />
+    <ClCompile Include="..\..\utils\TextureManager.cpp" />
+    <ClCompile Include="src\main.cpp" />
+    <ClCompile Include="src\Sphere.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\utils\GLUtils.h" />
+    <ClInclude Include="..\..\utils\TextureManager.h" />
+    <ClInclude Include="src\Sphere.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="shader\glsl40_toon.frag">
+      <Filter>shaders</Filter>
+    </None>
+    <None Include="shader\glsl40_toon.vert">
+      <Filter>shaders</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="shaders">
+      <UniqueIdentifier>{9694a283-b4d6-4ff3-affc-701e7ca3e73b}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

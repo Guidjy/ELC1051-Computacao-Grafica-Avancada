@@ -1,7 +1,12 @@
-﻿  main.cpp
-E:\ELC1051-Computacao-Grafica-Avancada\Demos\Demos_GL 3.x\MS Visual Studio 2022\glsl_5_Texture\texture\main.cpp(115,31): warning C4305: '+=': truncation from 'double' to 'float'
-E:\ELC1051-Computacao-Grafica-Avancada\Demos\Demos_GL 3.x\MS Visual Studio 2022\glsl_5_Texture\texture\main.cpp(115,16): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
-E:\ELC1051-Computacao-Grafica-Avancada\Demos\Demos_GL 3.x\MS Visual Studio 2022\glsl_5_Texture\texture\main.cpp(148,21): warning C4305: '+=': truncation from 'double' to 'float'
-  GLut.vcxproj -> E:\ELC1051-Computacao-Grafica-Avancada\Demos\Demos_GL 3.x\MS Visual Studio 2022\__bin\texture.exe
+﻿C:\Program Files\Microsoft Visual Studio\18\Community\MSBuild\Microsoft\VC\v170\Microsoft.CppBuild.targets(538,5): warning MSB8028: The intermediate directory (..\..\__obj\) contains files shared from another project (Light.vcxproj, texture.vcxproj).  This can lead to incorrect clean and rebuild behavior.
+  glsl.cpp
+  main.cpp
+  Generating Code...
+C:\UFSM\6\ELC1051-Computacao-Grafica-Avancada\Demos\Demos_GL 3.x\MS Visual Studio 2022\glsl_7_Toon\Toon\main.cpp(68,11): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+C:\UFSM\6\ELC1051-Computacao-Grafica-Avancada\Demos\Demos_GL 3.x\MS Visual Studio 2022\glsl_7_Toon\Toon\main.cpp(69,11): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+C:\UFSM\6\ELC1051-Computacao-Grafica-Avancada\Demos\Demos_GL 3.x\MS Visual Studio 2022\glsl_7_Toon\Toon\main.cpp(72,9): warning C4305: '+=': truncation from 'double' to 'float'
+C:\UFSM\6\ELC1051-Computacao-Grafica-Avancada\Demos\Demos_GL 3.x\MS Visual Studio 2022\glsl_7_Toon\Toon\main.cpp(108,9): warning C4244: '=': conversion from 'int' to 'float', possible loss of data
+C:\UFSM\6\ELC1051-Computacao-Grafica-Avancada\Demos\Demos_GL 3.x\MS Visual Studio 2022\glsl_7_Toon\Toon\main.cpp(109,9): warning C4244: '=': conversion from 'int' to 'float', possible loss of data
+  GLut.vcxproj -> C:\UFSM\6\ELC1051-Computacao-Grafica-Avancada\Demos\Demos_GL 3.x\MS Visual Studio 2022\__bin\Toon.exe
           1 file(s) copied.
           1 file(s) copied.

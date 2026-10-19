@@ -1,0 +1,33 @@
+# Visual Studio local state (IntelliSense caches can be 100+ MB)
+.vs/
+*.ipch
+*.VC.db
+*.VC.db-*
+*.db
+*.db-wal
+*.db-shm
+*.sqlite
+*.opendb
+*.vsdix
+*.suo
+*.user
+
+# Build output
+x64/
+Debug/
+Release/
+__obj/
+*.obj
+*.ilk
+*.pdb
+*.idb
+*.tlog
+*.exp
+*.iobj
+*.ipdb
+
+# Archives and large generated files
+*.zip
+*.rar
+*.7z
+*.ppm

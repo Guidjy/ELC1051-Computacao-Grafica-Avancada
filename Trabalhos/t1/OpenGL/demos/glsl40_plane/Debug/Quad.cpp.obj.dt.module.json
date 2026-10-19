@@ -1,0 +1,14 @@
+{
+    "version": 1,
+    "revision": 0,
+    "rules": [
+        {
+            "primary-output": "C:\\Users\\guipp\\Desktop\\cga\\Demos\\Demos_GL 4.x\\demos\\glsl40_plane\\Debug\\Quad.obj",
+            "outputs": [
+                "C:\\Users\\guipp\\Desktop\\cga\\Demos\\Demos_GL 4.x\\demos\\glsl40_plane\\Debug\\Quad.cpp.obj.dt.module.json",
+                "C:\\Users\\guipp\\Desktop\\cga\\Demos\\Demos_GL 4.x\\demos\\glsl40_plane\\Debug\\Quad.cpp.obj.dt.d.json"
+            ],
+            "requires": []
+        }
+    ]
+}

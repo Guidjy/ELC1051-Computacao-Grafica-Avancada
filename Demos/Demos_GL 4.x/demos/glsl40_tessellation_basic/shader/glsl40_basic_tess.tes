@@ -25,9 +25,9 @@ void main()
 
 	// Linear interpolation
 	gl_Position =
-	    p0 * (1-u) * (1-v) +
-	    p1 * u * (1-v) +
-	    p3 * v * (1-u) +
+	    p0 * pow((1-u), 2) * sqrt((1-v)) +
+	    p1 * u * sqrt((1-v)) +
+	    p3 * v * pow((1-u), 2) +
 	    p2 * u * v;
 
 	// Transform to clip coordinates

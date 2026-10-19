@@ -1,0 +1,14 @@
+{
+    "version": 1,
+    "revision": 0,
+    "rules": [
+        {
+            "primary-output": "C:\\UFSM\\6\\ELC1051-Computacao-Grafica-Avancada\\Trabalhos\\t2\\demos\\glsl40_plane\\Debug\\CardanJoint.obj",
+            "outputs": [
+                "C:\\UFSM\\6\\ELC1051-Computacao-Grafica-Avancada\\Trabalhos\\t2\\demos\\glsl40_plane\\Debug\\CardanJoint.h.obj.dt.module.json",
+                "C:\\UFSM\\6\\ELC1051-Computacao-Grafica-Avancada\\Trabalhos\\t2\\demos\\glsl40_plane\\Debug\\CardanJoint.h.obj.dt.d.json"
+            ],
+            "requires": []
+        }
+    ]
+}

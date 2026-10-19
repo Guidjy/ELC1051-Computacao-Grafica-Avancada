@@ -1,0 +1,29 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="..\..\utils\glslprogram.cpp" />
+    <ClCompile Include="..\..\utils\GLUtils.cpp" />
+    <ClCompile Include="src\main.cpp" />
+    <ClCompile Include="src\PointSprites.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\utils\GLUtils.h" />
+    <ClInclude Include="src\PointSprites.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="shaders">
+      <UniqueIdentifier>{c3228efe-c7e6-43fc-9629-4e8c687f872e}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="shader\glsl40_point_sprites.frag">
+      <Filter>shaders</Filter>
+    </None>
+    <None Include="shader\glsl40_point_sprites.vert">
+      <Filter>shaders</Filter>
+    </None>
+    <None Include="shader\glsl40_point_sprites.geom">
+      <Filter>shaders</Filter>
+    </None>
+  </ItemGroup>
+</Project>

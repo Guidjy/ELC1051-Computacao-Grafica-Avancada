@@ -1,0 +1,14 @@
+{
+    "version": 1,
+    "revision": 0,
+    "rules": [
+        {
+            "primary-output": "..\\..\\__obj\\gl_canvas2d.obj",
+            "outputs": [
+                "..\\..\\__obj\\gl_canvas2d.h.obj.dt.module.json",
+                "..\\..\\__obj\\gl_canvas2d.h.obj.dt.d.json"
+            ],
+            "requires": []
+        }
+    ]
+}

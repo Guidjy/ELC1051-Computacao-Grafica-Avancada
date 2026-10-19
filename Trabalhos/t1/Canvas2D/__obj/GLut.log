@@ -1,0 +1,10 @@
+﻿C:\Program Files\Microsoft Visual Studio\18\Community\MSBuild\Microsoft\VC\v180\Microsoft.CppBuild.targets(551,5): warning MSB8028: The intermediate directory (..\..\__obj\) contains files shared from another project (Glut.vcxproj).  This can lead to incorrect clean and rebuild behavior.
+  main.cpp
+C:\UFSM\6\ELC1051-Computacao-Grafica-Avancada\Trabalhos\t1\Canvas2D\gamma_correction\CanvasGlut\main.cpp(45,34): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+C:\UFSM\6\ELC1051-Computacao-Grafica-Avancada\Trabalhos\t1\Canvas2D\gamma_correction\CanvasGlut\main.cpp(45,21): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+C:\UFSM\6\ELC1051-Computacao-Grafica-Avancada\Trabalhos\t1\Canvas2D\gamma_correction\CanvasGlut\main.cpp(47,11): warning C4244: 'initializing': conversion from 'int' to 'float', possible loss of data
+C:\UFSM\6\ELC1051-Computacao-Grafica-Avancada\Trabalhos\t1\Canvas2D\gamma_correction\CanvasGlut\main.cpp(48,13): warning C4244: 'initializing': conversion from 'int' to 'float', possible loss of data
+C:\UFSM\6\ELC1051-Computacao-Grafica-Avancada\Trabalhos\t1\Canvas2D\gamma_correction\CanvasGlut\main.cpp(52,20): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+C:\UFSM\6\ELC1051-Computacao-Grafica-Avancada\Trabalhos\t1\Canvas2D\gamma_correction\CanvasGlut\main.cpp(56,38): warning C4305: 'argument': truncation from 'double' to 'float'
+  GLut.vcxproj -> C:\UFSM\6\ELC1051-Computacao-Grafica-Avancada\Trabalhos\t1\Canvas2D\__bin\CanvasGlut.exe
+          1 file(s) copied.

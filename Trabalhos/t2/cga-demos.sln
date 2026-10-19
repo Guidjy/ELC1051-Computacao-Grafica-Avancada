@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 18
+VisualStudioVersion = 18.9.12120.119 stable
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "glsl40_plane", "demos\glsl40_plane\glsl40_plane.vcxproj", "{D6B0A0FD-080A-400F-9D68-913E88E79C91}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x86 = Debug|x86
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{D6B0A0FD-080A-400F-9D68-913E88E79C91}.Debug|x86.ActiveCfg = Debug|Win32
+		{D6B0A0FD-080A-400F-9D68-913E88E79C91}.Debug|x86.Build.0 = Debug|Win32
+		{D6B0A0FD-080A-400F-9D68-913E88E79C91}.Release|x86.ActiveCfg = Release|Win32
+		{D6B0A0FD-080A-400F-9D68-913E88E79C91}.Release|x86.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {35E386F2-37D7-41BC-8AD9-BDE7C4D91D77}
+	EndGlobalSection
+EndGlobal

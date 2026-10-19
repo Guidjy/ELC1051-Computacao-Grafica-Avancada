@@ -1,0 +1,32 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="..\..\utils\glslprogram.cpp" />
+    <ClCompile Include="src\main.cpp" />
+    <ClCompile Include="src\TessellatedQuad.cpp" />
+    <ClCompile Include="..\..\utils\GLUtils.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="src\TessellatedQuad.h" />
+    <ClInclude Include="..\..\utils\GLUtils.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="shader\glsl40_basic_tess.frag">
+      <Filter>Shaders</Filter>
+    </None>
+    <None Include="shader\glsl40_basic_tess.tcs">
+      <Filter>Shaders</Filter>
+    </None>
+    <None Include="shader\glsl40_basic_tess.tes">
+      <Filter>Shaders</Filter>
+    </None>
+    <None Include="shader\glsl40_basic_tess.vert">
+      <Filter>Shaders</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Shaders">
+      <UniqueIdentifier>{f2aef097-7697-4034-8265-9a4a0e41e12d}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

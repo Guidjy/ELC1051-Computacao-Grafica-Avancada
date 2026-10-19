@@ -1,0 +1,152 @@
+﻿  glslprogram.cpp
+  CardanJoint.cpp
+  LineMesh.cpp
+  main.cpp
+C:\UFSM\6\ELC1051-Computacao-Grafica-Avancada\Trabalhos\t2\include\glm\detail\type_vec3.hpp(64,11): warning C4201: nonstandard extension used: nameless struct/union
+  (compiling source file 'src/CardanJoint.cpp')
+      C:\UFSM\6\ELC1051-Computacao-Grafica-Avancada\Trabalhos\t2\include\glm\detail\type_vec3.hpp(64,11):
+      the template instantiation context (the oldest one first) is
+          C:\UFSM\6\ELC1051-Computacao-Grafica-Avancada\Trabalhos\t2\include\glm\detail\type_vec3.hpp(49,9):
+          while compiling class template 'glm::tvec3'
+  
+C:\UFSM\6\ELC1051-Computacao-Grafica-Avancada\Trabalhos\t2\include\glm\detail\type_vec3.hpp(65,11): warning C4201: nonstandard extension used: nameless struct/union
+  (compiling source file 'src/CardanJoint.cpp')
+  
+C:\UFSM\6\ELC1051-Computacao-Grafica-Avancada\Trabalhos\t2\include\glm\detail\type_vec3.hpp(66,11): warning C4201: nonstandard extension used: nameless struct/union
+  (compiling source file 'src/CardanJoint.cpp')
+  
+C:\UFSM\6\ELC1051-Computacao-Grafica-Avancada\Trabalhos\t2\include\glm\detail\type_vec4.hpp(118,12): warning C4201: nonstandard extension used: nameless struct/union
+  (compiling source file 'src/CardanJoint.cpp')
+      C:\UFSM\6\ELC1051-Computacao-Grafica-Avancada\Trabalhos\t2\include\glm\detail\type_vec4.hpp(118,12):
+      the template instantiation context (the oldest one first) is
+          C:\UFSM\6\ELC1051-Computacao-Grafica-Avancada\Trabalhos\t2\include\glm\detail\type_vec4.hpp(103,9):
+          while compiling class template 'glm::tvec4'
+  
+C:\UFSM\6\ELC1051-Computacao-Grafica-Avancada\Trabalhos\t2\include\glm\detail\type_vec4.hpp(119,12): warning C4201: nonstandard extension used: nameless struct/union
+  (compiling source file 'src/CardanJoint.cpp')
+  
+C:\UFSM\6\ELC1051-Computacao-Grafica-Avancada\Trabalhos\t2\include\glm\detail\type_vec4.hpp(120,12): warning C4201: nonstandard extension used: nameless struct/union
+  (compiling source file 'src/CardanJoint.cpp')
+  
+C:\UFSM\6\ELC1051-Computacao-Grafica-Avancada\Trabalhos\t2\include\glm\detail\type_vec3.hpp(64,11): warning C4201: nonstandard extension used: nameless struct/union
+  (compiling source file 'src/LineMesh.cpp')
+      C:\UFSM\6\ELC1051-Computacao-Grafica-Avancada\Trabalhos\t2\include\glm\detail\type_vec3.hpp(64,11):
+      the template instantiation context (the oldest one first) is
+          C:\UFSM\6\ELC1051-Computacao-Grafica-Avancada\Trabalhos\t2\include\glm\detail\type_vec3.hpp(49,9):
+          while compiling class template 'glm::tvec3'
+  
+C:\UFSM\6\ELC1051-Computacao-Grafica-Avancada\Trabalhos\t2\include\glm\detail\type_vec3.hpp(65,11): warning C4201: nonstandard extension used: nameless struct/union
+  (compiling source file 'src/LineMesh.cpp')
+  
+C:\UFSM\6\ELC1051-Computacao-Grafica-Avancada\Trabalhos\t2\include\glm\detail\type_vec3.hpp(66,11): warning C4201: nonstandard extension used: nameless struct/union
+  (compiling source file 'src/LineMesh.cpp')
+  
+C:\UFSM\6\ELC1051-Computacao-Grafica-Avancada\Trabalhos\t2\include\glm\detail\type_vec3.hpp(64,11): warning C4201: nonstandard extension used: nameless struct/union
+  (compiling source file 'src/main.cpp')
+      C:\UFSM\6\ELC1051-Computacao-Grafica-Avancada\Trabalhos\t2\include\glm\detail\type_vec3.hpp(64,11):
+      the template instantiation context (the oldest one first) is
+          C:\UFSM\6\ELC1051-Computacao-Grafica-Avancada\Trabalhos\t2\include\glm\detail\type_vec3.hpp(49,9):
+          while compiling class template 'glm::tvec3'
+  
+C:\UFSM\6\ELC1051-Computacao-Grafica-Avancada\Trabalhos\t2\include\glm\detail\type_vec3.hpp(65,11): warning C4201: nonstandard extension used: nameless struct/union
+  (compiling source file 'src/main.cpp')
+  
+C:\UFSM\6\ELC1051-Computacao-Grafica-Avancada\Trabalhos\t2\include\glm\detail\type_vec3.hpp(66,11): warning C4201: nonstandard extension used: nameless struct/union
+  (compiling source file 'src/main.cpp')
+  
+C:\UFSM\6\ELC1051-Computacao-Grafica-Avancada\Trabalhos\t2\include\glm\detail\type_vec4.hpp(118,12): warning C4201: nonstandard extension used: nameless struct/union
+  (compiling source file 'src/main.cpp')
+      C:\UFSM\6\ELC1051-Computacao-Grafica-Avancada\Trabalhos\t2\include\glm\detail\type_vec4.hpp(118,12):
+      the template instantiation context (the oldest one first) is
+          C:\UFSM\6\ELC1051-Computacao-Grafica-Avancada\Trabalhos\t2\include\glm\detail\type_vec4.hpp(103,9):
+          while compiling class template 'glm::tvec4'
+  
+C:\UFSM\6\ELC1051-Computacao-Grafica-Avancada\Trabalhos\t2\include\glm\detail\type_vec4.hpp(119,12): warning C4201: nonstandard extension used: nameless struct/union
+  (compiling source file 'src/main.cpp')
+  
+C:\UFSM\6\ELC1051-Computacao-Grafica-Avancada\Trabalhos\t2\include\glm\detail\type_vec4.hpp(120,12): warning C4201: nonstandard extension used: nameless struct/union
+  (compiling source file 'src/main.cpp')
+  
+C:\UFSM\6\ELC1051-Computacao-Grafica-Avancada\Trabalhos\t2\include\glm\detail\type_vec2.hpp(64,11): warning C4201: nonstandard extension used: nameless struct/union
+  (compiling source file 'src/CardanJoint.cpp')
+      C:\UFSM\6\ELC1051-Computacao-Grafica-Avancada\Trabalhos\t2\include\glm\detail\type_vec2.hpp(64,11):
+      the template instantiation context (the oldest one first) is
+          C:\UFSM\6\ELC1051-Computacao-Grafica-Avancada\Trabalhos\t2\include\glm\detail\type_vec2.hpp(49,9):
+          while compiling class template 'glm::tvec2'
+  
+C:\UFSM\6\ELC1051-Computacao-Grafica-Avancada\Trabalhos\t2\include\glm\detail\type_vec2.hpp(65,11): warning C4201: nonstandard extension used: nameless struct/union
+  (compiling source file 'src/CardanJoint.cpp')
+  
+C:\UFSM\6\ELC1051-Computacao-Grafica-Avancada\Trabalhos\t2\include\glm\detail\type_vec2.hpp(66,11): warning C4201: nonstandard extension used: nameless struct/union
+  (compiling source file 'src/CardanJoint.cpp')
+  
+C:\UFSM\6\ELC1051-Computacao-Grafica-Avancada\Trabalhos\t2\include\glm\detail\type_vec2.hpp(64,11): warning C4201: nonstandard extension used: nameless struct/union
+  (compiling source file 'src/main.cpp')
+      C:\UFSM\6\ELC1051-Computacao-Grafica-Avancada\Trabalhos\t2\include\glm\detail\type_vec2.hpp(64,11):
+      the template instantiation context (the oldest one first) is
+          C:\UFSM\6\ELC1051-Computacao-Grafica-Avancada\Trabalhos\t2\include\glm\detail\type_vec2.hpp(49,9):
+          while compiling class template 'glm::tvec2'
+  
+C:\UFSM\6\ELC1051-Computacao-Grafica-Avancada\Trabalhos\t2\include\glm\detail\type_vec2.hpp(65,11): warning C4201: nonstandard extension used: nameless struct/union
+  (compiling source file 'src/main.cpp')
+  
+C:\UFSM\6\ELC1051-Computacao-Grafica-Avancada\Trabalhos\t2\include\glm\detail\type_vec2.hpp(66,11): warning C4201: nonstandard extension used: nameless struct/union
+  (compiling source file 'src/main.cpp')
+  
+C:\UFSM\6\ELC1051-Computacao-Grafica-Avancada\Trabalhos\t2\include\glm\detail\type_vec2.hpp(64,11): warning C4201: nonstandard extension used: nameless struct/union
+  (compiling source file '../../utils/glslprogram.cpp')
+      C:\UFSM\6\ELC1051-Computacao-Grafica-Avancada\Trabalhos\t2\include\glm\detail\type_vec2.hpp(64,11):
+      the template instantiation context (the oldest one first) is
+          C:\UFSM\6\ELC1051-Computacao-Grafica-Avancada\Trabalhos\t2\include\glm\detail\type_vec2.hpp(49,9):
+          while compiling class template 'glm::tvec2'
+  
+C:\UFSM\6\ELC1051-Computacao-Grafica-Avancada\Trabalhos\t2\include\glm\detail\type_vec2.hpp(65,11): warning C4201: nonstandard extension used: nameless struct/union
+  (compiling source file '../../utils/glslprogram.cpp')
+  
+C:\UFSM\6\ELC1051-Computacao-Grafica-Avancada\Trabalhos\t2\include\glm\detail\type_vec2.hpp(66,11): warning C4201: nonstandard extension used: nameless struct/union
+  (compiling source file '../../utils/glslprogram.cpp')
+  
+C:\UFSM\6\ELC1051-Computacao-Grafica-Avancada\Trabalhos\t2\include\glm\detail\type_vec3.hpp(64,11): warning C4201: nonstandard extension used: nameless struct/union
+  (compiling source file '../../utils/glslprogram.cpp')
+      C:\UFSM\6\ELC1051-Computacao-Grafica-Avancada\Trabalhos\t2\include\glm\detail\type_vec3.hpp(64,11):
+      the template instantiation context (the oldest one first) is
+          C:\UFSM\6\ELC1051-Computacao-Grafica-Avancada\Trabalhos\t2\include\glm\detail\type_vec3.hpp(49,9):
+          while compiling class template 'glm::tvec3'
+  
+C:\UFSM\6\ELC1051-Computacao-Grafica-Avancada\Trabalhos\t2\include\glm\detail\type_vec3.hpp(65,11): warning C4201: nonstandard extension used: nameless struct/union
+  (compiling source file '../../utils/glslprogram.cpp')
+  
+C:\UFSM\6\ELC1051-Computacao-Grafica-Avancada\Trabalhos\t2\include\glm\detail\type_vec3.hpp(66,11): warning C4201: nonstandard extension used: nameless struct/union
+  (compiling source file '../../utils/glslprogram.cpp')
+  
+C:\UFSM\6\ELC1051-Computacao-Grafica-Avancada\Trabalhos\t2\include\glm\detail\type_vec4.hpp(118,12): warning C4201: nonstandard extension used: nameless struct/union
+  (compiling source file '../../utils/glslprogram.cpp')
+      C:\UFSM\6\ELC1051-Computacao-Grafica-Avancada\Trabalhos\t2\include\glm\detail\type_vec4.hpp(118,12):
+      the template instantiation context (the oldest one first) is
+          C:\UFSM\6\ELC1051-Computacao-Grafica-Avancada\Trabalhos\t2\include\glm\detail\type_vec4.hpp(103,9):
+          while compiling class template 'glm::tvec4'
+  
+C:\UFSM\6\ELC1051-Computacao-Grafica-Avancada\Trabalhos\t2\include\glm\detail\type_vec4.hpp(119,12): warning C4201: nonstandard extension used: nameless struct/union
+  (compiling source file '../../utils/glslprogram.cpp')
+  
+C:\UFSM\6\ELC1051-Computacao-Grafica-Avancada\Trabalhos\t2\include\glm\detail\type_vec4.hpp(120,12): warning C4201: nonstandard extension used: nameless struct/union
+  (compiling source file '../../utils/glslprogram.cpp')
+  
+C:\UFSM\6\ELC1051-Computacao-Grafica-Avancada\Trabalhos\t2\utils\glslprogram.h(56,34): warning C4100: 'other': unreferenced parameter
+  (compiling source file '../../utils/glslprogram.cpp')
+  
+C:\UFSM\6\ELC1051-Computacao-Grafica-Avancada\Trabalhos\t2\utils\glslprogram.h(57,45): warning C4100: 'other': unreferenced parameter
+  (compiling source file '../../utils/glslprogram.cpp')
+  
+C:\UFSM\6\ELC1051-Computacao-Grafica-Avancada\Trabalhos\t2\utils\glslprogram.h(56,34): warning C4100: 'other': unreferenced parameter
+  (compiling source file 'src/main.cpp')
+  
+C:\UFSM\6\ELC1051-Computacao-Grafica-Avancada\Trabalhos\t2\utils\glslprogram.h(57,45): warning C4100: 'other': unreferenced parameter
+  (compiling source file 'src/main.cpp')
+  
+LINK : warning LNK4098: defaultlib 'MSVCRT' conflicts with use of other libs; use /NODEFAULTLIB:library
+  glsl40_plane.vcxproj -> C:\UFSM\6\ELC1051-Computacao-Grafica-Avancada\Trabalhos\t2\bin\glsl40_plane.exe
+  compying shaders
+  C:\UFSM\6\ELC1051-Computacao-Grafica-Avancada\Trabalhos\t2\demos\glsl40_plane\shader\lines.frag
+  C:\UFSM\6\ELC1051-Computacao-Grafica-Avancada\Trabalhos\t2\demos\glsl40_plane\shader\lines.vert
+  2 File(s) copied

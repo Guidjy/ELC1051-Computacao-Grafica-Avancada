@@ -1,0 +1,14 @@
+{
+    "version": 1,
+    "revision": 0,
+    "rules": [
+        {
+            "primary-output": "C:\\Users\\guipp\\Desktop\\cga\\Demos\\Demos_GL 4.x\\demos\\glsl40_plane\\Debug\\Plane.obj",
+            "outputs": [
+                "C:\\Users\\guipp\\Desktop\\cga\\Demos\\Demos_GL 4.x\\demos\\glsl40_plane\\Debug\\Plane.h.obj.dt.module.json",
+                "C:\\Users\\guipp\\Desktop\\cga\\Demos\\Demos_GL 4.x\\demos\\glsl40_plane\\Debug\\Plane.h.obj.dt.d.json"
+            ],
+            "requires": []
+        }
+    ]
+}

@@ -14,24 +14,26 @@
 //Include GLEW - always first 
 #include "GL/glew.h"
 #include <GLFW/glfw3.h>
-
-//Include the standard C++ headers 
-#include "Scene.h"
+#include <glm/vec2.hpp>
+#include <glm/vec3.hpp>
+#include <glm/mat4x4.hpp>
+#include <glm/gtc/matrix_transform.hpp>
 #include <cstdlib>
 #include <cstdio>
 #include <string>
 #include <iostream>
-#include "Plane.h"
+#include "Quad.h"
 
 
 #define WINDOW_WIDTH	1000
 #define WINDOW_HEIGHT	1000
 
 
-Scene *plane;
+Quad* quad1;
 GLFWwindow* window;
 bool wireframe = false;
 
+glm::mat4 projection;
 
 //add to glfwGetKey that gets the pressed key only once (not several times)
 char keyOnce[GLFW_KEY_LAST + 1];
@@ -41,10 +43,11 @@ char keyOnce[GLFW_KEY_LAST + 1];
 
 void mainLoop()
 {
-	double thisTime;
 	double lastTime = glfwGetTime();
 	do
 	{
+		glClear(GL_COLOR_BUFFER_BIT | GL_DEPTH_BUFFER_BIT);
+
 		// toggle wireframe
 		if (glfwGetKeyOnce(window, 'Q')){
 			wireframe = !wireframe;
@@ -56,12 +59,10 @@ void mainLoop()
 			}
 		}
 
-		// set deltatime and call update
-		thisTime = glfwGetTime();
-		plane->update(thisTime - lastTime);
-		lastTime = thisTime;
+		glm::mat4 MVP = projection * model;
+		shader.setUniform("MVP", MVP);
 
-		plane->render();
+		myQuad->render();
 
 		glfwSwapBuffers(window);
 		//Get and organize events, like keyboard and mouse input, window resizing, etc...  
@@ -75,6 +76,8 @@ void errorCallback(int error, const char* description)
 	fputs(description, stderr);
 	_fgetchar();
 }
+
+
 // Key callback
 void keyCallback(GLFWwindow* window, int key, int scancode, int action, int mods)
 {
@@ -106,12 +109,16 @@ void initGLFW()
 		exit(EXIT_FAILURE);
 	}
 }
+
+
 void initCallbacks()
 {
 	glfwMakeContextCurrent(window);
 	glfwSetKeyCallback(window, keyCallback);
 	glfwSetErrorCallback(errorCallback);
 }
+
+
 void initGLEW()
 {
 	// Initialize GLEW
@@ -124,16 +131,21 @@ void initGLEW()
 		exit(EXIT_FAILURE);
 	}
 }
+
+
 void initializeGL()
 {
 	glClearColor(0.5f, 0.5f, 0.5f, 1.0f);
 }
+
+
 // Close OpenGL window and terminate GLFW  
 void closeApplication()
 {
 	glfwDestroyWindow(window);
 	glfwTerminate();
 }
+
 
 int main(void)
 {
@@ -142,8 +154,12 @@ int main(void)
 	initGLEW();
 	initializeGL();
 
-	plane = new Plane(window, 1);
-	plane->init();
+	// glEnable(GL_FRAMEBUFFER_SRGB);
+
+	// creates an orthographic viewing box stretching from -5 to 5 on both X and Y axes.
+	projection = glm::ortho(-5.0f, 5.0f, -5.0f, 5.0f, -1.0f, 1.0f);
+
+	quad1 = new Quad(1.0f, vec2(0, 0), vec3(0, 0, 1));
 
 	std::cout << std::endl << "Q: wireframe" << std::endl;
 

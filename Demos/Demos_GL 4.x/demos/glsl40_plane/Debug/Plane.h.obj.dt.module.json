@@ -1,0 +1,14 @@
+{
+    "version": 1,
+    "revision": 0,
+    "rules": [
+        {
+            "primary-output": "C:\\UFSM\\6\\ELC1051-Computacao-Grafica-Avancada\\Demos\\Demos_GL 4.x\\demos\\glsl40_plane\\Debug\\Plane.obj",
+            "outputs": [
+                "C:\\UFSM\\6\\ELC1051-Computacao-Grafica-Avancada\\Demos\\Demos_GL 4.x\\demos\\glsl40_plane\\Debug\\Plane.h.obj.dt.module.json",
+                "C:\\UFSM\\6\\ELC1051-Computacao-Grafica-Avancada\\Demos\\Demos_GL 4.x\\demos\\glsl40_plane\\Debug\\Plane.h.obj.dt.d.json"
+            ],
+            "requires": []
+        }
+    ]
+}
