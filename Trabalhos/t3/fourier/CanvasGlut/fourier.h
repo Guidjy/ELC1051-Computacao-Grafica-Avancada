@@ -61,4 +61,4 @@ typedef struct
 
 std::list<Epicycle> createEpicycles(Vector2 center, std::vector<std::complex<double>> X);
 
-void drawEpicycles(std::list<Epicycle> epicycles, Vector2 center, double t);
+Vector2 drawEpicycles(std::list<Epicycle> epicycles, Vector2 center, double t);

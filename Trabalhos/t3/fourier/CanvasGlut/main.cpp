@@ -38,6 +38,7 @@ int mouseX, mouseY; //variaveis globais do mouse para poder exibir dentro da ren
 bool shouldApplyGammaCorrection = false;
 
 std::list<Epicycle> epicycles{};
+std::vector<Vector2> drawLinePoints{};
 double t = 0.0;
 
 
@@ -52,7 +53,9 @@ void render()
 	CV::rectFill(0, 0, screenWidth, screenHeight);
 
 	CV::color(0, 0, 0);
-	drawEpicycles(epicycles, epicycles.front().center, t);
+	auto endpoint = drawEpicycles(epicycles, epicycles.front().center, t);
+	drawLinePoints.push_back(endpoint);
+	for (auto point : drawLinePoints) CV::point(point);
 
    Sleep(10); //nao eh controle de FPS. Somente um limitador de FPS.
 }

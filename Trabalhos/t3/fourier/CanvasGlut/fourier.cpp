@@ -86,11 +86,11 @@ std::list<Epicycle> createEpicycles(Vector2 center, std::vector<std::complex<dou
 	return epicycles;
 }
 
-void drawEpicycles(std::list<Epicycle> epicycles, Vector2 center, double t)
+Vector2 drawEpicycles(std::list<Epicycle> epicycles, Vector2 center, double t)
 {
 	if (epicycles.empty())
 	{
-		return;
+		return Vector2(-INFINITY, -INFINITY);
 	}
 
 	Epicycle epicycle = epicycles.front();
@@ -107,5 +107,5 @@ void drawEpicycles(std::list<Epicycle> epicycles, Vector2 center, double t)
 
 	CV::line(epicycle.center, pointerEndpoint);
 
-	drawEpicycles(epicycles, pointerEndpoint, t);
+	return epicycles.size() == 0 ? pointerEndpoint : drawEpicycles(epicycles, pointerEndpoint, t);
 }
