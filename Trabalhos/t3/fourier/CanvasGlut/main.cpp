@@ -37,17 +37,22 @@ int opcao  = 50;//variavel global para selecao do que sera exibido na canvas.
 int mouseX, mouseY; //variaveis globais do mouse para poder exibir dentro da render().
 bool shouldApplyGammaCorrection = false;
 
+std::list<Epicycle> epicycles{};
+double t = 0.0;
+
 
 //funcao chamada continuamente. Deve-se controlar o que desenhar por meio de variaveis globais
 //Todos os comandos para desenho na canvas devem ser chamados dentro da render().
 //Deve-se manter essa função com poucas linhas de codigo.
 void render()
 {
+	t += pi / epicycles.size() / 100;
+
 	CV::color(1, 1, 1);
 	CV::rectFill(0, 0, screenWidth, screenHeight);
 
-	float hw = screenWidth / 2;
-	float step = screenWidth / 10;
+	CV::color(0, 0, 0);
+	drawEpicycles(epicycles, epicycles.front().center, t);
 
    Sleep(10); //nao eh controle de FPS. Somente um limitador de FPS.
 }
@@ -96,8 +101,8 @@ int main(void)
    CV::init(&screenWidth, &screenHeight, "Fourier - Epicycles");
 
    std::cout << "\n";
-   auto dst = discreteFourierTransform({ 4.0, 0.0, 0.0, 0.0 });
-   for (auto out : dst) std::cout << out << ", ";
+   auto dst = discreteFourierTransform({ 0.0, 100.0, 0.0, -100.0 });
+   epicycles = createEpicycles(Vector2(screenWidth / 2, screenHeight / 2), dst);
 
    CV::run();
 }

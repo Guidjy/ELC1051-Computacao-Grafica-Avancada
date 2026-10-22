@@ -69,6 +69,11 @@ void CV::line( float x1, float y1, float x2, float y2 )
    glEnd();
 }
 
+void CV::line(Vector2 p1, Vector2 p2)
+{
+    line(p1.x, p1.y, p2.x, p2.y);
+}
+
 void CV::rect( float x1, float y1, float x2, float y2 )
 {
    glBegin(GL_LINE_LOOP);
@@ -159,6 +164,11 @@ void CV::circle( float x, float y, float radius, int div )
          ang+=inc;
       }
    glEnd();
+}
+
+void CV::circle(Vector2 pos, float radius, int div)
+{
+    CV::circle(pos.x, pos.y, radius, div);
 }
 
 void CV::circleFill( float x, float y, float radius, int div )

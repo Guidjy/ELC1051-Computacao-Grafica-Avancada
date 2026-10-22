@@ -41,6 +41,8 @@ transformada de Fourier:
 
 #include <complex>
 #include <vector>
+#include <list>
+#include "Vector2.h"
 
 constexpr double e = 2.71828182845;
 constexpr double pi = 3.14159265359;
@@ -49,6 +51,14 @@ std::vector<std::complex<double>> discreteFourierTransform(std::vector<double> x
 
 std::vector<std::complex<double>> complexDiscreteFourierTransform(std::vector<std::complex<double>> x);
 
+typedef struct
+{
+	Vector2 center;
+	double radius;
+	double initialRotation;
+	double rotationSpeed;
+} Epicycle;
 
+std::list<Epicycle> createEpicycles(Vector2 center, std::vector<std::complex<double>> X);
 
-
+void drawEpicycles(std::list<Epicycle> epicycles, Vector2 center, double t);
