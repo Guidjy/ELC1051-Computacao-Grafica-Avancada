@@ -14,7 +14,7 @@ Discrete Fourier Transform (DFT): Transformada de Fourier aplicada a sinais disc
 
 	Dessa transformação, obtem-se para cada frequência k:
 		- amplitude: α = √(Re² + Im²)
-		- fase: Φ = atan²(Im, Re)
+		- fase: Φ = atan2(Im, Re)
 
 Complex Discrete Fourier Transform (CDFT): É a extensão da DFT para casos em que o sinal de entrada x[n] é composto por
 números complexos. Em CG, um ponto 2D P = (x, y) pode ser mapeado como um número complexo z = x + jy, onde a parte real
@@ -41,11 +41,9 @@ transformada de Fourier:
 
 #include <complex>
 #include <vector>
-#include <list>
 #include "Vector2.h"
 
-constexpr double e = 2.71828182845;
-constexpr double pi = 3.14159265359;
+constexpr double pi = 3.14159265358979323846;
 
 std::vector<std::complex<double>> discreteFourierTransform(std::vector<double> x);
 
@@ -53,12 +51,14 @@ std::vector<std::complex<double>> complexDiscreteFourierTransform(std::vector<st
 
 typedef struct
 {
-	Vector2 center;
-	double radius;
-	double initialRotation;
-	double rotationSpeed;
+    double radius;          // amplitude
+    double initialRotation; // fase
+    double rotationSpeed;   // frequencia com sinal (negativa = gira no sentido horario)
 } Epicycle;
 
-std::list<Epicycle> createEpicycles(Vector2 center, std::vector<std::complex<double>> X);
+// Cria um epicycle por coeficiente de X. Indices k > N/2 representam frequencias negativas (k - N), o que
+// faz a curva passar suavemente entre as amostras. phaseOffset e somado a fase de todos (ex: pi/2 para o eixo y na DFT).
+std::vector<Epicycle> createEpicycles(const std::vector<std::complex<double>>& X, double phaseOffset = 0.0);
 
-void drawEpicycles(std::list<Epicycle> epicycles, Vector2 center, double t);
+// Desenha a cadeia de epicycles a partir de center no instante t e retorna a extremidade do ultimo.
+Vector2 drawEpicycles(const std::vector<Epicycle>& epicycles, Vector2 center, double t);
