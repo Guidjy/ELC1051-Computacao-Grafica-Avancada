@@ -1,4 +1,5 @@
 using Characters.States;
+using System.Linq;
 using UnityEngine;
 using UnityEngine.InputSystem;
 
@@ -6,46 +7,56 @@ namespace Characters.Movement
 {
     public class CharacterController : MonoBehaviour
     {
-        [SerializeField] private InputActionReference moveAction;
-
         [SerializeField] private float movementSpeed = 2.7f;
-
         [SerializeField] private float jumpSpeed = 5f;
+
+        [SerializeField] private InputActionReference moveAction;
 
         [SerializeField] private LayerMask groundLayer;
 
         private Collider characterCollider;
-
         private Rigidbody rigidBody;
+        private SpriteRenderer spriteRenderer;
 
         private Vector2 velocity;
-
         private Vector2 movementDirection;
-
         private MovementStates movementState;
 
         private bool stickIsUp;
-
         private bool stickWasUp;
 
         private bool jumpRequested;
-
         private int remainingJumps;
+
+        private Transform opponentTransform;
+        private float distanceFromOpponent;
+        private bool shouldFlipHorizontaly;  // Used to control when the character should flip to face the opponent
 
         private void Awake()
         {
             characterCollider = GetComponent<Collider>();
             rigidBody = GetComponent<Rigidbody>();
+            spriteRenderer = GetComponent<SpriteRenderer>();
         }
 
         void Start()
         {
-            moveAction.action.Enable();
-
+            opponentTransform = FindObjectsByType<CharacterController>().Where(opponent => opponent.transform != transform).First().transform;
             movementState = MovementStates.STANDING;
             stickIsUp = false;
             stickWasUp = false;
         }
+
+        void OnEnable()
+        {
+            moveAction.action.Enable();
+        }
+
+        void OnDisable()
+        {
+            moveAction.action.Disable();
+        }
+
 
         void Update()
         {
@@ -58,6 +69,8 @@ namespace Characters.Movement
             stickIsUp = movementDirection.y > 0;
             if (stickIsUp && !stickWasUp) jumpRequested = true;
             stickWasUp = stickIsUp;
+
+            FaceOpponent();
         }
 
         private void FixedUpdate()
@@ -66,9 +79,10 @@ namespace Characters.Movement
 
             if (IsGrounded())
             {
+                SetGrounded();
+
                 // Moves horizontally
                 velocity.x = movementDirection.x * movementSpeed;
-                SetGrounded();
             }
 
             if (jumpRequested && remainingJumps > 0)
@@ -78,6 +92,9 @@ namespace Characters.Movement
 
             // Updates position
             rigidBody.linearVelocity = velocity;
+            float updatedDistanceFromOpponent = transform.position.x - opponentTransform.position.x;
+            if (updatedDistanceFromOpponent * distanceFromOpponent < 0) shouldFlipHorizontaly = true;
+            distanceFromOpponent = updatedDistanceFromOpponent;
         }
 
         private bool IsGrounded()
@@ -105,6 +122,18 @@ namespace Characters.Movement
         {
             movementState = MovementStates.STANDING;
             remainingJumps = 2;
+        }
+
+        private void FaceOpponent()
+        {
+            if (!shouldFlipHorizontaly)
+            {
+                return;
+            }
+
+            spriteRenderer.flipX = !spriteRenderer.flipX;
+
+            shouldFlipHorizontaly = false;
         }
     }
 }

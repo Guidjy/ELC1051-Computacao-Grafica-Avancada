@@ -472,13 +472,13 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
-    - target: {fileID: 4550732893661977290, guid: 723540ddc2c4f954c8122ea7956bdd63, type: 3}
-      propertyPath: m_FlipX
-      value: 1
-      objectReference: {fileID: 0}
     - target: {fileID: 3213179303157480295, guid: 723540ddc2c4f954c8122ea7956bdd63, type: 3}
       propertyPath: m_Enabled
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4550732893661977290, guid: 723540ddc2c4f954c8122ea7956bdd63, type: 3}
+      propertyPath: m_FlipX
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 5749573085502245174, guid: 723540ddc2c4f954c8122ea7956bdd63, type: 3}
       propertyPath: m_LocalPosition.x
@@ -546,7 +546,7 @@ BoxCollider:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1556367735}
-  m_Material: {fileID: 0}
+  m_Material: {fileID: 13400000, guid: ee6ccbaac023c144388434e8f3003773, type: 2}
   m_IncludeLayers:
     serializedVersion: 2
     m_Bits: 0
