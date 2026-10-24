@@ -67,7 +67,7 @@ namespace Characters.Movement
             if (IsGrounded())
             {
                 // Moves horizontally
-                velocity.x = -movementDirection.x * movementSpeed;  // inverted for some reason
+                velocity.x = movementDirection.x * movementSpeed;
                 SetGrounded();
             }
 
@@ -93,7 +93,7 @@ namespace Characters.Movement
 
         private void Jump()
         {
-            velocity.x = -movementDirection.x * movementSpeed;  // necessairy for being able to change directions when jumping
+            velocity.x = movementDirection.x * movementSpeed;  // necessairy for being able to change directions when jumping
             velocity.y = jumpSpeed;
 
             movementState = MovementStates.JUMPING;
