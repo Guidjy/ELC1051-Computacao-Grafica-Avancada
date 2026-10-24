@@ -31,7 +31,7 @@
 #pragma warning(disable:4996)
 
 //largura e altura inicial da tela . Alteram com o redimensionamento de tela.
-int screenWidth = 1280, screenHeight = 720;
+int screenWidth = 1600, screenHeight = 900;
 
 
 int opcao  = 50;//variavel global para selecao do que sera exibido na canvas.
@@ -40,16 +40,32 @@ bool shouldApplyGammaCorrection = false;
 
 constexpr int StepsPerSample = 100; // frames de animacao entre duas amostras consecutivas do sinal
 
-// '1': CDFT - uma cadeia de epicycles sobre o sinal complexo x + jy
-// '2': DFT  - duas cadeias, uma para o vetor x e outra para o vetor y (fase do eixo y + pi/2)
-bool useCdft = true;
-
+// A tela e dividida ao meio: CDFT a esquerda, DFT a direita.
+// CDFT: uma cadeia de epicycles sobre o sinal complexo x + jy.
+// DFT:  duas cadeias, uma para o vetor x (topo) e outra para o vetor y (lateral), com fase do eixo y + pi/2.
 std::vector<Epicycle> cdftEpicycles{};
 std::vector<Epicycle> dftEpicyclesX{};
 std::vector<Epicycle> dftEpicyclesY{};
-std::deque<Vector2> trail{}; // ultimas posicoes da ponta, equivalente a um periodo completo
+std::deque<Vector2> cdftTrail{}; // ultimas posicoes da ponta, equivalente a um periodo completo
+std::deque<Vector2> dftTrail{};
 int signalSize = 0;
 double t = 0.0;
+
+// Acrescenta a ponta atual ao traco, limitado a um periodo, e desenha o traco.
+void drawTrail(std::deque<Vector2>& trail, Vector2 tip)
+{
+    trail.push_back(tip);
+    if (trail.size() > signalSize * StepsPerSample)
+    {
+        trail.pop_front();
+    }
+
+    CV::color(1, 0, 0);
+    for (size_t i = 1; i < trail.size(); i++)
+    {
+        CV::line(trail[i - 1], trail[i]);
+    }
+}
 
 
 //funcao chamada continuamente. Deve-se controlar o que desenhar por meio de variaveis globais
@@ -67,35 +83,28 @@ void render()
     CV::color(1, 1, 1);
     CV::rectFill(0, 0, screenWidth, screenHeight);
 
-    Vector2 tip;
+    float middleY = screenHeight / 2;
+    float leftX = screenWidth / 4;
+    float rightX = 3 * screenWidth / 4;
+
+    CV::color(0.7f, 0.7f, 0.7f);
+    CV::line(screenWidth / 2, 0, screenWidth / 2, screenHeight);
+
+    // CDFT
     CV::color(0, 0, 0);
-    if (useCdft)
-    {
-        tip = drawEpicycles(cdftEpicycles, Vector2(screenWidth / 2, screenHeight / 2), t);
-    }
-    else
-    {
-        // A cadeia de x fica no topo e a de y na lateral. Cada uma so contribui com uma coordenada da ponta.
-        Vector2 tipX = drawEpicycles(dftEpicyclesX, Vector2(screenWidth / 2, 100), t);
-        Vector2 tipY = drawEpicycles(dftEpicyclesY, Vector2(100, screenHeight / 2), t);
-        tip.set(tipX.x, tipY.y);
+    Vector2 cdftTip = drawEpicycles(cdftEpicycles, Vector2(leftX, middleY), t);
+    drawTrail(cdftTrail, cdftTip);
 
-        CV::color(0.7f, 0.7f, 0.7f);
-        CV::line(tipX, tip);
-        CV::line(tipY, tip);
-    }
+    // DFT: cada cadeia so contribui com uma coordenada da ponta.
+    CV::color(0, 0, 0);
+    Vector2 tipX = drawEpicycles(dftEpicyclesX, Vector2(rightX, 120), t);
+    Vector2 tipY = drawEpicycles(dftEpicyclesY, Vector2(screenWidth / 2 + 120, middleY), t);
+    Vector2 dftTip(tipX.x, tipY.y);
 
-    trail.push_back(tip);
-    if (trail.size() > signalSize * StepsPerSample)
-    {
-        trail.pop_front();
-    }
-
-    CV::color(1, 0, 0);
-    for (size_t i = 1; i < trail.size(); i++)
-    {
-        CV::line(trail[i - 1], trail[i]);
-    }
+    CV::color(0.7f, 0.7f, 0.7f);
+    CV::line(tipX, dftTip);
+    CV::line(tipY, dftTip);
+    drawTrail(dftTrail, dftTip);
 
     // Sleep(10); //nao eh controle de FPS. Somente um limitador de FPS.
 }
@@ -113,14 +122,7 @@ void keyboard(int key)
    {
       case 27:
          exit(0);
-      case '1':
-         useCdft = true;
-         trail.clear();
-         break;
-      case '2':
-         useCdft = false;
-         trail.clear();
-         break;
+
 
    }
 }
@@ -144,27 +146,48 @@ void mouse(int button, int state, int wheel, int direction, int x, int y)
    }
 }
 
+void desenhaEstrela()
+{
+    // Sinal de entrada: contorno de uma estrela de 5 pontas centrada na origem (y cresce para baixo na canvas).
+    // Os 10 vertices alternam entre o raio externo e o interno, e cada aresta recebe SamplesPerEdge amostras.
+    const int Vertices = 10;
+    const int SamplesPerEdge = 8;
+    const double OuterRadius = 250.0;
+    const double InnerRadius = OuterRadius * 0.382; // razao que torna a estrela regular
+
+    std::vector<Vector2> vertices;
+    for (int v = 0; v < Vertices; v++)
+    {
+        double radius = (v % 2 == 0) ? OuterRadius : InnerRadius;
+        double a = -pi / 2 + v * 2.0 * pi / Vertices; // primeira ponta para cima
+        vertices.push_back(Vector2(radius * cos(a), radius * sin(a)));
+    }
+
+    signalSize = Vertices * SamplesPerEdge;
+    std::vector<std::complex<double>> signal;
+    std::vector<double> xs, ys;
+    for (int n = 0; n < signalSize; n++)
+    {
+        Vector2 from = vertices[n / SamplesPerEdge];
+        Vector2 to = vertices[(n / SamplesPerEdge + 1) % Vertices];
+        double u = (n % SamplesPerEdge) / (double)SamplesPerEdge;
+        double x = from.x + u * (to.x - from.x);
+        double y = from.y + u * (to.y - from.y);
+        signal.push_back(std::complex<double>(x, y));
+        xs.push_back(x);
+        ys.push_back(y);
+    }
+
+    cdftEpicycles = createEpicycles(complexDiscreteFourierTransform(signal));
+    dftEpicyclesX = createEpicycles(discreteFourierTransform(xs));
+    dftEpicyclesY = createEpicycles(discreteFourierTransform(ys), pi / 2);
+}
+
 int main(void)
 {
    CV::init(&screenWidth, &screenHeight, "Fourier - Epicycles");
 
-   // Sinal de entrada: curva de um coracao com 64 amostras, centrada na origem (y cresce para baixo na canvas).
-   signalSize = 64;
-   std::vector<std::complex<double>> signal;
-   std::vector<double> xs, ys;
-   for (int n = 0; n < signalSize; n++)
-   {
-      double a = 2.0 * pi * n / signalSize;
-      double x = 10.0 * 16.0 * pow(sin(a), 3);
-      double y = -10.0 * (13.0 * cos(a) - 5.0 * cos(2 * a) - 2.0 * cos(3 * a) - cos(4 * a));
-      signal.push_back(std::complex<double>(x, y));
-      xs.push_back(x);
-      ys.push_back(y);
-   }
-
-   cdftEpicycles = createEpicycles(complexDiscreteFourierTransform(signal));
-   dftEpicyclesX = createEpicycles(discreteFourierTransform(xs));
-   dftEpicyclesY = createEpicycles(discreteFourierTransform(ys), pi / 2);
+   desenhaEstrela();
 
    CV::run();
 }
