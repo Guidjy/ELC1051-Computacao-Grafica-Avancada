@@ -10,7 +10,8 @@ namespace Characters.Movement
         [SerializeField] private float movementSpeed = 2.7f;
         [SerializeField] private float jumpSpeed = 5f;
 
-        [SerializeField] private InputActionReference moveAction;
+        [SerializeField] private InputActionReference stickMove;
+        [SerializeField] private InputActionReference buttonPress;
 
         [SerializeField] private LayerMask groundLayer;
 
@@ -49,19 +50,21 @@ namespace Characters.Movement
 
         void OnEnable()
         {
-            moveAction.action.Enable();
+            stickMove.action.Enable();
+            buttonPress.action.Enable();
         }
 
         void OnDisable()
         {
-            moveAction.action.Disable();
+            stickMove.action.Disable();
+            buttonPress.action.Disable();
         }
 
 
         void Update()
         {
             // Updates movement direction
-            movementDirection = moveAction.action.ReadValue<Vector2>();
+            movementDirection = stickMove.action.ReadValue<Vector2>();
             movementDirection.x = Mathf.Round(movementDirection.x);
             movementDirection.y = Mathf.Round(movementDirection.y);
 
