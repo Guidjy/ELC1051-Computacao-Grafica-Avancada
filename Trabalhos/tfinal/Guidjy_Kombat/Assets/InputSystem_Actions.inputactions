@@ -17,6 +17,16 @@
                     "priority": 0
                 },
                 {
+                    "name": "Jump",
+                    "type": "Value",
+                    "id": "870c3e0d-67f5-422f-96c9-28decba0d133",
+                    "expectedControlType": "Vector2",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": true,
+                    "priority": 0
+                },
+                {
                     "name": "ButtonPress",
                     "type": "Button",
                     "id": "6c2ab1b8-8984-453a-af3d-a3c78ae1679a",
@@ -223,6 +233,17 @@
                     "processors": "",
                     "groups": "Keyboard&Mouse",
                     "action": "ButtonPress",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "73c8cbc6-694f-45ab-aadc-06a80a8225a3",
+                    "path": "",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Jump",
                     "isComposite": false,
                     "isPartOfComposite": false
                 }

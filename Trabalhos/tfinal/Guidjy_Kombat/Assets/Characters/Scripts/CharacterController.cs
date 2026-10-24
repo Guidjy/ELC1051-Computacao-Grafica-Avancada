@@ -24,7 +24,13 @@ namespace Characters.Movement
 
         private MovementStates movementState;
 
-        private const float groundCheckDistance = 0.05f;  // Distance checked for colliders below the character
+        private bool stickIsUp;
+
+        private bool stickWasUp;
+
+        private bool jumpRequested;
+
+        private int remainingJumps;
 
         private void Awake()
         {
@@ -37,43 +43,68 @@ namespace Characters.Movement
             moveAction.action.Enable();
 
             movementState = MovementStates.STANDING;
+            stickIsUp = false;
+            stickWasUp = false;
         }
 
         void Update()
         {
+            // Updates movement direction
             movementDirection = moveAction.action.ReadValue<Vector2>();
+            movementDirection.x = Mathf.Round(movementDirection.x);
+            movementDirection.y = Mathf.Round(movementDirection.y);
+
+            // Checks if a jump was requested
+            stickIsUp = movementDirection.y > 0;
+            if (stickIsUp && !stickWasUp) jumpRequested = true;
+            stickWasUp = stickIsUp;
         }
 
         private void FixedUpdate()
         {
             velocity = rigidBody.linearVelocity;
 
-            // Moves horizontally
             if (IsGrounded())
             {
+                // Moves horizontally
                 velocity.x = -movementDirection.x * movementSpeed;  // inverted for some reason
-            }
-            else
-            {
-                velocity.x = velocity.x;
+                SetGrounded();
             }
 
-            // Jumps if grounded
-            if (IsGrounded() && movementDirection.y > 0)
+            if (jumpRequested && remainingJumps > 0)
             {
-                velocity.y = jumpSpeed;
-                movementState = MovementStates.JUMPING;
+                Jump();
             }
 
+            // Updates position
             rigidBody.linearVelocity = velocity;
         }
 
         private bool IsGrounded()
         {
+            // Distance checked for colliders below the character
+            const float groundCheckDistance = 0.05f;
+
             Bounds characterBounds = characterCollider.bounds;
             // Gets a point just below the character's feet
             Vector3 origin = new Vector3(characterBounds.center.x, characterBounds.min.y + 0.01f, characterBounds.center.z);
             return Physics.Raycast(origin, Vector3.down, groundCheckDistance + 0.01f, groundLayer);
+        }
+
+        private void Jump()
+        {
+            velocity.x = -movementDirection.x * movementSpeed;  // necessairy for being able to change directions when jumping
+            velocity.y = jumpSpeed;
+
+            movementState = MovementStates.JUMPING;
+            jumpRequested = false;
+            remainingJumps--;
+        }
+
+        private void SetGrounded()
+        {
+            movementState = MovementStates.STANDING;
+            remainingJumps = 2;
         }
     }
 }
