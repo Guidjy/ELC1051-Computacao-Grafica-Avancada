@@ -12,6 +12,7 @@ GameObject:
   - component: {fileID: 7375215685234261007}
   - component: {fileID: 4550732893661977290}
   - component: {fileID: 3213179303157480295}
+  - component: {fileID: 2185791789463472507}
   m_Layer: 0
   m_Name: Aoko
   m_TagString: Untagged
@@ -42,7 +43,7 @@ Rigidbody:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 6938253470464175146}
   serializedVersion: 5
-  m_Mass: 1
+  m_Mass: 65
   m_LinearDamping: 0
   m_AngularDamping: 0.05
   m_CenterOfMass: {x: 0, y: 0, z: 0}
@@ -56,9 +57,9 @@ Rigidbody:
     m_Bits: 0
   m_ImplicitCom: 1
   m_ImplicitTensor: 1
-  m_UseGravity: 0
+  m_UseGravity: 1
   m_IsKinematic: 0
-  m_Interpolate: 0
+  m_Interpolate: 1
   m_Constraints: 104
   m_CollisionDetection: 0
 --- !u!212 &4550732893661977290
@@ -134,3 +135,31 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::CharacterController
   moveAction: {fileID: -1680190386980627800, guid: 052faaac586de48259a63d0c4782560b, type: 3}
+  movementSpeed: 3
+  jumpSpeed: 7
+  groundLayer:
+    serializedVersion: 2
+    m_Bits: 8
+--- !u!136 &2185791789463472507
+CapsuleCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6938253470464175146}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Radius: 0.2
+  m_Height: 0.5
+  m_Direction: 1
+  m_Center: {x: 0, y: -0.7, z: 0}
