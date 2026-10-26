@@ -7,28 +7,32 @@ namespace Characters.Movement
 {
     public class CharacterController : MonoBehaviour
     {
+        // Phisycs variables
         [SerializeField] private float movementSpeed = 2.7f;
         [SerializeField] private float jumpSpeed = 5f;
+        [SerializeField] private LayerMask groundLayer;
 
+        // Input actions
         [SerializeField] private InputActionReference stickMove;
         [SerializeField] private InputActionReference buttonPress;
 
-        [SerializeField] private LayerMask groundLayer;
-
+        // Character components
         private Collider characterCollider;
         private Rigidbody rigidBody;
         private SpriteRenderer spriteRenderer;
 
+        // Movement variables
         private Vector2 velocity;
         private Vector2 movementDirection;
         private MovementStates movementState;
 
+        // Jump variables - TODO: allow continuous jumping
         private bool stickIsUp;
         private bool stickWasUp;
-
         private bool jumpRequested;
         private int remainingJumps;
 
+        // Opponent variables
         private Transform opponentTransform;
         private float distanceFromOpponent;
         private bool shouldFlipHorizontaly;  // Used to control when the character should flip to face the opponent
@@ -42,10 +46,11 @@ namespace Characters.Movement
 
         void Start()
         {
-            opponentTransform = FindObjectsByType<CharacterController>().Where(opponent => opponent.transform != transform).First().transform;
             movementState = MovementStates.STANDING;
             stickIsUp = false;
             stickWasUp = false;
+
+            opponentTransform = FindObjectsByType<CharacterController>().Where(opponent => opponent.transform != transform).First().transform;
         }
 
         void OnEnable()
@@ -60,18 +65,11 @@ namespace Characters.Movement
             buttonPress.action.Disable();
         }
 
-
         void Update()
         {
-            // Updates movement direction
-            movementDirection = stickMove.action.ReadValue<Vector2>();
-            movementDirection.x = Mathf.Round(movementDirection.x);
-            movementDirection.y = Mathf.Round(movementDirection.y);
+            UpdateMovementDirection();
 
-            // Checks if a jump was requested
-            stickIsUp = movementDirection.y > 0;
-            if (stickIsUp && !stickWasUp) jumpRequested = true;
-            stickWasUp = stickIsUp;
+            CheckForJumpRequest();
 
             FaceOpponent();
         }
@@ -83,9 +81,7 @@ namespace Characters.Movement
             if (IsGrounded())
             {
                 SetGrounded();
-
-                // Moves horizontally
-                velocity.x = movementDirection.x * movementSpeed;
+                UpdateHorizontalVelocity();
             }
 
             if (jumpRequested && remainingJumps > 0)
@@ -93,11 +89,37 @@ namespace Characters.Movement
                 Jump();
             }
 
-            // Updates position
             rigidBody.linearVelocity = velocity;
+        }
+
+        private void UpdateMovementDirection()
+        {
+            movementDirection = stickMove.action.ReadValue<Vector2>();
+            // rounds to -1, 0, or 1 since that's what matters for traditional fighting game movement
+            movementDirection.x = Mathf.Round(movementDirection.x);
+            movementDirection.y = Mathf.Round(movementDirection.y);
+        }
+
+        private void CheckForJumpRequest()
+        {
+            stickIsUp = movementDirection.y > 0;
+            if (stickIsUp && !stickWasUp) jumpRequested = true;
+            stickWasUp = stickIsUp;
+        }
+
+        private void FaceOpponent()
+        {
             float updatedDistanceFromOpponent = transform.position.x - opponentTransform.position.x;
             if (updatedDistanceFromOpponent * distanceFromOpponent < 0) shouldFlipHorizontaly = true;
             distanceFromOpponent = updatedDistanceFromOpponent;
+
+            if (!shouldFlipHorizontaly)
+            {
+                return;
+            }
+
+            spriteRenderer.flipX = !spriteRenderer.flipX;
+            shouldFlipHorizontaly = false;
         }
 
         private bool IsGrounded()
@@ -109,6 +131,11 @@ namespace Characters.Movement
             // Gets a point just below the character's feet
             Vector3 origin = new Vector3(characterBounds.center.x, characterBounds.min.y + 0.01f, characterBounds.center.z);
             return Physics.Raycast(origin, Vector3.down, groundCheckDistance + 0.01f, groundLayer);
+        }
+
+        private void UpdateHorizontalVelocity()
+        {
+            velocity.x = movementDirection.x * movementSpeed;
         }
 
         private void Jump()
@@ -125,18 +152,6 @@ namespace Characters.Movement
         {
             movementState = MovementStates.STANDING;
             remainingJumps = 2;
-        }
-
-        private void FaceOpponent()
-        {
-            if (!shouldFlipHorizontaly)
-            {
-                return;
-            }
-
-            spriteRenderer.flipX = !spriteRenderer.flipX;
-
-            shouldFlipHorizontaly = false;
         }
     }
 }

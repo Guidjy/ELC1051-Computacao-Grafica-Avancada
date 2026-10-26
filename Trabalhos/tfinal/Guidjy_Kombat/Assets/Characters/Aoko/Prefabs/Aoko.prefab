@@ -136,7 +136,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::CharacterController
   movementSpeed: 3
   jumpSpeed: 7
-  moveAction: {fileID: -1680190386980627800, guid: 052faaac586de48259a63d0c4782560b, type: 3}
+  stickMove: {fileID: -1680190386980627800, guid: 052faaac586de48259a63d0c4782560b, type: 3}
+  buttonPress: {fileID: 1120369429361536294, guid: 052faaac586de48259a63d0c4782560b, type: 3}
   groundLayer:
     serializedVersion: 2
     m_Bits: 8
