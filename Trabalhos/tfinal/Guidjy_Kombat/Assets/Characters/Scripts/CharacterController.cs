@@ -133,6 +133,12 @@ namespace Characters.Movement
             return Physics.Raycast(origin, Vector3.down, groundCheckDistance + 0.01f, groundLayer);
         }
 
+        private void SetGrounded()
+        {
+            movementState = MovementStates.STANDING;
+            remainingJumps = 2;
+        }
+
         private void UpdateHorizontalVelocity()
         {
             velocity.x = movementDirection.x * movementSpeed;
@@ -146,12 +152,6 @@ namespace Characters.Movement
             movementState = MovementStates.JUMPING;
             jumpRequested = false;
             remainingJumps--;
-        }
-
-        private void SetGrounded()
-        {
-            movementState = MovementStates.STANDING;
-            remainingJumps = 2;
         }
     }
 }
